@@ -2,7 +2,7 @@
 Good blooket hacks! might work, might not work. I got banned for a little while, but it is fine.
 
 
-copy this and paste in the console: add:tokensBlooket=1000000000000000000000000000000000000000000000000000000000
+copy and paste in console. (control shift c)
 
 
 Blooket hack cheat pages:
