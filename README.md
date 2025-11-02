@@ -13,3 +13,5 @@ https://egduffuu.github.io/BLOOKET-UNBLOCKED/
 
 https://blooketcheats.oneapp.dev/
 
+go to README for more hacks
+
