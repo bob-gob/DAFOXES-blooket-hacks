@@ -2,7 +2,7 @@
 Good blooket hacks! might work, might not work. you will get banned for a little while if you use to many hacks, but it is fine.
 
 
-copy and paste in console. (control shift c)
+copy and paste in console. (control shift c), or go into the url bar (search bar) and type javascript:, then paste the code (control v)
 
 
 Blooket hack cheat pages:
