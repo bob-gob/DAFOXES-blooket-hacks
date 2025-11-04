@@ -14,3 +14,15 @@ https://egduffuu.github.io/BLOOKET-UNBLOCKED/
 
 https://blooketcheats.oneapp.dev/
 
+Here are some blooket token generator sites:
+
+bt9.fun
+
+gotoken.pro
+
+blookboost.com
+
+https://elitecheats.xyz/blooket
+
+appf.online
+
