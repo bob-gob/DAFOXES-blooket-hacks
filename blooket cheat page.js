@@ -173,8 +173,8 @@
                         fontWeight: "700",
                         userSelect: "text"
                     },
-                    innerHTML: "GitHub - bob - gob",
-                    onclick: () => window.open("https://github.com/05Konz2/Blooket-Cheats", "_blank").focus()
+                    innerHTML: "GitHub - bob-gob",
+                    onclick: () => window.open("https://github.com/bob-gob/DAFOXES-blooket-hacks", "_blank").focus()
                 }),
                 (controlButtons = createElement("div", {
                     id: "controlButtons",
