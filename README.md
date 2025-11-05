@@ -16,7 +16,7 @@ https://blooketcheats.oneapp.dev/
 
 Here are some blooket token generator sites:
 
-bt9.fun
+https://www.bt9.fun/?i=2
 
 gotoken.pro
 
