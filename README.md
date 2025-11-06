@@ -26,3 +26,5 @@ https://elitecheats.xyz/blooket
 
 appf.online
 
+(I also made prodigy and gimkit hacks. Duolingo hacks in progress)
+
