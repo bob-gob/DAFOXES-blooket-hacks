@@ -42,7 +42,7 @@
                 credentials: "include"
             }).catch(() => alert('There was an error when spoofing stats.'));
             await fetch("https://play.blooket.com/api/users/add-rewards", {
-                body: JSON.stringify({ t, addedTokens: 999999999999999, addedXp: 99999999999999999999 }),
+                body: JSON.stringify({ t, addedTokens: 100,000, addedXp: 100,000 }),
                 method: "PUT",
                 credentials: "include"
             }).then(x => x.json())
