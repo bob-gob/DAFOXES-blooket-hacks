@@ -26,5 +26,5 @@ https://elitecheats.xyz/blooket
 
 appf.online
 
-(I also made prodigy, gimkit, and duolingo hacks)
+(I also made prodigy, gimkit, khan academy, and duolingo hacks)
 
