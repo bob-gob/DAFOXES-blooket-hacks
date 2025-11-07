@@ -18,13 +18,15 @@ Here are some blooket token generator sites:
 
 https://www.bt9.fun/?i=2
 
-gotoken.pro
+https://gotoken.pro
 
-blookboost.com
+https://blookboost.com
 
 https://elitecheats.xyz/blooket
 
-appf.online
+https://appf.online
+
+https://blex.lol
 
 (I also made prodigy, gimkit, khan academy, and duolingo hacks)
 
