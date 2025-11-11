@@ -30,4 +30,4 @@ https://blex.lol
 
 (I also made prodigy, gimkit, khan academy, and duolingo hacks)
 
-(here is a link to something like blooket, but everything is free: https://blooket4free.vexel.app)
+(here is a link to something like blooket, but everything is free: https://blooket4free.vercel.app)
