@@ -5,7 +5,7 @@
         if (!arguments[1].includes("blooket.com"))
             return wfcall.apply(this, arguments);
     }
-    if (console.log("%c Blooket Cheats Premium %c\n	By Kn3ghtfall", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo%c  https://github.com/Kn3ghtfall/Blooket-Cheats-Premium", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+    if (console.log("%c Blooket Cheats Premium %c\n	"Bob-gob", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo%c  https://github.com/Kn3ghtfall/Blooket-Cheats-Premium", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
         for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--; )
             e.contentWindow.clearInterval.call(window, t);
         e.remove()
