@@ -14,6 +14,8 @@ https://egduffuu.github.io/BLOOKET-UNBLOCKED/
 
 https://blooketcheats.oneapp.dev/
 
+https://web.archive.org/web/20230317142811/https://minesraft2.github.io/Blooket-Cheats/
+
 Here are some blooket token generator sites:
 
 https://www.bt9.fun/?i=2
